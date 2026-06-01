@@ -15,25 +15,9 @@ Vraag wat je nog niet weet:
 
 ### Stap 2 — Routevoorstel genereren
 
-Laad het reizigersprofiel en genereer een gepersonaliseerde route:
+Lees het reizigersprofiel uit `api/profiel.json` en genereer op basis daarvan een gepersonaliseerde route. Gebruik je eigen kennis van de bestemming gecombineerd met het profiel — geen Python-script nodig.
 
-```python
-import importlib.util, sys
-sys.stdout.reconfigure(encoding="utf-8")
-
-spec = importlib.util.spec_from_file_location('rc', 'scripts/routebaas-claude.py')
-rc = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(rc)
-
-route_tekst = rc.plan_nieuwe_bestemming(
-    bestemming="<bestemming>",
-    reislengte_dagen=<dagen>,
-    interesses=[<interesses als lijst>],
-    extra_wensen="<extra wensen of None>"
-)
-```
-
-Structureer het resultaat en presenteer altijd **twee dingen**:
+Presenteer altijd **twee dingen**:
 
 **1. Dagplanning tabel**
 
