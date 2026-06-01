@@ -241,22 +241,4 @@ if __name__ == "__main__":
     print(f"Interesses : {', '.join(interesses)}\n")
 
     data = genereer_reisdata(bestemming, dagen, interesses)
-
-    # ── Preview ──────────────────────────────────────────────────────────────
-    print(f"\n{'─'*60}")
-    print(f"Route      : {data['naam']}")
-    print(f"Land       : {data['land']}")
-    print(f"Beschrijving: {data['beschrijving']}")
-    print(f"\nRoutestappen ({len(data['routestappen'])}):")
-    for stap in data['routestappen']:
-        activiteiten = ', '.join(stap.get('activiteiten_ja', [])[:2])
-        print(f"  Dag {stap['dag_nr']:>2}  {stap['plek']:<20}  {activiteiten}")
-    print(f"{'─'*60}\n")
-
-    # ── Bevestiging ───────────────────────────────────────────────────────────
-    antwoord = input("Opslaan in database? (ja/nee): ").strip().lower()
-    if antwoord not in ("ja", "j", "yes", "y"):
-        print("Geannuleerd. Niets opgeslagen.")
-        sys.exit(0)
-
     sla_op_en_embed(data)
