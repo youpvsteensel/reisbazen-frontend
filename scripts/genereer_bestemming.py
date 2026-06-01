@@ -227,13 +227,15 @@ def sla_op_en_embed(data: dict) -> int:
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
-        print("Gebruik: python genereer_bestemming.py \"<bestemming>\" <dagen> \"<interesses>\"")
+        print("Gebruik: python genereer_bestemming.py \"<bestemming>\" <dagen> \"<interesses>\" [--preview]")
         print("Voorbeeld: python genereer_bestemming.py \"Patagonië\" 21 \"natuur,hiken,wildkamperen\"")
+        print("  --preview  Genereer alleen JSON, sla niet op in database")
         sys.exit(1)
 
     bestemming = sys.argv[1]
     dagen = int(sys.argv[2])
     interesses = [i.strip() for i in sys.argv[3].split(",")]
+    preview_only = "--preview" in sys.argv
 
     print(f"\nRoutebaas — Nieuwe bestemming genereren")
     print(f"Bestemming : {bestemming}")
@@ -241,4 +243,9 @@ if __name__ == "__main__":
     print(f"Interesses : {', '.join(interesses)}\n")
 
     data = genereer_reisdata(bestemming, dagen, interesses)
+
+    if preview_only:
+        print(json.dumps(data, ensure_ascii=False, indent=2))
+        sys.exit(0)
+
     sla_op_en_embed(data)
