@@ -1,0 +1,23 @@
+{
+  "env": {
+    "ANTHROPIC_API_KEY": "sk-ant-..."
+  },
+  "mcpServers": {
+    "postgres-main": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:<WACHTWOORD>@localhost:5432/postgres"
+      ]
+    },
+    "postgres-vector": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:<WACHTWOORD>@localhost:5433/postgres"
+      ]
+    }
+  }
+}
