@@ -43,8 +43,10 @@ Vraag de gebruiker of de structuur klopt of aanpassingen nodig zijn. Pas aan op 
 Raadpleeg vóór het opstellen van de activiteitenlijst de volgende blogs voor inspiratie per bestemming:
 - `https://www.saltinhour.com` — zoek op de bestemming
 - `https://www.reisjunk.nl` — zoek op de bestemming
+- `https://www.betterplaces.nl` — zoek op de bestemming
+- `https://www.travelbase.nl` — zoek op de bestemming
 
-Verwerk relevante suggesties in de activiteitenlijst. Markeer activiteiten die uit een blog komen met de bronnaam tussen haakjes, bijv. `(Reisjunk)` of `(Salt in Hour)`. Activiteiten zonder markering komen uit eigen kennis of het reizigersprofiel.
+Verwerk relevante suggesties in de activiteitenlijst. Markeer activiteiten die uit een blog komen met de bronnaam tussen haakjes, bijv. `(Reisjunk)`, `(Salt in Hour)`, `(Better Places)` of `(Travelbase)`. Activiteiten zonder markering komen uit eigen kennis of het reizigersprofiel.
 
 Presenteer per blok een genummerde lijst van **6-10 concrete activiteiten** passend bij de regio en het reizigersprofiel. Gebruik dit formaat:
 
