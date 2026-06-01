@@ -157,7 +157,7 @@ def sla_op_en_embed(data: dict) -> int:
 
     # 1. Sla op in hoofddatabase
     print("\nOpslaan in database...")
-    reisroute_id = sla_op(data)
+    reisroute_id = sla_op(data, bron="claude_api")
 
     # 2. Haal nieuwe entiteiten op en embed ze
     print("\nAanmaken embeddings...")
