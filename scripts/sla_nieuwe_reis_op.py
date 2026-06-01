@@ -22,7 +22,7 @@ def haal_of_maak(cur, tabel, zoek_kolom, zoek_waarde, insert_sql, insert_waarden
     return cur.fetchone()[0]
 
 
-def sla_op(data: dict) -> int:
+def sla_op(data: dict, bron: str = "handmatig") -> int:
     conn = get_conn()
     cur = conn.cursor()
 
@@ -37,8 +37,8 @@ def sla_op(data: dict) -> int:
     # Reisroute
     reisroute_id = haal_of_maak(
         cur, "reisroutes", "naam", data["naam"],
-        "INSERT INTO reisroutes (naam, status_id, beschrijving) VALUES (%s, %s, %s) RETURNING id",
-        (data["naam"], STATUS_GEPLAND, data.get("beschrijving", ""))
+        "INSERT INTO reisroutes (naam, status_id, beschrijving, bron) VALUES (%s, %s, %s, %s) RETURNING id",
+        (data["naam"], STATUS_GEPLAND, data.get("beschrijving", ""), bron)
     )
     print(f"Reisroute: {data['naam']} (id={reisroute_id})")
 
