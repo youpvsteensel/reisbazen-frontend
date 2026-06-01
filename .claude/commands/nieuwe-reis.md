@@ -104,7 +104,7 @@ cd C:/Users/youpv/Documents/Claude/Routebaas
 python scripts/sla_nieuwe_reis_op.py scripts/reis_data.json
 ```
 
-### Stap 5 — Reizigersprofiel bijwerken
+### Stap 6 — Reizigersprofiel bijwerken
 
 Na succesvol opslaan:
 
