@@ -64,9 +64,9 @@ Verwerk de keuzes en ga door naar het volgende blok. Houd alle ja/misschien-keuz
 
 **Let op:** de bloginhoud is alleen inspiratie voor de activiteitenlijst. Alleen de keuzes van de gebruiker (ja/misschien) gaan de database in — niet de blogsuggesties zelf.
 
-### Stap 4 — Data opslaan
+### Stap 4 — KML bestand genereren
 
-Bouw een JSON-structuur op met de bevestigde route en activiteitenkeuzes. Sla die tijdelijk op in `scripts/reis_data.json` met dit formaat:
+Bouw eerst de JSON-structuur op met de bevestigde route en activiteitenkeuzes. Voeg per routestap een `blok` veld toe voor kleurcodering op de kaart. Sla op als `scripts/reis_data.json`:
 
 ```json
 {
@@ -77,7 +77,8 @@ Bouw een JSON-structuur op met de bevestigde route en activiteitenkeuzes. Sla di
   "routestappen": [
     {
       "dag_nr": 1,
-      "naam": "<beschrijvende naam voor de dag, bijv. 'Aankomst Santiago'>",
+      "blok": "<bloknaam, bijv. 'Carretera Austral'>",
+      "naam": "<beschrijvende naam voor de dag>",
       "plek": "<plaatsnaam>",
       "accomodatie": "<accommodatienaam of leeglaten>",
       "activiteiten_ja": ["activiteit A", "activiteit B"],
@@ -87,7 +88,16 @@ Bouw een JSON-structuur op met de bevestigde route en activiteitenkeuzes. Sla di
 }
 ```
 
-Geef één routestap per dag. Sla op en voer het script uit:
+Genereer daarna het KML-bestand:
+
+```bash
+cd C:/Users/youpv/Documents/Claude/Routebaas
+python scripts/genereer_kml.py scripts/reis_data.json
+```
+
+Dit maakt `scripts/reis_kml.kml` aan. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde blokken per regiofase.
+
+### Stap 5 — Data opslaan in database
 
 ```bash
 cd C:/Users/youpv/Documents/Claude/Routebaas
