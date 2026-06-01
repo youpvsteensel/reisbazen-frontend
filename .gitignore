@@ -1,0 +1,19 @@
+# Secrets — nooit committen
+.claude/settings.json
+.claude/settings.local.json
+
+# Database backups
+*.sql
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
