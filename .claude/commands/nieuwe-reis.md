@@ -40,18 +40,27 @@ Vraag de gebruiker of de structuur klopt of aanpassingen nodig zijn. Pas aan op 
 
 ### Stap 3 — Activiteiten selecteren per blok
 
+Raadpleeg vóór het opstellen van de activiteitenlijst de volgende blogs voor inspiratie per bestemming:
+- `https://www.saltinhour.com` — zoek op de bestemming
+- `https://www.reisjunk.nl` — zoek op de bestemming
+
+Verwerk relevante suggesties in de activiteitenlijst. Markeer activiteiten die uit een blog komen met de bronnaam tussen haakjes, bijv. `(Reisjunk)` of `(Salt in Hour)`. Activiteiten zonder markering komen uit eigen kennis of het reizigersprofiel.
+
 Presenteer per blok een genummerde lijst van **6-10 concrete activiteiten** passend bij de regio en het reizigersprofiel. Gebruik dit formaat:
 
 ```
 **Blok 1 — <regio> (Dag 1-X)**
 1. <activiteit>
-2. <activiteit>
+2. <activiteit> (Reisjunk)
+3. <activiteit> (Salt in Hour)
 ...
 
 Welke wil je doen? Geef aan: ja (nummers), misschien (nummers), rest = nee
 ```
 
 Verwerk de keuzes en ga door naar het volgende blok. Houd alle ja/misschien-keuzes bij.
+
+**Let op:** de bloginhoud is alleen inspiratie voor de activiteitenlijst. Alleen de keuzes van de gebruiker (ja/misschien) gaan de database in — niet de blogsuggesties zelf.
 
 ### Stap 4 — Data opslaan
 
