@@ -46,15 +46,19 @@ Raadpleeg vóór het opstellen van de activiteitenlijst de volgende blogs voor i
 - `https://www.betterplaces.nl` — zoek op de bestemming
 - `https://www.travelbase.nl` — zoek op de bestemming
 
-Verwerk relevante suggesties in de activiteitenlijst. Markeer activiteiten die uit een blog komen met de bronnaam tussen haakjes, bijv. `(Reisjunk)`, `(Salt in Hour)`, `(Better Places)` of `(Travelbase)`. Activiteiten zonder markering komen uit eigen kennis of het reizigersprofiel.
+Verwerk relevante suggesties in de activiteitenlijst. Noteer bij het ophalen van blogsuggesties de exacte URL van het artikel waar de activiteit vandaan komt.
+
+**Linkformat per activiteit:**
+- Activiteit uit een blog → label is een klikbare link naar het bronartikel: `[(Reisjunk)](https://www.reisjunk.nl/artikel-url)`
+- Activiteit uit eigen kennis of reizigersprofiel → geen link, geen label
 
 Presenteer per blok een genummerde lijst van **6-10 concrete activiteiten** passend bij de regio en het reizigersprofiel. Gebruik dit formaat:
 
 ```
 **Blok 1 — <regio> (Dag 1-X)**
-1. <activiteit>
-2. <activiteit> (Reisjunk)
-3. <activiteit> (Salt in Hour)
+1. <activiteit> — korte omschrijving
+2. <activiteit> — korte omschrijving [(Reisjunk)](https://www.reisjunk.nl/artikel-url)
+3. <activiteit> — korte omschrijving [(Salt in Hour)](https://www.saltinhour.com/artikel-url)
 ...
 
 Welke wil je doen? Geef aan: ja (nummers), misschien (nummers), rest = nee
