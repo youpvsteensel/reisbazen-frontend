@@ -1,5 +1,4 @@
 import Hero from '../components/Hero';
-import RouteStrip from '../components/RouteStrip';
 import DagKaart from '../components/DagKaart';
 import PraktischBlok from '../components/PraktischBlok';
 import BlokNavigatie from '../components/BlokNavigatie';
