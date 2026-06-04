@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Calendar, Sun, Truck, Heart, ArrowRight, ArrowLeft } from 'lucide-react';
 import BlokCard from '../components/BlokCard';
+import RouteKaart from '../components/RouteKaart';
 
 const blokken = [
   {
