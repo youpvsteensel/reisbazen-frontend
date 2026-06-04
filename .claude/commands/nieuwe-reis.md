@@ -99,7 +99,7 @@ cd C:/Users/youpv/Documents/Claude/Routebaas
 python scripts/genereer_kml.py scripts/reis_data.json
 ```
 
-Dit maakt `scripts/reis_kml.kml` aan. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde onderdeelken per regiofase.
+Dit maakt `scripts/reis_kml.kml` aan. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde onderdelen per regiofase.
 
 ### Stap 5 — Data opslaan in database
 
