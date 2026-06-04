@@ -36,7 +36,7 @@ export const alleStops = [
   { naam: 'Queulat NP', route: '/patagonie/carretera-austral' },
   { naam: 'Cerro Castillo', route: '/patagonie/carretera-austral' },
   { naam: 'Coyhaique', route: '/patagonie/carretera-austral' },
-  { naam: 'El Chaltén', route: '/el-chalten' },
+  { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
   { naam: 'Ushuaia', route: '/ushuaia' },
   { naam: 'Stanley', route: '/falklands' },
   { naam: 'Sea Lion Island', route: '/falklands' },
@@ -51,7 +51,7 @@ export const blokken: Record<string, Blok> = {
     hero: 'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1508193638397-1c4234db14d8' },
     route: '/patagonie/carretera-austral',
-    volgendeBlok: { naam: 'El Chaltén', route: '/el-chalten' },
+    volgendeBlok: { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'November – maart' },
       { icon: '🚐', label: 'Vervoer', waarde: '4x4 camper met daktent' },
@@ -183,7 +183,7 @@ export const blokken: Record<string, Blok> = {
     dagBereik: 'Dagen 15–18',
     hero: 'https://images.unsplash.com/photo-1531761535209-180857e963b9?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1531761535209-180857e963b9' },
-    route: '/el-chalten',
+    route: '/patagonie/el-chalten',
     vorigeBlok: { naam: 'Carretera Austral', route: '/patagonie/carretera-austral' },
     volgendeBlok: { naam: 'Ushuaia', route: '/ushuaia' },
     praktischInfo: [
@@ -254,7 +254,7 @@ export const blokken: Record<string, Blok> = {
     hero: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1518611012118-696072aa579a' },
     route: '/ushuaia',
-    vorigeBlok: { naam: 'El Chaltén', route: '/el-chalten' },
+    vorigeBlok: { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
     volgendeBlok: { naam: 'Falkland Islands', route: '/falklands' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'December – februari' },
