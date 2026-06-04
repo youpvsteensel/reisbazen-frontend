@@ -144,26 +144,52 @@ export default function PatagoniePage() {
         </div>
       </div>
 
-      {/* Route strip */}
+      {/* Route strip — 2 kolommen */}
       <div className="bg-groen-licht border-y border-groen/10 py-12 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-xs font-semibold text-groen uppercase tracking-widest text-center mb-8">
             De volledige route
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            {[
-              'Puerto Montt', 'Parque Pumalín', 'Puyuhuapi', 'Queulat NP', 'Cerro Castillo',
-              'El Chaltén', 'Ushuaia', 'Stanley', 'Sea Lion Island',
-            ].map((stop, i, arr) => (
-              <div key={stop} className="flex items-center gap-3">
-                <span className="text-sm font-medium text-groen bg-white border border-groen/20 rounded-full px-4 py-1.5 shadow-sm">
-                  {stop}
-                </span>
-                {i < arr.length - 1 && (
-                  <ArrowRight className="w-3.5 h-3.5 text-groen/40" />
-                )}
+          <div className="grid md:grid-cols-2 gap-8 items-start">
+
+            {/* Links: stops met pijltjes */}
+            <div className="flex flex-col gap-2">
+              {[
+                'Puerto Montt', 'Parque Pumalín', 'Puyuhuapi', 'Queulat NP', 'Cerro Castillo',
+                'El Chaltén', 'Ushuaia', 'Stanley', 'Sea Lion Island',
+              ].map((stop, i, arr) => (
+                <div key={stop} className="flex flex-col items-start">
+                  <span className="text-sm font-medium text-groen bg-white border border-groen/20 rounded-full px-4 py-1.5 shadow-sm">
+                    {stop}
+                  </span>
+                  {i < arr.length - 1 && (
+                    <span className="ml-5 text-groen/30 text-lg leading-none my-0.5">↓</span>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            {/* Rechts: kaart */}
+            <div className="flex flex-col gap-3">
+              <div className="rounded-xl overflow-hidden border border-groen/15 shadow-sm">
+                <iframe
+                  title="Patagonië route"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=-80,-57,-57,-38&layer=mapnik&marker=-51.5,-73"
+                  className="w-full h-72"
+                  loading="lazy"
+                />
               </div>
-            ))}
+              <a
+                href="https://www.google.com/maps/dir/Puerto+Montt,Chile/Parque+Pumalin,Chile/Puyuhuapi,Chile/Queulat,Chile/Villa+Cerro+Castillo,Chile/El+Chalten,Argentina/Ushuaia,Argentina/Stanley,Falkland+Islands"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl border border-groen/30 bg-white text-groen text-sm font-semibold hover:bg-groen hover:text-white transition-all duration-200"
+              >
+                <MapPin className="w-4 h-4" />
+                Bekijk volledige route op Google Maps
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
