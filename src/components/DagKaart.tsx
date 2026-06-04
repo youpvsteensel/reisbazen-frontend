@@ -1,7 +1,6 @@
 import { MapPin, CheckCircle2 } from 'lucide-react';
 import Badge from './Badge';
 import PraktischBlok from './PraktischBlok';
-import { useUnsplashPhoto } from '../hooks/useUnsplashPhoto';
 import type { Dag } from '../data/reisData';
 
 interface DagKaartProps {
@@ -9,14 +8,10 @@ interface DagKaartProps {
 }
 
 export default function DagKaart({ dag }: DagKaartProps) {
-  const { url: unsplashUrl, loading } = useUnsplashPhoto(dag.locatie);
-  const photoUrl = unsplashUrl || dag.foto;
-
   return (
     <div id={dag.id} className="scroll-mt-20 grid md:grid-cols-2 gap-8 py-10 border-b border-gray-100 last:border-0">
       {/* Left: content */}
       <div className="flex flex-col gap-4">
-        {/* Day number + title */}
         <div className="flex items-start gap-4">
           <div className="flex-shrink-0 w-[52px] h-[52px] rounded-full bg-groen flex flex-col items-center justify-center shadow-md">
             <span className="text-[8px] font-bold text-white/70 uppercase tracking-widest leading-none">DAG</span>
@@ -31,7 +26,6 @@ export default function DagKaart({ dag }: DagKaartProps) {
           </div>
         </div>
 
-        {/* Badges */}
         {dag.badges.length > 0 && (
           <div className="flex flex-wrap gap-2">
             {dag.badges.map((b) => (
@@ -40,10 +34,8 @@ export default function DagKaart({ dag }: DagKaartProps) {
           </div>
         )}
 
-        {/* Description */}
         <p className="text-[15px] text-tekst/80 leading-relaxed">{dag.beschrijving}</p>
 
-        {/* Activities */}
         {dag.activiteiten && dag.activiteiten.length > 0 && (
           <div className="flex flex-col gap-2">
             {dag.activiteiten.map((act, i) => (
@@ -55,24 +47,27 @@ export default function DagKaart({ dag }: DagKaartProps) {
           </div>
         )}
 
-        {/* Practical info */}
         {dag.praktisch && dag.praktisch.length > 0 && (
           <PraktischBlok items={dag.praktisch} />
         )}
       </div>
 
       {/* Right: photo */}
-      <div className="photo-wrapper">
-        {loading ? (
-          <div className="dag-photo bg-gray-300" />
-        ) : (
-          <img
-            src={photoUrl}
-            alt={`${dag.locatie} — ${dag.titel}`}
-            className="dag-photo"
-            loading="lazy"
-          />
-        )}
+      <div className="relative photo-wrapper">
+        <img
+          src={dag.foto}
+          alt={`${dag.locatie} — ${dag.titel}`}
+          className="dag-photo"
+          loading="lazy"
+        />
+        <a
+          href={dag.fotoCredit.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bottom-2 right-2 text-[10px] text-white/70 hover:text-white bg-black/30 px-1.5 py-0.5 rounded"
+        >
+          Foto: Unsplash
+        </a>
       </div>
     </div>
   );
