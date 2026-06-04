@@ -14,11 +14,32 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
     <div>
       <Hero
         image={blok.hero}
+        creditUrl={blok.heroCredit?.url}
         tag="Reisblok"
         title={blok.naam}
         subtitle={blok.subtitel}
         dagBereik={blok.dagBereik}
       />
+
+      {/* Ankernavigatie — spring naar dag */}
+      <div className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="flex items-center gap-1 overflow-x-auto py-3 scrollbar-hide">
+            {blok.dagen.map((dag) => (
+              <a
+                key={dag.id}
+                href={`#${dag.id}`}
+                className="flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium text-muted hover:text-groen hover:bg-groen-licht border border-transparent hover:border-groen/20 transition-all duration-150 whitespace-nowrap"
+              >
+                <span className="text-xs font-bold text-groen/60">
+                  {typeof dag.dag === 'number' ? `${dag.dag}` : dag.dag}
+                </span>
+                <span>{dag.locatie}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
 
       <RouteStrip />
 
@@ -38,7 +59,7 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
           </div>
 
           {/* Sidebar */}
-          <aside className="lg:sticky lg:top-20 lg:self-start">
+          <aside className="lg:sticky lg:top-16 lg:self-start">
             <div className="rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
               <div className="bg-groen p-5">
                 <p className="text-xs font-semibold text-white/70 uppercase tracking-widest mb-1">Praktisch</p>
@@ -60,7 +81,7 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
               </div>
             </div>
 
-            {/* Navigation hints */}
+            {/* Dag navigatie links */}
             <div className="mt-6 flex flex-col gap-2">
               <p className="text-xs font-semibold text-muted uppercase tracking-widest mb-2">Dagindeling</p>
               {blok.dagen.map((dag) => (
@@ -83,12 +104,19 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
         </div>
       </div>
 
-      <BlokNavigatie vorigeBlok={blok.vorigeBlok} volgendeBlok={blok.volgendeBlok} />
+      <BlokNavigatie
+        vorigeBlok={blok.vorigeBlok}
+        volgendeBlok={blok.volgendeBlok}
+        reisRoute="/patagonie"
+        reisNaam="Patagonië & Falklands"
+      />
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-100 py-8 px-4 text-center">
-        <p className="font-serif text-lg text-groen font-semibold mb-1">reisbazen</p>
-        <p className="text-xs text-muted">Patagonia & Falkland Islands — Huwelijksreis 2025</p>
+        <a href="/" className="font-serif italic text-lg text-groen font-semibold hover:text-groen-mid transition-colors">
+          routebaas
+        </a>
+        <p className="text-xs text-muted mt-1">Patagonië & Falkland Islands — Huwelijksreis 2025</p>
       </footer>
     </div>
   );
