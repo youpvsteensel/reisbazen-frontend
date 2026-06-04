@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { useUnsplashPhoto } from '../hooks/useUnsplashPhoto';
 
 interface BlokCardProps {
   route: string;
   naam: string;
   dagBereik: string;
-  fallbackHero: string;
-  unsplashQuery: string;
+  hero: string;
   beschrijving: string;
   stops: string[];
   accent: string;
@@ -18,30 +16,24 @@ export default function BlokCard({
   route,
   naam,
   dagBereik,
-  fallbackHero,
-  unsplashQuery,
+  hero,
   beschrijving,
   stops,
   accent,
   index,
 }: BlokCardProps) {
-  const { url: unsplashUrl, loading } = useUnsplashPhoto(unsplashQuery);
-  const heroImage = unsplashUrl || fallbackHero;
-
   return (
     <Link
       to={route}
       className="group rounded-2xl overflow-hidden border border-gray-100 hover:border-groen/30 hover:shadow-lg transition-all duration-300 bg-white"
     >
       <div className="relative h-56 overflow-hidden bg-gray-200">
-        {!loading && heroImage && (
-          <img
-            src={heroImage}
-            alt={naam}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-          />
-        )}
-        {loading && <div className="w-full h-full bg-gray-300 animate-pulse" />}
+        <img
+          src={hero}
+          alt={naam}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          loading="lazy"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
         <div className="absolute top-4 left-4 flex items-center gap-2">
           <span className="text-xs font-bold text-white bg-groen/80 rounded-full px-3 py-1">
@@ -68,7 +60,7 @@ export default function BlokCard({
             </span>
           ))}
         </div>
-        <div className="flex items-center gap-1.5 text-groen text-sm font-medium group-hover:gap-2.5 transition-all">
+        <div className="flex items-center gap-1.5 text-groen text-sm font-semibold group-hover:gap-2.5 transition-all">
           Bekijk de route
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </div>
