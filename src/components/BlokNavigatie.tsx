@@ -19,7 +19,7 @@ export default function BlokNavigatie({ vorigeBlok, volgendeBlok, reisRoute = '/
           >
             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
             <div>
-              <p className="text-[10px] uppercase tracking-widest text-white/60">Vorig blok</p>
+              <p className="text-[10px] uppercase tracking-widest text-white/60">Vorig onderdeel</p>
               <p className="text-sm font-semibold">{vorigeBlok.naam}</p>
             </div>
           </Link>
