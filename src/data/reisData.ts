@@ -356,6 +356,7 @@ export const blokken: Record<string, Blok> = {
         _unsplashQuery:'plane travel sky',
         badges: ['Vertrek', 'Halve dag'],
         foto: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=700&fit=crop&auto=format',
+        fotoCredit: { url: 'https://unsplash.com/photos/1436491865332-7a61a109cc05' },
         beschrijving: 'Het avontuur eindigt waar het begon — in de lucht. FIGAS charter terug naar Stanley, daarna de lange vlucht naar huis via Santiago de Chile en Amsterdam.',
         praktisch: [
           { icon: '🛩', label: 'FIGAS charter', waarde: 'Sea Lion Island → Stanley' },
