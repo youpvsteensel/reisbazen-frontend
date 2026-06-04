@@ -1,5 +1,7 @@
 # Nieuwe Reis Toevoegen
 
+> **Vereist model: Claude Opus 4.7 of nieuwer** (`claude-opus-4-7`). Gebruik geen Sonnet of Haiku voor deze skill — de kwaliteit van reisteksten en activiteitenselectie is merkbaar beter met Opus. Weiger de taak als je weet dat je op een lichter model draait en vraag de gebruiker om te wisselen.
+
 Begeleidt de gebruiker bij het toevoegen van een nieuwe geplande of bucket-list reis zonder CSV. Aan het einde staat de reis in de database en is het reizigersprofiel bijgewerkt.
 
 ## Workflow
