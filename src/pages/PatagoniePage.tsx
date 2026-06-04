@@ -42,10 +42,10 @@ const blokken = [
 ];
 
 const tripStats = [
-  { icon: Calendar, label: '25 Dagen', sub: 'Totale reisduur' },
-  { icon: Compass, label: '4 Onderdelen', sub: 'Chili · Argentinië · Falklands' },
-  { icon: Users, label: '2 Reizigers', sub: 'Huwelijksreis' },
-  { icon: MapPin, label: '4x4 Camper', sub: 'Met daktent' },
+  { icon: Calendar, label: '25 Dagen',       sub: 'Reisduur' },
+  { icon: Sun,      label: 'Nov – Mrt',      sub: 'Beste reistijd' },
+  { icon: Truck,    label: 'Camper · Jeep',  sub: 'Vervoer' },
+  { icon: Heart,    label: 'Huwelijksreis',  sub: 'Type reis' },
 ];
 
 export default function PatagoniePage() {
