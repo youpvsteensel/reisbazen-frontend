@@ -104,14 +104,14 @@ export default function PatagoniePage() {
 
       {/* Trip stats */}
       <div className="bg-groen text-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 grid grid-cols-2 sm:grid-cols-4 gap-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 grid grid-cols-2 sm:grid-cols-4 gap-4">
           {tripStats.map(({ icon: Icon, label, sub }) => (
-            <div key={label} className="text-center">
-              <div className="flex justify-center mb-2">
-                <Icon className="w-6 h-6 text-white/70" />
+            <div key={label} className="flex items-center gap-2.5">
+              <Icon className="w-4 h-4 text-white/50 flex-shrink-0" />
+              <div>
+                <p className="text-sm font-semibold leading-tight">{label}</p>
+                <p className="text-[11px] text-white/55 leading-tight">{sub}</p>
               </div>
-              <p className="font-serif text-2xl font-bold">{label}</p>
-              <p className="text-xs text-white/60 mt-0.5">{sub}</p>
             </div>
           ))}
         </div>
