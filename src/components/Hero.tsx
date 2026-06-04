@@ -1,30 +1,21 @@
-import { useUnsplashPhoto } from '../hooks/useUnsplashPhoto';
-
 interface HeroProps {
   image: string;
+  creditUrl?: string;
   tag: string;
   title: string;
   subtitle: string;
   dagBereik: string;
-  unsplashQuery?: string;
 }
 
-export default function Hero({ image, tag, title, subtitle, dagBereik, unsplashQuery }: HeroProps) {
-  const { url: unsplashUrl } = useUnsplashPhoto(unsplashQuery || '');
-  const displayImage = unsplashUrl || image;
-
+export default function Hero({ image, creditUrl, tag, title, subtitle, dagBereik }: HeroProps) {
   return (
     <div className="relative w-full h-[520px] overflow-hidden bg-gray-200">
-      {displayImage ? (
-        <img
-          src={displayImage}
-          alt={title}
-          className="w-full h-full object-cover"
-          style={{ objectPosition: 'center 40%' }}
-        />
-      ) : (
-        <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-200" />
-      )}
+      <img
+        src={image}
+        alt={title}
+        className="w-full h-full object-cover"
+        style={{ objectPosition: 'center 40%' }}
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
       <div className="absolute inset-0 flex flex-col justify-end px-6 pb-12 max-w-5xl mx-auto w-full left-0 right-0">
         <div className="flex items-center gap-3 mb-4">
@@ -42,6 +33,16 @@ export default function Hero({ image, tag, title, subtitle, dagBereik, unsplashQ
           {subtitle}
         </p>
       </div>
+      {creditUrl && (
+        <a
+          href={creditUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bottom-2 right-3 text-[10px] text-white/50 hover:text-white/80"
+        >
+          Foto: Unsplash
+        </a>
+      )}
     </div>
   );
 }
