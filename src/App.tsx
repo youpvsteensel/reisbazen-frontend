@@ -10,7 +10,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Nav />
-      <main>
+      <main className="pt-0">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/carretera-austral" element={<CarreteraAustralPage />} />
