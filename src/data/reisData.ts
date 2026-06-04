@@ -338,6 +338,7 @@ export const blokken: Record<string, Blok> = {
         _unsplashQuery:'penguin sea lion wildlife',
         badges: ['Sea Lions', '5 pinguïnsoorten'],
         foto: 'https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1200&h=700&fit=crop&auto=format',
+        fotoCredit: { url: 'https://unsplash.com/photos/1564349683136-77e08dba1ef7' },
         beschrijving: 'Het absolute hoogtepunt van de reis: Sea Lion Island. Dit kleine eiland aan de zuidrand van de Falklands heeft de hoogste wildlife-dichtheid ter wereld — en de Sea Lion Island Lodge is de perfecte honeymoon-uitvalsbasis.',
         activiteiten: [
           'Sea Lion Island Lodge (exclusieve honeymoon accommodatie)',
