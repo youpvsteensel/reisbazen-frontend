@@ -45,6 +45,20 @@
     content: '';
     @apply absolute bottom-[-2px] left-0 right-0 h-[2px] bg-groen rounded-full;
   }
+
+  .nav-link-reisbazen {
+    @apply text-[11px] font-semibold uppercase tracking-widest text-white/90 hover:text-white transition-colors relative pb-0.5;
+  }
+
+  .nav-link-reisbazen.active {
+    @apply text-white;
+  }
+
+  .nav-link-reisbazen.active::after {
+    content: '';
+    @apply absolute bottom-0 left-0 right-0 h-[2px] rounded-full;
+    background-color: #c4785a;
+  }
 }
 
 @layer utilities {
