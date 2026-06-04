@@ -15,7 +15,7 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
       <Hero
         image={blok.hero}
         creditUrl={blok.heroCredit?.url}
-        tag="Reisblok"
+        tag="Onderdeel"
         title={blok.naam}
         subtitle={blok.subtitel}
         dagBereik={blok.dagBereik}
