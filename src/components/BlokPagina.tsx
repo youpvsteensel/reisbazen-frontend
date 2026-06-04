@@ -40,8 +40,6 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
         </div>
       </div>
 
-      <RouteStrip />
-
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid lg:grid-cols-[1fr_300px] gap-12">
           {/* Main content */}
