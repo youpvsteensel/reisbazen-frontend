@@ -38,8 +38,8 @@ export const alleStops = [
   { naam: 'Coyhaique', route: '/patagonie/carretera-austral' },
   { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
   { naam: 'Ushuaia', route: '/patagonie/ushuaia' },
-  { naam: 'Stanley', route: '/falklands' },
-  { naam: 'Sea Lion Island', route: '/falklands' },
+  { naam: 'Stanley', route: '/patagonie/falklands' },
+  { naam: 'Sea Lion Island', route: '/patagonie/falklands' },
 ];
 
 export const blokken: Record<string, Blok> = {
@@ -255,7 +255,7 @@ export const blokken: Record<string, Blok> = {
     heroCredit: { url: 'https://unsplash.com/photos/1518611012118-696072aa579a' },
     route: '/patagonie/ushuaia',
     vorigeBlok: { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
-    volgendeBlok: { naam: 'Falkland Islands', route: '/falklands' },
+    volgendeBlok: { naam: 'Falkland Islands', route: '/patagonie/falklands' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'December – februari' },
       { icon: '⛵', label: 'Beagle Channel', waarde: 'Boottocht ~3 uur' },
@@ -304,7 +304,7 @@ export const blokken: Record<string, Blok> = {
     dagBereik: 'Dagen 21–25',
     hero: 'https://images.unsplash.com/photo-1551244072-5d12893278bc?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1551244072-5d12893278bc' },
-    route: '/falklands',
+    route: '/patagonie/falklands',
     vorigeBlok: { naam: 'Ushuaia', route: '/patagonie/ushuaia' },
     praktischInfo: [
       { icon: '💷', label: 'Valuta', waarde: 'Falkland Pound (FKP, 1:1 met GBP)' },
