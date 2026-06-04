@@ -182,6 +182,7 @@ export const blokken: Record<string, Blok> = {
     subtitel: 'Fitz Roy — de meest iconische berg van Patagonië',
     dagBereik: 'Dagen 15–18',
     hero: 'https://images.unsplash.com/photo-1531761535209-180857e963b9?w=1600&h=900&fit=crop&auto=format',
+    heroCredit: { url: 'https://unsplash.com/photos/1531761535209-180857e963b9' },
     route: '/el-chalten',
     vorigeBlok: { naam: 'Carretera Austral', route: '/carretera-austral' },
     volgendeBlok: { naam: 'Ushuaia', route: '/ushuaia' },
