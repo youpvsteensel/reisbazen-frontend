@@ -30,12 +30,12 @@ export interface Blok {
 }
 
 export const alleStops = [
-  { naam: 'Puerto Montt', route: '/carretera-austral' },
-  { naam: 'Parque Pumalín', route: '/carretera-austral' },
-  { naam: 'Puyuhuapi', route: '/carretera-austral' },
-  { naam: 'Queulat NP', route: '/carretera-austral' },
-  { naam: 'Cerro Castillo', route: '/carretera-austral' },
-  { naam: 'Coyhaique', route: '/carretera-austral' },
+  { naam: 'Puerto Montt', route: '/patagonie/carretera-austral' },
+  { naam: 'Parque Pumalín', route: '/patagonie/carretera-austral' },
+  { naam: 'Puyuhuapi', route: '/patagonie/carretera-austral' },
+  { naam: 'Queulat NP', route: '/patagonie/carretera-austral' },
+  { naam: 'Cerro Castillo', route: '/patagonie/carretera-austral' },
+  { naam: 'Coyhaique', route: '/patagonie/carretera-austral' },
   { naam: 'El Chaltén', route: '/el-chalten' },
   { naam: 'Ushuaia', route: '/ushuaia' },
   { naam: 'Stanley', route: '/falklands' },
@@ -50,7 +50,7 @@ export const blokken: Record<string, Blok> = {
     dagBereik: 'Dagen 1–14',
     hero: 'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1508193638397-1c4234db14d8' },
-    route: '/carretera-austral',
+    route: '/patagonie/carretera-austral',
     volgendeBlok: { naam: 'El Chaltén', route: '/el-chalten' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'November – maart' },
@@ -184,7 +184,7 @@ export const blokken: Record<string, Blok> = {
     hero: 'https://images.unsplash.com/photo-1531761535209-180857e963b9?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1531761535209-180857e963b9' },
     route: '/el-chalten',
-    vorigeBlok: { naam: 'Carretera Austral', route: '/carretera-austral' },
+    vorigeBlok: { naam: 'Carretera Austral', route: '/patagonie/carretera-austral' },
     volgendeBlok: { naam: 'Ushuaia', route: '/ushuaia' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'November – maart' },
