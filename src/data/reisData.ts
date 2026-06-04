@@ -84,6 +84,7 @@ export const blokken: Record<string, Blok> = {
         _unsplashQuery:'patagonia forest park',
         badges: ['Ferry Hornopirén', 'Oud-groeiwoud'],
         foto: 'https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&h=700&fit=crop&auto=format',
+        fotoCredit: { url: 'https://unsplash.com/photos/1586348943529-beaae6c28db9' },
         beschrijving: 'Met de veerboot steken we over naar Caleta Gonzalo, het hart van Parque Pumalín. Oud-groeiwoud, bamboe-jungle en de sluimerende Volcán Chaitén wachten op ons.',
         activiteiten: [
           'Sendero Cascadas trail door het oud-groeiwoud',
