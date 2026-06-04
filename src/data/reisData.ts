@@ -252,6 +252,7 @@ export const blokken: Record<string, Blok> = {
     subtitel: 'Het einde van de wereld — begin van het avontuur',
     dagBereik: 'Dagen 19–20',
     hero: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1600&h=900&fit=crop&auto=format',
+    heroCredit: { url: 'https://unsplash.com/photos/1518611012118-696072aa579a' },
     route: '/ushuaia',
     vorigeBlok: { naam: 'El Chaltén', route: '/el-chalten' },
     volgendeBlok: { naam: 'Falkland Islands', route: '/falklands' },
