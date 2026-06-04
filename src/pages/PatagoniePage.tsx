@@ -43,7 +43,7 @@ const blokken = [
 
 const tripStats = [
   { icon: Calendar, label: '25 Dagen', sub: 'Totale reisduur' },
-  { icon: Compass, label: '4 Blokken', sub: 'Chili · Argentinië · Falklands' },
+  { icon: Compass, label: '4 Onderdelen', sub: 'Chili · Argentinië · Falklands' },
   { icon: Users, label: '2 Reizigers', sub: 'Huwelijksreis' },
   { icon: MapPin, label: '4x4 Camper', sub: 'Met daktent' },
 ];
