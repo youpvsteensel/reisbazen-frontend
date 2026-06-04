@@ -1,14 +1,6 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { Instagram } from 'lucide-react';
 import { useEffect, useState } from 'react';
-
-const navLinks = [
-  { to: '/', label: 'Home' },
-  { to: '/carretera-austral', label: 'Carretera Austral' },
-  { to: '/el-chalten', label: 'El Chaltén' },
-  { to: '/ushuaia', label: 'Ushuaia' },
-  { to: '/falklands', label: 'Falklands' },
-];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,56 +14,65 @@ export default function Nav() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-black/60 backdrop-blur-md' : 'bg-transparent'
+        scrolled ? 'bg-black/65 backdrop-blur-md' : 'bg-transparent'
       }`}
     >
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <NavLink to="/" className="font-serif italic text-2xl text-white tracking-tight leading-none">
-            reisbazen
-          </NavLink>
+          <Link to="/" className="font-serif italic text-2xl text-white tracking-tight leading-none">
+            routebaas
+          </Link>
 
           {/* Desktop links */}
-          <div className="hidden md:flex items-center gap-7">
-            {navLinks.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                end={link.to === '/'}
-                className={({ isActive }) =>
-                  `nav-link-reisbazen ${isActive ? 'active' : ''}`
-                }
-              >
-                {link.label}
-              </NavLink>
-            ))}
+          <div className="hidden md:flex items-center gap-8">
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) => `nav-link-reisbazen ${isActive ? 'active' : ''}`}
+            >
+              Alle Reizen
+            </NavLink>
+            <a
+              href="https://www.reisbazen.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link-reisbazen"
+            >
+              Reisbazen.nl
+            </a>
             <a
               href="https://www.instagram.com/reisbazen/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/80 hover:text-white transition-colors ml-1"
+              className="text-white/80 hover:text-white transition-colors"
               aria-label="Instagram"
             >
               <Instagram className="w-4 h-4" />
             </a>
           </div>
 
-          {/* Mobile: logo only + instagram */}
+          {/* Mobile */}
           <div className="flex md:hidden items-center gap-4">
-            {navLinks.slice(1).map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                className={({ isActive }) =>
-                  `text-[10px] uppercase tracking-widest font-medium transition-colors ${
-                    isActive ? 'text-[#c4785a]' : 'text-white/80'
-                  }`
-                }
-              >
-                {link.label.split(' ')[0]}
-              </NavLink>
-            ))}
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) =>
+                `text-[10px] uppercase tracking-widest font-semibold transition-colors ${
+                  isActive ? 'text-[#c4785a]' : 'text-white/80'
+                }`
+              }
+            >
+              Reizen
+            </NavLink>
+            <a
+              href="https://www.instagram.com/reisbazen/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/70"
+            >
+              <Instagram className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </div>
