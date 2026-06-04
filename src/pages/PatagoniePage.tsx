@@ -121,7 +121,7 @@ export default function PatagoniePage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <div className="text-center mb-12">
           <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-2">De Route</p>
-          <h2 className="font-serif text-4xl font-bold text-tekst">25 Dagen, 4 Blokken</h2>
+          <h2 className="font-serif text-4xl font-bold text-tekst">25 Dagen, 4 Onderdelen</h2>
           <p className="text-muted mt-3 max-w-xl mx-auto leading-relaxed">
             Van het noorden van Patagonië richting het zuiden — camper, vlucht, boot en FIGAS charter.
           </p>
