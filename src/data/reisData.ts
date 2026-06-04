@@ -1,11 +1,15 @@
+export interface FotoCredit {
+  url: string; // Link naar Unsplash foto-pagina
+}
+
 export interface Dag {
   id: string;
   dag: number | string;
   titel: string;
   locatie: string;
-  unsplashQuery: string;
   badges: string[];
   foto: string;
+  fotoCredit: FotoCredit;
   beschrijving: string;
   activiteiten?: string[];
   praktisch?: { icon: string; label: string; waarde: string }[];
@@ -17,6 +21,7 @@ export interface Blok {
   subtitel: string;
   dagBereik: string;
   hero: string;
+  heroCredit: FotoCredit;
   dagen: Dag[];
   praktischInfo: { icon: string; label: string; waarde: string }[];
   route: string;
