@@ -201,6 +201,7 @@ export const blokken: Record<string, Blok> = {
         _unsplashQuery:'el chalten fitz roy',
         badges: ['Fitz Roy', 'Weercheck'],
         foto: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=700&fit=crop&auto=format',
+        fotoCredit: { url: 'https://unsplash.com/photos/1501854140801-50d01698950b' },
         beschrijving: 'El Chaltén — het kleine wandeldorpje aan de voet van Fitz Roy. Dag één is voor acclimatiseren, het dorp verkennen en cruciale weersinformatie ophalen voor de komende dagen.',
         activiteiten: [
           'Mirador de los Cóndores (korte acclimatisatiewandeling, 1–2u)',
