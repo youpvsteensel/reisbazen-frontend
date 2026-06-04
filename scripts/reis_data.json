@@ -1,0 +1,23 @@
+{
+  "naam": "Reisroute Patagonië & Falklands",
+  "bestemming": "Patagonië",
+  "land": "Chili",
+  "beschrijving": "25 dagen huwelijksreis van Puerto Montt via de Carretera Austral, El Chaltén, Ushuaia naar de Falkland Islands.",
+  "routestappen": [
+    { "dag_nr": 1,  "onderdeel": "Carretera Austral", "naam": "Aankomst & Camper Ophalen",      "plek": "Puerto Montt",         "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 2,  "onderdeel": "Carretera Austral", "naam": "Ferry & Eerste Hikes",           "plek": "Parque Pumalin",       "accomodatie": "Wildkamperen", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 4,  "onderdeel": "Carretera Austral", "naam": "Fjorden & Warmwaterbronnen",     "plek": "Puyuhuapi",            "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 6,  "onderdeel": "Carretera Austral", "naam": "De Hangende Gletsjer",           "plek": "Queulat",              "accomodatie": "Wildkamperen", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 8,  "onderdeel": "Carretera Austral", "naam": "Cerro Castillo Circuit",         "plek": "Villa Cerro Castillo", "accomodatie": "Wildkamperen", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 12, "onderdeel": "Carretera Austral", "naam": "Doorrijden naar het Zuiden",     "plek": "Coyhaique",            "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 14, "onderdeel": "Carretera Austral", "naam": "Camper Inleveren & Vlucht",      "plek": "Balmaceda",            "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 15, "onderdeel": "El Chaltén",        "naam": "Aankomst & Acclimatiseren",      "plek": "El Chalten",           "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 16, "onderdeel": "El Chaltén",        "naam": "Fitz Roy Hikes",                 "plek": "El Chalten",           "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 18, "onderdeel": "El Chaltén",        "naam": "Extra Dag & Vertrek",            "plek": "El Chalten",           "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 19, "onderdeel": "Ushuaia",           "naam": "Aankomst & Beagle Channel",      "plek": "Ushuaia",              "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 20, "onderdeel": "Ushuaia",           "naam": "Tierra del Fuego NP & Vlucht",   "plek": "Ushuaia",              "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 21, "onderdeel": "Falkland Islands",  "naam": "Stanley Verkennen",              "plek": "Stanley",              "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 23, "onderdeel": "Falkland Islands",  "naam": "Sea Lion Island — Wildlife",     "plek": "Sea Lion Island",      "accomodatie": "Sea Lion Island Lodge", "activiteiten_ja": [], "activiteiten_misschien": [] },
+    { "dag_nr": 25, "onderdeel": "Falkland Islands",  "naam": "Terugreis",                      "plek": "Stanley",              "accomodatie": "", "activiteiten_ja": [], "activiteiten_misschien": [] }
+  ]
+}
