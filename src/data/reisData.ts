@@ -37,7 +37,7 @@ export const alleStops = [
   { naam: 'Cerro Castillo', route: '/patagonie/carretera-austral' },
   { naam: 'Coyhaique', route: '/patagonie/carretera-austral' },
   { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
-  { naam: 'Ushuaia', route: '/ushuaia' },
+  { naam: 'Ushuaia', route: '/patagonie/ushuaia' },
   { naam: 'Stanley', route: '/falklands' },
   { naam: 'Sea Lion Island', route: '/falklands' },
 ];
@@ -185,7 +185,7 @@ export const blokken: Record<string, Blok> = {
     heroCredit: { url: 'https://unsplash.com/photos/1531761535209-180857e963b9' },
     route: '/patagonie/el-chalten',
     vorigeBlok: { naam: 'Carretera Austral', route: '/patagonie/carretera-austral' },
-    volgendeBlok: { naam: 'Ushuaia', route: '/ushuaia' },
+    volgendeBlok: { naam: 'Ushuaia', route: '/patagonie/ushuaia' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'November – maart' },
       { icon: '🎫', label: 'Nationaal Park', waarde: 'Gratis toegang' },
@@ -253,7 +253,7 @@ export const blokken: Record<string, Blok> = {
     dagBereik: 'Dagen 19–20',
     hero: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1518611012118-696072aa579a' },
-    route: '/ushuaia',
+    route: '/patagonie/ushuaia',
     vorigeBlok: { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
     volgendeBlok: { naam: 'Falkland Islands', route: '/falklands' },
     praktischInfo: [
@@ -305,7 +305,7 @@ export const blokken: Record<string, Blok> = {
     hero: 'https://images.unsplash.com/photo-1551244072-5d12893278bc?w=1600&h=900&fit=crop&auto=format',
     heroCredit: { url: 'https://unsplash.com/photos/1551244072-5d12893278bc' },
     route: '/falklands',
-    vorigeBlok: { naam: 'Ushuaia', route: '/ushuaia' },
+    vorigeBlok: { naam: 'Ushuaia', route: '/patagonie/ushuaia' },
     praktischInfo: [
       { icon: '💷', label: 'Valuta', waarde: 'Falkland Pound (FKP, 1:1 met GBP)' },
       { icon: '🗣', label: 'Taal', waarde: 'Engels' },
