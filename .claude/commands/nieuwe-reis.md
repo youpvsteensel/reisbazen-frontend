@@ -38,7 +38,7 @@ Vervang spaties door `+` en gebruik Engelse plaatsnamen. Voorbeeld:
 
 Vraag de gebruiker of de structuur klopt of aanpassingen nodig zijn. Pas aan op basis van feedback voordat je verder gaat.
 
-### Stap 3 — Activiteiten selecteren per blok
+### Stap 3 — Activiteiten selecteren per onderdeel
 
 Raadpleeg vóór het opstellen van de activiteitenlijst de volgende blogs voor inspiratie per bestemming:
 - `https://www.saltinhour.com` — zoek op de bestemming
@@ -52,7 +52,7 @@ Verwerk relevante suggesties in de activiteitenlijst. Noteer bij het ophalen van
 - Activiteit uit een blog → label is een klikbare link naar het bronartikel: `[(Reisjunk)](https://www.reisjunk.nl/artikel-url)`
 - Activiteit uit eigen kennis of reizigersprofiel → geen link, geen label
 
-Presenteer per blok een genummerde lijst van **6-10 concrete activiteiten** passend bij de regio en het reizigersprofiel. Gebruik dit formaat:
+Presenteer per onderdeel een genummerde lijst van **6-10 concrete activiteiten** passend bij de regio en het reizigersprofiel. Gebruik dit formaat:
 
 ```
 **Blok 1 — <regio> (Dag 1-X)**
@@ -64,13 +64,13 @@ Presenteer per blok een genummerde lijst van **6-10 concrete activiteiten** pass
 Welke wil je doen? Geef aan: ja (nummers), misschien (nummers), rest = nee
 ```
 
-Verwerk de keuzes en ga door naar het volgende blok. Houd alle ja/misschien-keuzes bij.
+Verwerk de keuzes en ga door naar het volgende onderdeel. Houd alle ja/misschien-keuzes bij.
 
 **Let op:** de bloginhoud is alleen inspiratie voor de activiteitenlijst. Alleen de keuzes van de gebruiker (ja/misschien) gaan de database in — niet de blogsuggesties zelf.
 
 ### Stap 4 — KML bestand genereren
 
-Bouw eerst de JSON-structuur op met de bevestigde route en activiteitenkeuzes. Voeg per routestap een `blok` veld toe voor kleurcodering op de kaart. Sla op als `scripts/reis_data.json`:
+Bouw eerst de JSON-structuur op met de bevestigde route en activiteitenkeuzes. Voeg per routestap een `onderdeel` veld toe voor kleurcodering op de kaart. Sla op als `scripts/reis_data.json`:
 
 ```json
 {
@@ -81,7 +81,7 @@ Bouw eerst de JSON-structuur op met de bevestigde route en activiteitenkeuzes. V
   "routestappen": [
     {
       "dag_nr": 1,
-      "blok": "<bloknaam, bijv. 'Carretera Austral'>",
+      "onderdeel": "<onderdeelnaam, bijv. 'Carretera Austral'>",
       "naam": "<beschrijvende naam voor de dag>",
       "plek": "<plaatsnaam>",
       "accomodatie": "<accommodatienaam of leeglaten>",
@@ -99,7 +99,7 @@ cd C:/Users/youpv/Documents/Claude/Routebaas
 python scripts/genereer_kml.py scripts/reis_data.json
 ```
 
-Dit maakt `scripts/reis_kml.kml` aan. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde blokken per regiofase.
+Dit maakt `scripts/reis_kml.kml` aan. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde onderdeelken per regiofase.
 
 ### Stap 5 — Data opslaan in database
 
