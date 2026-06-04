@@ -95,8 +95,8 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Puerto Montt',
         _unsplashQuery:'puerto montt chile',
         badges: ['Vlucht aankomst', 'Camper ophalen', 'Halve dag'],
-        foto: 'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=1200&h=700&fit=crop&auto=format',
-        fotoCredit: { url: 'https://unsplash.com/photos/1585208798174-6cedd86e019a' },
+        foto: 'https://images.unsplash.com/photo-1586976477037-0cf4ba43fec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/photos/m96anQ8roAA' },
         beschrijving: 'Na een lange vlucht vanuit Amsterdam via Santiago de Chile landen we in Puerto Montt — de poort naar Patagonië. We halen de camper op en bereiden ons voor op 14 dagen van pure wildernis.',
         praktisch: [
           { icon: '✈️', label: 'Vlucht', waarde: 'AMS → SCL → PMC' },
