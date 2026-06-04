@@ -170,16 +170,9 @@ export default function PatagoniePage() {
               ))}
             </div>
 
-            {/* Rechts: kaart */}
+            {/* Rechts: interactieve Leaflet kaart */}
             <div className="flex flex-col gap-3">
-              <div className="rounded-xl overflow-hidden border border-groen/15 shadow-sm">
-                <iframe
-                  title="Patagonië route"
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=-80,-57,-57,-38&layer=mapnik&marker=-51.5,-73"
-                  className="w-full h-72"
-                  loading="lazy"
-                />
-              </div>
+              <RouteKaart />
               <a
                 href="https://www.google.com/maps/dir/Puerto+Montt,Chile/Parque+Pumalin,Chile/Puyuhuapi,Chile/Queulat,Chile/Villa+Cerro+Castillo,Chile/El+Chalten,Argentina/Ushuaia,Argentina/Stanley,Falkland+Islands"
                 target="_blank"
