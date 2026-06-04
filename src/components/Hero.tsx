@@ -1,3 +1,5 @@
+import { useUnsplashPhoto } from '../hooks/useUnsplashPhoto';
+
 interface HeroProps {
   image: string;
   tag: string;
@@ -8,7 +10,8 @@ interface HeroProps {
 }
 
 export default function Hero({ image, tag, title, subtitle, dagBereik, unsplashQuery }: HeroProps) {
-  const displayImage = image;
+  const { url: unsplashUrl } = useUnsplashPhoto(unsplashQuery || '');
+  const displayImage = unsplashUrl || image;
 
   return (
     <div className="relative w-full h-[520px] overflow-hidden bg-gray-200">
