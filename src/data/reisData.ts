@@ -100,6 +100,7 @@ export const blokken: Record<string, Blok> = {
         _unsplashQuery:'patagonia fjord',
         badges: ['Fjord', 'Warmwaterbronnen'],
         foto: 'https://images.unsplash.com/photo-1508785942-40807a1543e5?w=1200&h=700&fit=crop&auto=format',
+        fotoCredit: { url: 'https://unsplash.com/photos/1508785942-40807a1543e5' },
         beschrijving: 'Het verregende, mysterieuze Puyuhuapi ligt aan een smal fjord. De absolute highlight: Termas de Puyuhuapi — warmwaterbronnen direct aan het water, omgeven door bos en mist.',
         activiteiten: [
           'Termas de Puyuhuapi — hot springs aan het fjord (dag of overnachting)',
