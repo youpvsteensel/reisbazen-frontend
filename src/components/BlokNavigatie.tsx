@@ -44,7 +44,7 @@ export default function BlokNavigatie({ vorigeBlok, volgendeBlok, reisRoute = '/
             className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group text-right"
           >
             <div>
-              <p className="text-[10px] uppercase tracking-widest text-white/60">Volgend blok</p>
+              <p className="text-[10px] uppercase tracking-widest text-white/60">Volgend onderdeel</p>
               <p className="text-sm font-semibold">{volgendeBlok.naam}</p>
             </div>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
