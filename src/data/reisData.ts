@@ -29,6 +29,19 @@ export interface Blok {
   volgendeBlok?: { naam: string; route: string };
 }
 
+export interface Reis {
+  id: string;
+  naam: string;
+  ondertitel: string;
+  beschrijving: string;
+  cover: string;
+  route: string;
+  landen: string[];
+  duur: number;
+  periode?: string;
+  status: 'gepland' | 'bucket_list' | 'gedaan';
+}
+
 export const alleStops = [
   { naam: 'Puerto Montt', route: '/patagonie/carretera-austral' },
   { naam: 'Parque Pumalín', route: '/patagonie/carretera-austral' },
