@@ -286,6 +286,7 @@ export const blokken: Record<string, Blok> = {
         _unsplashQuery:'tierra del fuego national park',
         badges: ['Nationaal Park', 'Vlucht Falklands'],
         foto: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=700&fit=crop&auto=format',
+        fotoCredit: { url: 'https://unsplash.com/photos/1464822759023-fed622ff2c3b' },
         beschrijving: 'Een laatste ochtend in het meest zuidelijke nationaal park van de wereld, langs het Beagle-kanaal. \'s Middags vliegen we richting Stanley — de Falkland Islands wachten.',
         activiteiten: [
           'Tierra del Fuego NP — Senda Costera langs het kanaal (8 km)',
