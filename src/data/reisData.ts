@@ -303,6 +303,7 @@ export const blokken: Record<string, Blok> = {
     subtitel: 'Ongerepte wildlife op de rand van Antarctica',
     dagBereik: 'Dagen 21–25',
     hero: 'https://images.unsplash.com/photo-1551244072-5d12893278bc?w=1600&h=900&fit=crop&auto=format',
+    heroCredit: { url: 'https://unsplash.com/photos/1551244072-5d12893278bc' },
     route: '/falklands',
     vorigeBlok: { naam: 'Ushuaia', route: '/ushuaia' },
     praktischInfo: [
