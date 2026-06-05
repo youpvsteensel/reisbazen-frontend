@@ -154,7 +154,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Queulat NP',
         _unsplashQuery:'glacier patagonia',
         badges: ['Nationaal Park', 'Gletsjer'],
-        foto: 'https://images.unsplash.com/photo-1709576429354-665ac6efff12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1705455596627-7080d015e426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/XNL8xBSPl2o' },
         beschrijving: 'Queulat is misschien wel het meest dramatische landschap van de Carretera. De Ventisquero Colgante — een gletsjer die letterlijk boven een watermassa hangt — is een van de meest gefotografeerde plekken van Patagonië.',
         activiteiten: [
