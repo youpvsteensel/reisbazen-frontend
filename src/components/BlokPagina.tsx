@@ -1,6 +1,5 @@
 import Hero from '../components/Hero';
 import DagKaart from '../components/DagKaart';
-import PraktischBlok from '../components/PraktischBlok';
 import BlokNavigatie from '../components/BlokNavigatie';
 import type { Blok } from '../data/reisData';
 
