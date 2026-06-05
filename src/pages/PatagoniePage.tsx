@@ -127,7 +127,7 @@ export default function PatagoniePage() {
           <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
             {/* Links: reisoverzicht blok */}
-            <div className="rounded-2xl overflow-hidden border border-groen/15 bg-white shadow-sm flex flex-col">
+            <div className="rounded-2xl overflow-hidden border border-groen/15 bg-white shadow-sm flex flex-col h-full">
               {/* Cover */}
               <div className="relative h-48 overflow-hidden flex-shrink-0">
                 <img
