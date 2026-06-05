@@ -21,7 +21,7 @@ export default function Nav() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="font-serif italic text-2xl text-white tracking-tight leading-none">
-            routebaas
+            ROUTEBAAS
           </Link>
 
           {/* Desktop links */}
