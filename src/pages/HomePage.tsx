@@ -23,10 +23,10 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         <div className="absolute inset-0 flex flex-col justify-end px-6 pb-14 max-w-5xl mx-auto left-0 right-0">
           <p className="text-xs font-semibold text-white/70 uppercase tracking-widest mb-3">
-            Reisbazen
+            REISBAZEN
           </p>
           <h1 className="font-serif text-5xl sm:text-6xl font-bold text-white leading-tight mb-3">
-            Routebaas
+            ROUTEBAAS
           </h1>
           <p className="text-lg text-white/75 font-light max-w-xl leading-relaxed">
             Onze bucketlist reisroutes — uitgewerkt tot op de dag. Van Patagonië tot Japan.
