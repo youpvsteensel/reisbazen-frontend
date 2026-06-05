@@ -109,7 +109,7 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
       />
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 py-8 px-4 text-center">
+      <footer className="bg-achtergrond border-t border-gray-200 py-8 px-4 text-center">
         <a href="/" className="font-logo text-lg text-groen hover:text-groen-mid transition-colors">
           Routebaas
         </a>
