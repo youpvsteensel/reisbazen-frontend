@@ -25,8 +25,8 @@ export default function HomePage() {
           <p className="text-xs font-semibold text-white/70 uppercase tracking-widest mb-3">
             REISBAZEN
           </p>
-          <h1 className="font-serif text-5xl sm:text-6xl font-bold text-white leading-tight mb-3">
-            ROUTEBAAS
+          <h1 className="font-logo text-5xl sm:text-6xl text-white leading-tight mb-3">
+            Routebaas
           </h1>
           <p className="text-lg text-white/75 font-light max-w-xl leading-relaxed">
             Onze bucketlist reisroutes — uitgewerkt tot op de dag. Van Patagonië tot Japan.
