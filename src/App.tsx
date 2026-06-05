@@ -18,6 +18,7 @@ import PatagonieVolledigheidPage from './pages/PatagonieVolledigheidPage';
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Nav />
       <main className="pt-0">
         <Routes>
