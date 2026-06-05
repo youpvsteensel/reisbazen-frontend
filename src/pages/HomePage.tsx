@@ -67,7 +67,7 @@ export default function HomePage() {
           href="https://www.reisbazen.nl"
           className="font-serif italic text-xl text-groen font-semibold hover:text-groen-mid transition-colors"
         >
-          reisbazen
+          REISBAZEN
         </a>
         <p className="text-xs text-muted mt-1">Bucketlist reisroutes — uitgewerkt tot op de dag</p>
       </footer>
