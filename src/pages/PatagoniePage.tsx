@@ -206,9 +206,9 @@ export default function PatagoniePage() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-100 py-8 px-4 text-center">
+      <footer className="border-t border-gray-200 py-8 px-4 text-center">
         <Link to="/" className="font-logo text-lg text-groen hover:text-groen-mid transition-colors">
-          routebaas
+          Routebaas
         </Link>
         <p className="text-xs text-muted mt-1">Patagonië & Falkland Islands — Huwelijksreis</p>
       </footer>
