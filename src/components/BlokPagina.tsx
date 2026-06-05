@@ -112,7 +112,7 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
         <a href="/" className="font-serif italic text-lg text-groen font-semibold hover:text-groen-mid transition-colors">
           routebaas
         </a>
-        <p className="text-xs text-muted mt-1">Patagonië & Falkland Islands — Huwelijksreis 2025</p>
+        <p className="text-xs text-muted mt-1">{blok.reisNaam}</p>
       </footer>
     </div>
   );
