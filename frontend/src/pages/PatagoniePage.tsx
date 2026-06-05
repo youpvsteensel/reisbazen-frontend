@@ -175,7 +175,7 @@ export default function PatagoniePage() {
           <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-3">
             De route in {blokken.length} delen
           </p>
-          <p className="font-body text-xl text-white/75 font-light max-w-2xl mx-auto leading-relaxed text-tekst/60">
+          <p className="font-body text-xl font-light max-w-2xl mx-auto leading-relaxed text-tekst/60">
             Van de wilde Carretera Austral tot de ongerepte wildlife van de Falklands — 25 dagen aan het einde van de wereld.
           </p>
         </div>
