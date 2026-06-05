@@ -258,7 +258,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'El Chaltén',
         _unsplashQuery:'laguna de los tres',
         badges: ['Dagwandelingen', 'Iconisch uitzicht'],
-        foto: 'https://images.unsplash.com/photo-1647472970006-6563b5acdab5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1653850591098-ade25e7a8387?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/xShzsFjowPs' },
         beschrijving: 'De twee absolute hoogtepunten van Patagonië op twee dagen: Laguna de los Tres met het basecamp-uitzicht op Fitz Roy, en Laguna Torre met Cerro Torre in het verschiet. Bij vroeg vertrek op dag 1 zijn beide haalbaar.',
         activiteiten: [
