@@ -13,6 +13,7 @@ export interface Dag {
   beschrijving: string;
   activiteiten?: string[];
   praktisch?: { icon: string; label: string; waarde: string }[];
+  _unsplashQuery?: string; // legacy, niet meer in gebruik
 }
 
 export interface Blok {
