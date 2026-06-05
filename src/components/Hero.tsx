@@ -13,7 +13,7 @@ interface HeroProps {
 
 export default function Hero({ image, creditUrl, title, subtitle, dagBereik, reisRoute, reisNaam }: HeroProps) {
   return (
-    <div className="relative w-full h-[520px] overflow-hidden bg-gray-200">
+    <div className="relative w-full h-[600px] overflow-hidden bg-gray-200">
       <img
         src={image}
         alt={title}
