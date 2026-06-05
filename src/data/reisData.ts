@@ -159,8 +159,8 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Cerro Castillo',
         _unsplashQuery:'cerro castillo patagonia',
         badges: ['Meerdaagse hike', 'Wildkamperen'],
-        foto: 'https://images.unsplash.com/photo-1611437204174-15ccda5a330d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
-        fotoCredit: { url: 'https://unsplash.com/photos/Yg5hhpstoFY' },
+        foto: 'https://images.unsplash.com/photo-1710444388060-9863b2753eb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/photos/H0nwwsbHU20' },
         beschrijving: 'Vier dagen te voet door een van Patagonië\'s meest spectaculaire maar minder bekende parken. Het Cerro Castillo Circuit (70 km) voert langs dramatische basaltzuilen, turquoise meren en zwarte rotswanden — en condors cirkelen boven je hoofd.',
         activiteiten: [
           'Cerro Castillo Circuit — 4 dagen, ~70 km wildkamperen',
