@@ -20,36 +20,10 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
         reisNaam={blok.reisNaam}
       />
 
-      {/* Ankernavigatie — spring naar dag */}
-      <div className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="flex items-center gap-1 overflow-x-auto py-3 scrollbar-hide">
-            {blok.dagen.map((dag) => (
-              <a
-                key={dag.id}
-                href={`#${dag.id}`}
-                className="flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium text-muted hover:text-groen hover:bg-groen-licht border border-transparent hover:border-groen/20 transition-all duration-150 whitespace-nowrap"
-              >
-                <span className="text-xs font-bold text-groen/60">
-                  {typeof dag.dag === 'number' ? `${dag.dag}` : dag.dag}
-                </span>
-                <span>{dag.locatie}</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
-
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid lg:grid-cols-[1fr_300px] gap-12">
           {/* Main content */}
           <div>
-            <div className="mb-8">
-              <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-1">{blok.dagBereik}</p>
-              <h2 className="font-serif text-3xl font-bold text-tekst">{blok.naam}</h2>
-              <p className="text-muted mt-2 leading-relaxed">{blok.subtitel}</p>
-            </div>
-
             {blok.dagen.map((dag) => (
               <DagKaart key={dag.id} dag={dag} />
             ))}
