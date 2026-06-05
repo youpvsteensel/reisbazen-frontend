@@ -241,7 +241,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'El Chaltén',
         _unsplashQuery:'el chalten fitz roy',
         badges: ['Fitz Roy', 'Weercheck'],
-        foto: 'https://images.unsplash.com/photo-1656175927601-3ca147ce9756?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1615337138008-899c20f72404?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/8CAFCS1BWME' },
         beschrijving: 'El Chaltén — het kleine wandeldorpje aan de voet van Fitz Roy. Dag één is voor acclimatiseren, het dorp verkennen en cruciale weersinformatie ophalen voor de komende dagen.',
         activiteiten: [
