@@ -26,6 +26,8 @@ export interface Blok {
   dagen: Dag[];
   praktischInfo: { icon: string; label: string; waarde: string }[];
   route: string;
+  reisRoute: string;
+  reisNaam: string;
   vorigeBlok?: { naam: string; route: string };
   volgendeBlok?: { naam: string; route: string };
 }
