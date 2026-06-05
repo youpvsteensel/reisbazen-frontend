@@ -82,6 +82,8 @@ export const blokken: Record<string, Blok> = {
     hero: 'https://images.unsplash.com/photo-1557543878-042c9857f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/photos/_7RIy-UNfnI' },
     route: '/patagonie/carretera-austral',
+    reisRoute: '/patagonie',
+    reisNaam: 'Patagonië & Falklands',
     volgendeBlok: { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'November – maart' },
