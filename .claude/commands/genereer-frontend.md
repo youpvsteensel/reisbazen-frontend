@@ -124,7 +124,7 @@ Genereer voor `beschrijving` echte, sfeervolle tekst — niet generiek. Gebruik 
 
 ---
 
-### Stap 6 — Pagina-componenten genereren
+### Stap 5 — Pagina-componenten genereren
 
 **1. Trip overzichtspagina** — `src/pages/<NaamPage>.tsx`
 
