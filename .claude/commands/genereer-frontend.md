@@ -180,7 +180,7 @@ import <Onderdeel1>Page from './pages/<Onderdeel1>Page>';
 
 ---
 
-### Stap 9 — Build & verificatie
+### Stap 8 — Build & verificatie
 
 ```bash
 cd C:/Users/youpv/Documents/Claude/Routebaas
