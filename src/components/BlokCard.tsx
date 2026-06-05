@@ -61,7 +61,7 @@ export default function BlokCard({
           ))}
         </div>
         <div className="flex items-center gap-1.5 text-groen text-sm font-semibold group-hover:gap-2.5 transition-all">
-          Bekijk de route
+          Bekijk deel van de route
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </div>
       </div>
