@@ -6,6 +6,7 @@ import CarreteraAustralPage from './pages/CarreteraAustralPage';
 import ElChaltenPage from './pages/ElChaltenPage';
 import UshuaiaPage from './pages/UshuaiaPage';
 import FalklandsPage from './pages/FalklandsPage';
+import PatagonieVolledigheidPage from './pages/PatagonieVolledigheidPage';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/patagonie" element={<PatagoniePage />} />
+          <Route path="/patagonie/volledig" element={<PatagonieVolledigheidPage />} />
           <Route path="/patagonie/carretera-austral" element={<CarreteraAustralPage />} />
           <Route path="/patagonie/el-chalten" element={<ElChaltenPage />} />
           <Route path="/patagonie/ushuaia" element={<UshuaiaPage />} />
