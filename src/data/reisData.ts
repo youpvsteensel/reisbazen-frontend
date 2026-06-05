@@ -365,7 +365,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Stanley',
         _unsplashQuery:'falkland islands stanley',
         badges: ['Falkland Islands', 'Wildlife'],
-        foto: 'https://images.unsplash.com/photo-1740998579414-6cdb6bb52085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1616930067077-d24ea2044130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/K6aExp0SvCs' },
         beschrijving: 'Stanley is de meest geïsoleerde hoofdstad ter wereld — en een van de meest charming. Kleurrijke houten huizen langs de harbour, scheepswrakken in de baai en het vriendelijkste publiek ter wereld.',
         activiteiten: [
