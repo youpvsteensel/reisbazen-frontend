@@ -137,46 +137,20 @@ export default function PatagoniePage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-[10px] font-semibold text-white/70 uppercase tracking-widest mb-1">Volledige reis</p>
+                  <p className="text-[10px] font-semibold text-white/70 uppercase tracking-widest mb-1">25 Dagen · Volledige reis</p>
                   <h3 className="font-serif text-2xl font-bold text-white leading-tight">Patagonië & Falklands</h3>
                 </div>
               </div>
 
-              {/* Stats */}
-              <div className="grid grid-cols-2 gap-0 border-b border-groen/10">
-                {[
-                  { icon: Calendar, label: '25 Dagen' },
-                  { icon: Heart,    label: 'Huwelijksreis' },
-                  { icon: Truck,    label: 'Camper · Jeep' },
-                  { icon: Sun,      label: 'Nov – Mrt' },
-                ].map(({ icon: Icon, label }) => (
-                  <div key={label} className="flex items-center gap-2 px-4 py-3 border-b border-r border-groen/10 last:border-r-0 [&:nth-child(n+3)]:border-b-0">
-                    <Icon className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
-                    <span className="text-xs font-medium text-tekst/70">{label}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Onderdelen */}
-              <div className="p-4 flex flex-col gap-1.5">
-                {blokken.map((b, i) => (
-                  <Link
-                    key={b.route}
-                    to={b.route}
-                    className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-groen-licht hover:border-groen/20 border border-transparent transition-all duration-150 group"
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="w-5 h-5 rounded-full bg-groen/10 flex items-center justify-center text-[10px] font-bold text-groen flex-shrink-0">
-                        {i + 1}
-                      </span>
-                      <div>
-                        <p className="text-sm font-semibold text-tekst leading-tight">{b.naam}</p>
-                        <p className="text-[11px] text-muted">{b.dagBereik}</p>
-                      </div>
-                    </div>
-                    <ArrowRight className="w-3.5 h-3.5 text-groen/40 group-hover:text-groen group-hover:translate-x-0.5 transition-all" />
-                  </Link>
-                ))}
+              {/* Bekijk volledige route */}
+              <div className="p-4">
+                <Link
+                  to="/patagonie/volledig"
+                  className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-groen text-white text-sm font-semibold hover:bg-groen-mid transition-colors group"
+                >
+                  Bekijk volledige route
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                </Link>
               </div>
             </div>
 
