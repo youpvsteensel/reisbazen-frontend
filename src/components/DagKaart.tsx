@@ -41,7 +41,7 @@ export default function DagKaart({ dag }: DagKaartProps) {
             {dag.activiteiten.map((act, i) => (
               <div key={i} className="flex items-start gap-2.5">
                 <CheckCircle2 className="w-4 h-4 text-groen-mid flex-shrink-0 mt-0.5" />
-                <span className="text-sm text-tekst/75 leading-snug">{act}</span>
+                <span className="font-body text-sm text-tekst/75 leading-snug">{act}</span>
               </div>
             ))}
           </div>
