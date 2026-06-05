@@ -68,7 +68,7 @@ export const alleReizen: Reis[] = [
     route: '/patagonie',
     landen: ['Chili', 'Argentinië', 'Falkland Islands'],
     duur: 25,
-    periode: '2025',
+    periode: undefined,
     status: 'gepland',
   },
 ];
