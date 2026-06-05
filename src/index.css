@@ -47,7 +47,17 @@
   }
 
   .nav-link-reisbazen {
-    @apply text-[11px] font-semibold uppercase tracking-widest text-white/90 hover:text-white transition-colors relative pb-0.5;
+    @apply text-[13px] font-semibold uppercase tracking-widest text-white/80 hover:text-white transition-colors relative pb-0.5;
+  }
+
+  .nav-link-reisbazen::after {
+    content: '';
+    @apply absolute bottom-0 left-0 right-0 h-[2px] rounded-full opacity-0 transition-opacity duration-200;
+    background-color: #c4785a;
+  }
+
+  .nav-link-reisbazen:hover::after {
+    @apply opacity-100;
   }
 
   .nav-link-reisbazen.active {
@@ -55,9 +65,7 @@
   }
 
   .nav-link-reisbazen.active::after {
-    content: '';
-    @apply absolute bottom-0 left-0 right-0 h-[2px] rounded-full;
-    background-color: #c4785a;
+    @apply opacity-100;
   }
 }
 
