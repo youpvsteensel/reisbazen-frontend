@@ -13,10 +13,11 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
       <Hero
         image={blok.hero}
         creditUrl={blok.heroCredit?.url}
-        tag="Onderdeel"
         title={blok.naam}
         subtitle={blok.subtitel}
         dagBereik={blok.dagBereik}
+        reisRoute={blok.reisRoute}
+        reisNaam={blok.reisNaam}
       />
 
       {/* Ankernavigatie — spring naar dag */}
