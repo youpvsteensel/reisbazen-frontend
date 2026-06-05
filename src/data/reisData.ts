@@ -203,7 +203,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Balmaceda',
         _unsplashQuery:'patagonia airport',
         badges: ['Vlucht', 'Halve dag'],
-        foto: 'https://images.unsplash.com/photo-1714164801172-98d83a290cfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1615657071655-3748ccc3340c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/G3OV4RbmSc4' },
         beschrijving: 'Het eerste hoofdstuk sluit af in Balmaceda. We leveren de camper in na 13 dagen Carretera Austral en nemen de vlucht naar El Calafate of Río Gallegos richting Argentinië.',
         praktisch: [
