@@ -26,12 +26,8 @@ export default function Hero({ image, creditUrl, title, subtitle, dagBereik, rei
         {/* Breadcrumb */}
         {reisRoute && reisNaam && (
           <div className="flex items-center gap-2 mb-5">
-            <Link to="/" className="text-xs text-white/55 hover:text-white/90 transition-colors flex items-center gap-1">
+            <Link to={reisRoute} className="text-xs text-white/55 hover:text-white/90 transition-colors flex items-center gap-1">
               <ArrowLeft className="w-3 h-3" />
-              Routebaas
-            </Link>
-            <span className="text-white/30 text-xs">/</span>
-            <Link to={reisRoute} className="text-xs text-white/55 hover:text-white/90 transition-colors">
               {reisNaam}
             </Link>
             <span className="text-white/30 text-xs">/</span>
