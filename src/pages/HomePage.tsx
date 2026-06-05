@@ -109,7 +109,7 @@ function ReisKaart({ reis }: { reis: Reis }) {
         <div className="flex items-center gap-4 mb-4 text-xs text-muted">
           <span className="flex items-center gap-1.5">
             <Calendar className="w-3.5 h-3.5" />
-            {reis.duur} dagen{reis.periode ? ` · ${reis.periode}` : ''}
+            {reis.duur} dagen
           </span>
           <span className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5" />
