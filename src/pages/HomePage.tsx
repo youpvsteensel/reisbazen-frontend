@@ -28,7 +28,7 @@ export default function HomePage() {
           <h1 className="font-serif text-5xl sm:text-6xl font-bold text-white leading-tight mb-3">
             Routebaas
           </h1>
-          <p className="text-lg text-white/75 font-light max-w-xl leading-relaxed">
+          <p className="font-body text-lg text-white/75 font-light max-w-xl leading-relaxed">
             Onze bucketlist reisroutes — uitgewerkt tot op de dag. Van Patagonië tot Japan.
           </p>
         </div>
