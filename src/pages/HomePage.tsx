@@ -53,10 +53,10 @@ export default function HomePage() {
           {/* Placeholder voor komende reizen */}
           <div className="rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center p-10 text-center min-h-[320px]">
             <div className="w-12 h-12 rounded-full bg-groen-licht flex items-center justify-center mb-4">
-              <span className="text-groen text-2xl font-light">+</span>
+              <MapPin className="w-5 h-5 text-groen/50" />
             </div>
             <p className="font-serif text-lg font-semibold text-tekst/50 mb-1">Volgende bestemming</p>
-            <p className="text-sm text-muted">Wordt binnenkort toegevoegd</p>
+            <p className="text-sm text-muted">Suggesties? Laat het ons weten!</p>
           </div>
         </div>
       </div>
