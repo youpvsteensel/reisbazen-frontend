@@ -39,7 +39,7 @@ export default function Nav() {
               rel="noopener noreferrer"
               className="nav-link-reisbazen"
             >
-              Reisbazen.nl
+              REISBAZEN.NL
             </a>
             <a
               href="https://www.instagram.com/reisbazen/"
