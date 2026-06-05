@@ -31,7 +31,7 @@ export default function Nav() {
               end
               className={({ isActive }) => `nav-link-reisbazen ${isActive ? 'active' : ''}`}
             >
-              Bucketlist Reisroutes
+              Alle Reisroutes
             </NavLink>
             <a
               href="https://www.reisbazen.nl"
