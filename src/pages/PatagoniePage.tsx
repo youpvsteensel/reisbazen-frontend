@@ -178,14 +178,10 @@ export default function PatagoniePage() {
       </div>
 
       {/* Blokken grid */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <div className="text-center mb-12">
-          <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-2">De Route</p>
-          <h2 className="font-serif text-4xl font-bold text-tekst">25 Dagen, 4 Onderdelen</h2>
-          <p className="text-muted mt-3 max-w-xl mx-auto leading-relaxed">
-            Van het noorden van Patagonië richting het zuiden — camper, vlucht, boot en FIGAS charter.
-          </p>
-        </div>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+        <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-6">
+          De route in {blokken.length} delen
+        </p>
 
         <div className="grid sm:grid-cols-2 gap-8">
           {blokken.map((blok, i) => (
