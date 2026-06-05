@@ -34,7 +34,7 @@ export default function DagKaart({ dag }: DagKaartProps) {
           </div>
         )}
 
-        <p className="text-[15px] text-tekst/80 leading-relaxed">{dag.beschrijving}</p>
+        <p className="font-body text-[15px] text-tekst/80 leading-relaxed">{dag.beschrijving}</p>
 
         {dag.activiteiten && dag.activiteiten.length > 0 && (
           <div className="flex flex-col gap-2">
