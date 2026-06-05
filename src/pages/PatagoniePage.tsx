@@ -193,7 +193,7 @@ export default function PatagoniePage() {
         <Link to="/" className="font-logo text-lg text-groen hover:text-groen-mid transition-colors">
           routebaas
         </Link>
-        <p className="text-xs text-muted mt-1">Patagonië & Falkland Islands — Huwelijksreis 2025</p>
+        <p className="text-xs text-muted mt-1">Patagonië & Falkland Islands — Huwelijksreis</p>
       </footer>
     </div>
   );
