@@ -328,7 +328,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Ushuaia',
         _unsplashQuery:'tierra del fuego national park',
         badges: ['Nationaal Park', 'Vlucht Falklands'],
-        foto: 'https://images.unsplash.com/photo-1686031427758-7660b26c7a2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1655282413025-c6b64d36e4e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/g2zRbguvHpE' },
         beschrijving: 'Een laatste ochtend in het meest zuidelijke nationaal park van de wereld, langs het Beagle-kanaal. \'s Middags vliegen we richting Stanley — de Falkland Islands wachten.',
         activiteiten: [
