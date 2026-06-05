@@ -70,17 +70,19 @@ cd C:/Users/youpv/Documents/Claude/Routebaas
 node scripts/fetch_unsplash_photos.mjs "<UNSPLASH_ACCESS_KEY>" "<specifieke-zoekterm>" 1
 ```
 
-#### 3c — Verifieer elke foto vóór gebruik
+#### 3c — Verifieer elke foto automatisch (geen gebruikersbevestiging nodig)
+
+Dit doe je volledig zelf — de gebruiker hoeft dit niet te bevestigen of te zien.
 
 Voor **elke** geselecteerde foto (dag-foto's én hero-foto's):
 
-1. Fetch `https://unsplash.com/photos/{slug}` of de foto-pagina
+1. Fetch `https://unsplash.com/photos/{slug}`
 2. Lees: location tag, alt-tekst, beschrijving, fotograafnota's
-3. Controleer: staat de correcte locatie vermeld? Past het bij de dag?
-4. Check verboden locaties: komt een verboden locatienaam voor? → zoek opnieuw
-5. Noteer voor elke foto: wat het toont + of het MATCH ✅ of WRONG ❌ is
+3. Klopt de locatie? Past het bij de dag?
+4. Staat er een verboden locatienaam in? → verwerp direct, zoek opnieuw
+5. Herhaal tot je een MATCH ✅ hebt — pas dan ga je verder
 
-Als een foto WRONG is: herhaal 3b met een andere zoekterm. **Nooit een foutieve foto accepteren.**
+De gebruiker ziet alleen het eindresultaat. Intern log je per foto kort wat het toont, maar vraag nooit om goedkeuring voor individuele foto's.
 
 #### 3d — Numerieke CDN-ID gebruiken
 
