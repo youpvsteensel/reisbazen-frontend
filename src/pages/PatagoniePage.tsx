@@ -124,12 +124,12 @@ export default function PatagoniePage() {
           <p className="text-xs font-semibold text-groen uppercase tracking-widest text-center mb-8">
             De volledige route
           </p>
-          <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
             {/* Links: reisoverzicht blok */}
-            <div className="rounded-2xl overflow-hidden border border-groen/15 bg-white shadow-sm">
+            <div className="rounded-2xl overflow-hidden border border-groen/15 bg-white shadow-sm flex flex-col">
               {/* Cover */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden flex-shrink-0">
                 <img
                   src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=900&h=600&fit=crop&auto=format"
                   alt="Patagonië & Falklands"
@@ -142,8 +142,11 @@ export default function PatagoniePage() {
                 </div>
               </div>
 
-              {/* Bekijk volledige route */}
-              <div className="p-4">
+              {/* Tekst + knop */}
+              <div className="p-5 flex flex-col flex-1 justify-end gap-4">
+                <p className="font-body text-sm text-muted leading-relaxed">
+                  Bekijk de uitgebreide dagplanningen van deze avontuurlijke reis — van de Carretera Austral tot de Falkland Islands, dag voor dag uitgewerkt.
+                </p>
                 <Link
                   to="/patagonie/volledig"
                   className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-groen text-white text-sm font-semibold hover:bg-groen-mid transition-colors group"
