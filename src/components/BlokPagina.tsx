@@ -103,8 +103,8 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
       <BlokNavigatie
         vorigeBlok={blok.vorigeBlok}
         volgendeBlok={blok.volgendeBlok}
-        reisRoute="/patagonie"
-        reisNaam="Patagonië & Falklands"
+        reisRoute={blok.reisRoute}
+        reisNaam={blok.reisNaam}
       />
 
       {/* Footer */}
