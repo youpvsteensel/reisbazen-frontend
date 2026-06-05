@@ -116,7 +116,7 @@ export default function PatagoniePage() {
           <p className="text-xs font-semibold text-groen uppercase tracking-widest text-center mb-8">
             De volledige route
           </p>
-          <div className="grid md:grid-cols-2 gap-8 items-stretch">
+          <div className="grid sm:grid-cols-2 gap-8 items-stretch">
 
             {/* Links: reisoverzicht blok */}
             <div className="rounded-2xl overflow-hidden border border-groen/15 bg-white shadow-sm flex flex-col h-full">
