@@ -65,7 +65,7 @@ export default function HomePage() {
       <footer className="bg-white border-t border-gray-100 py-8 px-4 text-center">
         <a
           href="https://www.reisbazen.nl"
-          className="font-serif italic text-xl text-groen font-semibold hover:text-groen-mid transition-colors"
+          className="font-logo text-xl text-groen hover:text-groen-mid transition-colors"
         >
           REISBAZEN
         </a>
