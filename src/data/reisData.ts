@@ -400,7 +400,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Stanley',
         _unsplashQuery:'plane travel sky',
         badges: ['Vertrek', 'Halve dag'],
-        foto: 'https://images.unsplash.com/photo-1619556517446-e090c1ce50df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1682188299490-1e6e9c98bac8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/gKS6a_vHg7U' },
         beschrijving: 'Het avontuur eindigt waar het begon — in de lucht. FIGAS charter terug naar Stanley, daarna de lange vlucht naar huis via Santiago de Chile en Amsterdam.',
         praktisch: [
