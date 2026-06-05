@@ -49,7 +49,7 @@ export default function BlokCard({
         </div>
       </div>
       <div className="p-5">
-        <p className="text-sm text-muted leading-relaxed mb-4">{beschrijving}</p>
+        <p className="font-body text-sm text-muted leading-relaxed mb-4">{beschrijving}</p>
         <div className="flex flex-wrap gap-1.5 mb-4">
           {stops.map((s) => (
             <span
