@@ -67,7 +67,7 @@ export const alleReizen: Reis[] = [
     naam: 'Patagonië & Falklands',
     ondertitel: 'Huwelijksreis langs het einde van de wereld',
     beschrijving: 'Van de wilde Carretera Austral tot de ongerepte wildlife van de Falklands — 25 dagen door het meest spectaculaire landschap op aarde. Camper, daktent, FIGAS charter.',
-    cover: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=700&fit=crop&auto=format',
+    cover: 'https://images.unsplash.com/photo-H3oXiq7_bII?w=1200&h=700&fit=crop&auto=format',
     route: '/patagonie',
     landen: ['Chili', 'Argentinië', 'Falkland Islands'],
     duur: 25,
