@@ -103,7 +103,48 @@ python scripts/genereer_kml.py scripts/reis_data.json
 
 Dit maakt `scripts/reis_kml.kml` aan. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde onderdelen per regiofase.
 
-### Stap 5 — Data opslaan in database
+### Stap 5 — Reisplan opslaan als Markdown
+
+Schrijf het volledige reisplan weg als `reisplannen/<bestemming-slug>.md` (bijv. `reisplannen/schotland.md`). Gebruik deze structuur:
+
+```markdown
+# <Reisnaam>
+
+**Bestemming:** <bestemming>  
+**Duur:** <aantal> dagen  
+**Periode:** <periode>  
+**Vervoer:** <vervoer>  
+
+[Bekijk route op Google Maps](<url>)
+
+---
+
+## Dagplanning
+
+| | Ochtend | Middag | Avond | Slapen |
+|---|---|---|---|---|
+| Dag 1 | ... | ... | ... | ... |
+...
+
+---
+
+## Onderdelen & Activiteiten
+
+### <Onderdeelnaam> (Dag X–Y)
+
+**Ja:**
+- activiteit A
+- activiteit B
+
+**Misschien:**
+- activiteit C
+
+...
+```
+
+Bevestig aan de gebruiker dat het bestand is opgeslagen en vraag daarna expliciet: **"Wil je de reis ook in de database opslaan?"** Ga pas verder met stap 6 als de gebruiker dit bevestigt.
+
+### Stap 6 — Data opslaan in database
 
 ```bash
 cd C:/Users/youpv/Documents/Claude/Routebaas
