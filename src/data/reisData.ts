@@ -220,7 +220,7 @@ export const blokken: Record<string, Blok> = {
     naam: 'El Chaltén',
     subtitel: 'Fitz Roy — de meest iconische berg van Patagonië',
     dagBereik: 'Dagen 15–18',
-    hero: 'https://images.unsplash.com/photo-1708394534994-4e66c2b09e1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
+    hero: 'https://images.unsplash.com/photo-1626368185783-7c928d6f0133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/photos/NVtdpWi1PQE' },
     route: '/patagonie/el-chalten',
     reisRoute: '/patagonie',
