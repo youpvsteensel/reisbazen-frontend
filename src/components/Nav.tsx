@@ -48,7 +48,7 @@ export default function Nav() {
               className="text-white/80 hover:text-white transition-colors"
               aria-label="Instagram"
             >
-              <Instagram className="w-4 h-4" />
+              <Instagram className="w-5 h-5" />
             </a>
           </div>
 
