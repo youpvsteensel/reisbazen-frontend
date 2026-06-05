@@ -191,7 +191,7 @@ Los eventuele TypeScript-fouten op voordat je verder gaat.
 
 ---
 
-### Stap 10 — Commit & push
+### Stap 9 — Commit & push
 
 ```bash
 cd C:/Users/youpv/Documents/Claude/Routebaas
