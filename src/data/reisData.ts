@@ -330,8 +330,8 @@ export const blokken: Record<string, Blok> = {
     naam: 'Falkland Islands',
     subtitel: 'Ongerepte wildlife op de rand van Antarctica',
     dagBereik: 'Dagen 21–25',
-    hero: 'https://images.unsplash.com/photo-1551244072-5d12893278bc?w=1600&h=900&fit=crop&auto=format',
-    heroCredit: { url: 'https://unsplash.com/photos/1551244072-5d12893278bc' },
+    hero: 'https://images.unsplash.com/photo-1552244088-147c4c94b21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
+    heroCredit: { url: 'https://unsplash.com/photos/WzxImIGmIjI' },
     route: '/patagonie/falklands',
     vorigeBlok: { naam: 'Ushuaia', route: '/patagonie/ushuaia' },
     praktischInfo: [
