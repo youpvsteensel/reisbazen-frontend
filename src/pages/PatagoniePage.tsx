@@ -149,7 +149,7 @@ export default function PatagoniePage() {
                 </p>
                 <Link
                   to="/patagonie/volledig"
-                  className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-groen text-white text-sm font-semibold hover:bg-groen-mid transition-colors group"
+                  className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl bg-groen text-white text-sm font-semibold hover:bg-groen-mid transition-colors group"
                 >
                   Bekijk volledige route
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
