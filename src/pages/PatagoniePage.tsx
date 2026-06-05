@@ -120,7 +120,7 @@ export default function PatagoniePage() {
 
       {/* Route strip — 2 kolommen */}
       <div className="bg-groen-licht border-y border-groen/10 py-12 px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <p className="text-xs font-semibold text-groen uppercase tracking-widest text-center mb-8">
             De volledige route
           </p>
