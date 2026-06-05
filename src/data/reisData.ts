@@ -187,7 +187,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Villa Cerro Castillo & Coyhaique',
         _unsplashQuery:'coyhaique patagonia',
         badges: ['Roadtrip'],
-        foto: 'https://images.unsplash.com/photo-1611437204174-15ccda5a330d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1697816227475-bb402505ba5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/Yg5hhpstoFY' },
         beschrijving: 'Na de intensiteit van het circuit genieten we van twee rustigere roadtrip-dagen richting het zuiden. De lokale markt van Villa Cerro Castillo biedt zelfgemaakte kazen en wol, en Coyhaique is de laatste grote stad voor een bevoorradingsronde.',
         activiteiten: [
