@@ -289,6 +289,8 @@ export const blokken: Record<string, Blok> = {
     hero: 'https://images.unsplash.com/photo-1768087512696-bacd7eab5f85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/photos/WVvrIRLxox4' },
     route: '/patagonie/ushuaia',
+    reisRoute: '/patagonie',
+    reisNaam: 'Patagonië & Falklands',
     vorigeBlok: { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
     volgendeBlok: { naam: 'Falkland Islands', route: '/patagonie/falklands' },
     praktischInfo: [
