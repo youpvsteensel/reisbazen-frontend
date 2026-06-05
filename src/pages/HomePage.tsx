@@ -40,7 +40,7 @@ export default function HomePage() {
           <div>
             <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-1">De Routes</p>
             <h2 className="font-serif text-3xl font-bold text-tekst">
-              {alleReizen.length} {alleReizen.length === 1 ? 'reis' : 'reizen'} uitgewerkt
+              Bucketlist reisroutes
             </h2>
           </div>
         </div>
