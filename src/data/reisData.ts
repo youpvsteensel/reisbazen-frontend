@@ -342,6 +342,8 @@ export const blokken: Record<string, Blok> = {
     hero: 'https://images.unsplash.com/photo-1552244088-147c4c94b21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/photos/WzxImIGmIjI' },
     route: '/patagonie/falklands',
+    reisRoute: '/patagonie',
+    reisNaam: 'Patagonië & Falklands',
     vorigeBlok: { naam: 'Ushuaia', route: '/patagonie/ushuaia' },
     praktischInfo: [
       { icon: '💷', label: 'Valuta', waarde: 'Falkland Pound (FKP, 1:1 met GBP)' },
