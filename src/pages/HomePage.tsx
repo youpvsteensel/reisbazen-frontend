@@ -35,16 +35,7 @@ export default function HomePage() {
       </div>
 
       {/* Reizen grid */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <div className="flex items-end justify-between mb-10">
-          <div>
-            <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-1">De Routes</p>
-            <h2 className="font-serif text-3xl font-bold text-tekst">
-              Bucketlist reisroutes
-            </h2>
-          </div>
-        </div>
-
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {alleReizen.map((reis) => (
             <ReisKaart key={reis.id} reis={reis} />
