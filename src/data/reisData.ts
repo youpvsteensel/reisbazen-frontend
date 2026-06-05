@@ -275,7 +275,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'El Chaltén',
         _unsplashQuery:'patagonia waterfall',
         badges: ['Flexibele dag'],
-        foto: 'https://images.unsplash.com/photo-1556392624-3b67c79623bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1692889577629-2c2048419f8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/5RwAkpugU98' },
         beschrijving: 'Een flexibele dag als buffer voor slecht weer, of voor een rustigere hike naar Laguna Capri. \'s Middags vertrekken we richting Ushuaia.',
         activiteiten: [
