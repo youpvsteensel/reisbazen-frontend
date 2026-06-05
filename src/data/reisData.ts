@@ -292,7 +292,7 @@ export const blokken: Record<string, Blok> = {
     naam: 'Ushuaia',
     subtitel: 'Het einde van de wereld — begin van het avontuur',
     dagBereik: 'Dagen 19–20',
-    hero: 'https://images.unsplash.com/photo-1768087512696-bacd7eab5f85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
+    hero: 'https://images.unsplash.com/photo-1726510423030-db343e0d448a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/photos/WVvrIRLxox4' },
     route: '/patagonie/ushuaia',
     reisRoute: '/patagonie',
