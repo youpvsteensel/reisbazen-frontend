@@ -26,7 +26,7 @@ const blokken = [
     route: '/patagonie/ushuaia',
     naam: 'Ushuaia',
     dagBereik: 'Dagen 19–20',
-    hero: 'https://images.unsplash.com/photo-2DUdiqOiim4?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1727876242321-adfd8fc68669?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'De zuidelijkste stad ter wereld. Beagle Channel, Tierra del Fuego Nationaal Park en de sprong naar de Falklands.',
     stops: ['Beagle Channel', 'Tierra del Fuego NP', 'Stanley vlucht'],
     accent: 'Argentinië',
