@@ -72,7 +72,7 @@ export const alleReizen: Reis[] = [
     landen: ['Chili', 'Argentinië', 'Falkland Islands'],
     duur: 25,
     periode: undefined,
-    status: 'gepland',
+    status: 'bucket_list',
     typeReis: 'Huwelijksreis',
     vervoer: 'Camper · Jeep',
     besteTijd: 'Nov – Mrt',
