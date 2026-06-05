@@ -92,16 +92,34 @@ function ReisKaart({ reis }: { reis: Reis }) {
         </div>
       </div>
 
+      {/* Stats strip */}
+      {(reis.typeReis || reis.vervoer || reis.besteTijd) && (
+        <div className="grid grid-cols-2 border-t border-b border-gray-100">
+          <div className="flex items-center gap-2 px-4 py-3 border-r border-b border-gray-100">
+            <Calendar className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
+            <span className="text-xs font-medium text-tekst/70">{reis.duur} Dagen</span>
+          </div>
+          <div className="flex items-center gap-2 px-4 py-3 border-b border-gray-100">
+            <Heart className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
+            <span className="text-xs font-medium text-tekst/70">{reis.typeReis ?? '—'}</span>
+          </div>
+          <div className="flex items-center gap-2 px-4 py-3 border-r border-gray-100">
+            <Truck className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
+            <span className="text-xs font-medium text-tekst/70">{reis.vervoer ?? '—'}</span>
+          </div>
+          <div className="flex items-center gap-2 px-4 py-3">
+            <Sun className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
+            <span className="text-xs font-medium text-tekst/70">{reis.besteTijd ?? '—'}</span>
+          </div>
+        </div>
+      )}
+
       {/* Content */}
       <div className="p-5 flex flex-col flex-1">
         <p className="text-sm text-muted leading-relaxed mb-4 flex-1">{reis.beschrijving}</p>
 
         {/* Meta */}
         <div className="flex items-center gap-4 mb-4 text-xs text-muted">
-          <span className="flex items-center gap-1.5">
-            <Calendar className="w-3.5 h-3.5" />
-            {reis.duur} dagen
-          </span>
           <span className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5" />
             {reis.landen.join(' · ')}
