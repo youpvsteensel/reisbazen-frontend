@@ -179,9 +179,14 @@ export default function PatagoniePage() {
 
       {/* Blokken grid */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-        <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-6">
-          De route in {blokken.length} delen
-        </p>
+        <div className="text-center mb-10">
+          <p className="text-xs font-semibold text-groen uppercase tracking-widest mb-3">
+            De route in {blokken.length} delen
+          </p>
+          <p className="font-body text-xl text-white/75 font-light max-w-2xl mx-auto leading-relaxed text-tekst/60">
+            Van de wilde Carretera Austral tot de ongerepte wildlife van de Falklands — 25 dagen aan het einde van de wereld.
+          </p>
+        </div>
 
         <div className="grid sm:grid-cols-2 gap-8">
           {blokken.map((blok, i) => (
