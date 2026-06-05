@@ -73,6 +73,9 @@ export const alleReizen: Reis[] = [
     duur: 25,
     periode: undefined,
     status: 'gepland',
+    typeReis: 'Huwelijksreis',
+    vervoer: 'Camper · Jeep',
+    besteTijd: 'Nov – Mrt',
   },
 ];
 
