@@ -158,8 +158,10 @@ export default function PatagoniePage() {
             </div>
 
             {/* Rechts: interactieve Leaflet kaart */}
-            <div className="flex flex-col gap-3">
-              <RouteKaart />
+            <div className="flex flex-col gap-3 h-full">
+              <div className="flex-1 min-h-0">
+                <RouteKaart />
+              </div>
               <a
                 href="https://www.google.com/maps/dir/Puerto+Montt,Chile/Parque+Pumalin,Chile/Puyuhuapi,Chile/Queulat,Chile/Villa+Cerro+Castillo,Chile/El+Chalten,Argentina/Ushuaia,Argentina/Stanley,Falkland+Islands"
                 target="_blank"
