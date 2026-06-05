@@ -297,8 +297,8 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Ushuaia',
         _unsplashQuery:'ushuaia patagonia',
         badges: ['Zuidelijkste stad', 'Beagle Channel'],
-        foto: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&h=700&fit=crop&auto=format',
-        fotoCredit: { url: 'https://unsplash.com/photos/1518611012118-696072aa579a' },
+        foto: 'https://images.unsplash.com/photo-1768087512573-c701a9359b2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/photos/IUs9fCzgwls' },
         beschrijving: 'Ushuaia — de zuidelijkste stad ter wereld, hangend boven het Beagle-kanaal. Na aankomst nemen we een boottocht over het kanaal langs pinguïns, zeehonden en zeeleeuwen.',
         activiteiten: [
           'Beagle Channel boottocht (~3 uur, pinguïns, zeehonden, zeeleeuwen)',
