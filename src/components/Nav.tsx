@@ -1,6 +1,5 @@
 import { NavLink, Link } from 'react-router-dom';
 import { Instagram } from 'lucide-react';
-import { useEffect, useState } from 'react';
 
 export default function Nav() {
   return (
