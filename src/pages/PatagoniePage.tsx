@@ -63,7 +63,7 @@ export default function PatagoniePage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-transparent" />
         <div className="absolute inset-0 flex flex-col justify-end px-6 pb-16 max-w-6xl mx-auto left-0 right-0">
           {/* Breadcrumb */}
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center gap-2 mb-6">
             <Link to="/" className="text-xs text-white/60 hover:text-white/90 transition-colors flex items-center gap-1">
               <ArrowLeft className="w-3 h-3" />
               Routebaas
@@ -72,16 +72,8 @@ export default function PatagoniePage() {
             <span className="text-xs text-white/80">Patagonië & Falklands</span>
           </div>
 
-          <div className="flex items-center gap-3 mb-5">
-            <span className="text-xs font-medium text-white/80 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-1.5 uppercase tracking-widest">
-              Huwelijksreis
-            </span>
-            <span className="text-xs font-medium bg-groen/70 text-white backdrop-blur-sm border border-groen/40 rounded-full px-4 py-1.5">
-              25 Dagen
-            </span>
-          </div>
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold text-white leading-tight mb-4">
-            Patagonië &<br />Falkland Islands
+          <h1 className="font-serif text-5xl sm:text-6xl font-bold text-white leading-tight mb-4 whitespace-nowrap">
+            Patagonië & Falkland Islands
           </h1>
           <p className="font-body text-xl text-white/75 font-light max-w-2xl leading-relaxed">
             Van de wilde Carretera Austral tot de ongerepte wildlife van de Falklands — 25 dagen aan het einde van de wereld.
