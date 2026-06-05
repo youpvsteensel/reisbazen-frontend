@@ -29,7 +29,7 @@ export default function Hero({ image, creditUrl, tag, title, subtitle, dagBereik
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-3">
           {title}
         </h1>
-        <p className="text-lg text-white/80 font-light max-w-xl leading-relaxed">
+        <p className="font-body text-lg text-white/80 font-light max-w-xl leading-relaxed">
           {subtitle}
         </p>
       </div>
