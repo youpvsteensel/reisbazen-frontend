@@ -21,7 +21,7 @@ export default function HomePage() {
           style={{ objectPosition: 'center 40%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-        <div className="absolute inset-0 flex flex-col justify-end px-6 pb-14 max-w-5xl mx-auto left-0 right-0">
+        <div className="absolute inset-0 flex flex-col justify-end px-6 pb-14 max-w-6xl mx-auto left-0 right-0">
           <p className="text-xs font-semibold text-white/70 uppercase tracking-widest mb-3">
             REISBAZEN
           </p>
