@@ -206,7 +206,7 @@ export default function PatagoniePage() {
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 py-8 px-4 text-center">
+      <footer className="bg-achtergrond border-t border-gray-200 py-8 px-4 text-center">
         <Link to="/" className="font-logo text-lg text-groen hover:text-groen-mid transition-colors">
           Routebaas
         </Link>
