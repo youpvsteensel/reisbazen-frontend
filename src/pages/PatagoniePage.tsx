@@ -83,7 +83,7 @@ export default function PatagoniePage() {
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold text-white leading-tight mb-4">
             Patagonië &<br />Falkland Islands
           </h1>
-          <p className="text-xl text-white/75 font-light max-w-2xl leading-relaxed">
+          <p className="font-body text-xl text-white/75 font-light max-w-2xl leading-relaxed">
             Van de wilde Carretera Austral tot de ongerepte wildlife van de Falklands — 25 dagen aan het einde van de wereld.
           </p>
 
