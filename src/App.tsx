@@ -1,5 +1,12 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import Nav from './components/Nav';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  return null;
+}
 import HomePage from './pages/HomePage';
 import PatagoniePage from './pages/PatagoniePage';
 import CarreteraAustralPage from './pages/CarreteraAustralPage';
