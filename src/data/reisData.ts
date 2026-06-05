@@ -43,6 +43,9 @@ export interface Reis {
   duur: number;
   periode?: string;
   status: 'gepland' | 'bucket_list' | 'gedaan';
+  typeReis?: string;
+  vervoer?: string;
+  besteTijd?: string;
 }
 
 export const alleStops = [
