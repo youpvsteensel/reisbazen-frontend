@@ -164,7 +164,7 @@ Pas de stops array, kleuren per onderdeel en center-coördinaten aan voor de nie
 
 ---
 
-### Stap 8 — App.tsx updaten
+### Stap 7 — App.tsx updaten
 
 Voeg imports en routes toe aan `src/App.tsx`:
 
