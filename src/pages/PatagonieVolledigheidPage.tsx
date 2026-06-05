@@ -12,7 +12,7 @@ export default function PatagonieVolledigheidPage() {
       {/* Hero */}
       <div className="relative w-full h-[400px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1600&h=900&fit=crop&auto=format"
+          src="https://images.unsplash.com/photo-H3oXiq7_bII?w=1600&h=900&fit=crop&auto=format"
           alt="Patagonië & Falklands — Volledige route"
           className="w-full h-full object-cover"
           style={{ objectPosition: 'center 35%' }}
