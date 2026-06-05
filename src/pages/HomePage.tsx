@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, MapPin, Calendar } from 'lucide-react';
+import { ArrowRight, MapPin, Calendar, Heart, Truck, Sun } from 'lucide-react';
 import { alleReizen } from '../data/reisData';
 import type { Reis } from '../data/reisData';
 
