@@ -61,8 +61,8 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
                   href={`#${dag.id}`}
                   className="flex items-center gap-3 p-3 rounded-xl hover:bg-groen-licht border border-transparent hover:border-groen/15 transition-all duration-200 group"
                 >
-                  <div className="w-8 h-8 rounded-full bg-groen/10 group-hover:bg-groen/20 flex items-center justify-center flex-shrink-0 transition-colors">
-                    <span className="text-xs font-bold text-groen">{dag.dag}</span>
+                  <div className="min-w-[2rem] h-8 px-1.5 rounded-full bg-groen/10 group-hover:bg-groen/20 flex items-center justify-center flex-shrink-0 transition-colors">
+                    <span className="text-xs font-bold text-groen whitespace-nowrap">{dag.dag}</span>
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-tekst truncate">{dag.titel}</p>
