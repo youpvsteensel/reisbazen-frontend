@@ -71,7 +71,7 @@ export default function Nav() {
               rel="noopener noreferrer"
               className="text-white/70"
             >
-              <Instagram className="w-4 h-4" />
+              <Instagram className="w-5 h-5" />
             </a>
           </div>
         </div>
