@@ -9,6 +9,7 @@ export default {
         'groen-mid': '#2e7d52',
         tekst: '#1a1a1a',
         muted: '#666666',
+        achtergrond: '#f7f3ee',
       },
       fontFamily: {
         serif: ['"Playfair Display"', 'Georgia', 'serif'],
