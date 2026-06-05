@@ -35,7 +35,7 @@ const blokken = [
     route: '/patagonie/falklands',
     naam: 'Falkland Islands',
     dagBereik: 'Dagen 21–25',
-    hero: 'https://images.unsplash.com/photo-1551244072-5d12893278bc?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-qFxS5FkUSAQ?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Ongerepte wildlife op de rand van Antarctica. Vijf pinguïnsoorten, olifantzeehonden en de sfeervolle hoofdstad Stanley.',
     stops: ['Stanley', 'Sea Lion Island', 'King Penguins', 'FIGAS charter'],
     accent: 'Falkland Islands',
