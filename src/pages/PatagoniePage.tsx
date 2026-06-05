@@ -61,7 +61,7 @@ export default function PatagoniePage() {
           style={{ objectPosition: 'center 35%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-transparent" />
-        <div className="absolute inset-0 flex flex-col justify-end px-6 pb-16 max-w-5xl mx-auto left-0 right-0">
+        <div className="absolute inset-0 flex flex-col justify-end px-6 pb-16 max-w-6xl mx-auto left-0 right-0">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 mb-4">
             <Link to="/" className="text-xs text-white/60 hover:text-white/90 transition-colors flex items-center gap-1">
