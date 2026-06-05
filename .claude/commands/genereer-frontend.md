@@ -149,7 +149,7 @@ export default function <OnderdeelNaam>Page() {
 
 ---
 
-### Stap 7 — RouteKaart component genereren
+### Stap 6 — RouteKaart component genereren
 
 Genereer `src/components/RouteKaart<NaamPascalCase>.tsx` op basis van `RouteKaart.tsx`.
 
