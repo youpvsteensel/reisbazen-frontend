@@ -12,7 +12,9 @@ export default {
       },
       fontFamily: {
         serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Montserrat', 'system-ui', 'sans-serif'],
+        body: ['Lato', 'system-ui', 'sans-serif'],
+        logo: ['Lobster', 'cursive'],
       },
     },
   },
