@@ -57,41 +57,7 @@ Haal een **cover-foto voor de reis** op (gebruik de bestemming als query).
 
 ---
 
-### Stap 4 — BlokPagina generiek maken (eenmalige refactor)
-
-Controleer of `src/components/BlokPagina.tsx` nog hardcoded `reisRoute` en `reisNaam` waarden bevat.
-Als dat zo is, voer dan deze refactor uit **voordat** je nieuwe bestanden aanmaakt:
-
-1. Voeg `reisRoute` en `reisNaam` toe aan de `Blok` interface in `src/data/reisData.ts`:
-   ```typescript
-   export interface Blok {
-     // ... bestaande velden ...
-     reisRoute: string;   // bijv. '/patagonie'
-     reisNaam: string;    // bijv. 'Patagonië & Falklands'
-   }
-   ```
-
-2. Update `BlokPagina.tsx` om deze waarden uit het blok te lezen:
-   ```tsx
-   <BlokNavigatie
-     vorigeBlok={blok.vorigeBlok}
-     volgendeBlok={blok.volgendeBlok}
-     reisRoute={blok.reisRoute}
-     reisNaam={blok.reisNaam}
-   />
-   ```
-   En de footer:
-   ```tsx
-   <p className="text-xs text-muted mt-1">{blok.reisNaam}</p>
-   ```
-
-3. Voeg `reisRoute` en `reisNaam` toe aan de bestaande Patagonie-blokken in `reisData.ts`.
-
-4. Verifieer: `npx tsc --noEmit -p tsconfig.app.json` — geen fouten.
-
----
-
-### Stap 5 — reisData.ts uitbreiden
+### Stap 4 — reisData.ts uitbreiden
 
 Voeg aan `src/data/reisData.ts` toe:
 
