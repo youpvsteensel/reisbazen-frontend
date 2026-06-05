@@ -15,7 +15,7 @@ export default function HomePage() {
       {/* Hero */}
       <div className="relative w-full h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1600&h=900&fit=crop&auto=format"
+          src="/cover-routebaas.jpg"
           alt="Routebaas — onze reizen"
           className="w-full h-full object-cover"
           style={{ objectPosition: 'center 40%' }}
