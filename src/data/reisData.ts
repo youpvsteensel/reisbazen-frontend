@@ -111,8 +111,8 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Parque Pumalín',
         _unsplashQuery:'patagonia forest park',
         badges: ['Ferry Hornopirén', 'Oud-groeiwoud'],
-        foto: 'https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&h=700&fit=crop&auto=format',
-        fotoCredit: { url: 'https://unsplash.com/photos/1586348943529-beaae6c28db9' },
+        foto: 'https://images.unsplash.com/photo-1774546368858-29c0875b9ffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/photos/M-HE0QWE-hY' },
         beschrijving: 'Met de veerboot steken we over naar Caleta Gonzalo, het hart van Parque Pumalín. Oud-groeiwoud, bamboe-jungle en de sluimerende Volcán Chaitén wachten op ons.',
         activiteiten: [
           'Sendero Cascadas trail door het oud-groeiwoud',
