@@ -39,21 +39,57 @@ Toon de routes en vraag bevestiging.
 
 ---
 
-### Stap 3 — Foto's ophalen via Unsplash
+### Stap 3 — Foto's ophalen en verifiëren
 
-Per dag in het plan: haal een foto op via de Unsplash API.
+> **Kritisch:** Foute foto's geven een verkeerde indruk van een bestemming. Volg dit proces strikt.
 
-Gebruik het script:
+#### 3a — Verboden locaties per onderdeel vaststellen
+
+Bepaal vóór het zoeken per onderdeel welke locaties **niet** op een foto mogen staan. Denk aan:
+- Bekende fotogenieke plekken in hetzelfde land/regio die voor verwarring zorgen
+- Bijvoorbeeld: bij Carretera Austral-foto's → "NOT Torres del Paine, NOT El Chaltén, NOT Argentina"
+- Bijvoorbeeld: bij El Chaltén-foto's → "NOT Torres del Paine, NOT Chile"
+
+Leg dit per onderdeel vast als constraint voor de zoekstap.
+
+#### 3b — Zoeken met locatie-specifieke termen
+
+Gebruik **zo specifiek mogelijke zoektermen**, nooit alleen de regionale naam:
+
+| ❌ Te generiek | ✅ Specifiek |
+|---|---|
+| `patagonia` | `Carretera Austral gravel road Chile` |
+| `patagonia forest` | `Parque Pumalin Chaiten volcano Chile` |
+| `scotland highlands` | `Glencoe valley Scotland` |
+
+Zoek via Unsplash API of `https://unsplash.com/s/photos/{zoekterm}`.
+
+Gebruik het script als de access key beschikbaar is:
 ```bash
 cd C:/Users/youpv/Documents/Claude/Routebaas
-node scripts/fetch_unsplash_photos.mjs "<UNSPLASH_ACCESS_KEY>" "<locatienaam>" 1
+node scripts/fetch_unsplash_photos.mjs "<UNSPLASH_ACCESS_KEY>" "<specifieke-zoekterm>" 1
 ```
 
-Als het script niet bestaat of de access key ontbreekt, vraag de gebruiker om de key.
-Sla de resulterende foto-URL's op per dag (inclusief Unsplash credit-URL voor `fotoCredit`).
+#### 3c — Verifieer elke foto vóór gebruik
 
-Haal ook een **hero-foto per onderdeel** op (gebruik de eerste stop van het onderdeel als query).
-Haal een **cover-foto voor de reis** op (gebruik de bestemming als query).
+Voor **elke** geselecteerde foto (dag-foto's én hero-foto's):
+
+1. Fetch `https://unsplash.com/photos/{slug}` of de foto-pagina
+2. Lees: location tag, alt-tekst, beschrijving, fotograafnota's
+3. Controleer: staat de correcte locatie vermeld? Past het bij de dag?
+4. Check verboden locaties: komt een verboden locatienaam voor? → zoek opnieuw
+5. Noteer voor elke foto: wat het toont + of het MATCH ✅ of WRONG ❌ is
+
+Als een foto WRONG is: herhaal 3b met een andere zoekterm. **Nooit een foutieve foto accepteren.**
+
+#### 3d — Numerieke CDN-ID gebruiken
+
+Controleer dat elke foto-URL het formaat `images.unsplash.com/photo-{numeriek-id}` heeft.
+Slugs zoals `photo-H3oXiq7_bII` werken **niet** — haal altijd het echte numeric ID op via de foto-pagina.
+
+Sla per foto op: CDN-URL + Unsplash credit-URL voor `fotoCredit`.
+
+Haal ook hero-foto's (per onderdeel) en een cover-foto (voor de reis) op via dezelfde verificatiestap.
 
 ---
 
