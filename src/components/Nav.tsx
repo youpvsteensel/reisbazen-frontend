@@ -20,8 +20,8 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="font-serif italic text-2xl text-white tracking-tight leading-none">
-            ROUTEBAAS
+          <Link to="/" className="font-logo text-2xl text-white leading-none">
+            Routebaas
           </Link>
 
           {/* Desktop links */}
