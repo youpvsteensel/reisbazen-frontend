@@ -85,7 +85,7 @@ export const blokken: Record<string, Blok> = {
     naam: 'Carretera Austral',
     subtitel: 'Chili\'s wilde ruggengraat per camper',
     dagBereik: 'Dagen 1–14',
-    hero: 'https://images.unsplash.com/photo-1557543878-042c9857f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
+    hero: 'https://images.unsplash.com/photo-1586214096096-eb48f33f374e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/photos/_7RIy-UNfnI' },
     route: '/patagonie/carretera-austral',
     reisRoute: '/patagonie',
