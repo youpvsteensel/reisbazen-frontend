@@ -53,7 +53,7 @@ export default function HomePage() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-100 py-8 px-4 text-center">
+      <footer className="border-t border-gray-200 py-8 px-4 text-center">
         <a
           href="https://www.reisbazen.nl"
           className="font-logo text-xl text-groen hover:text-groen-mid transition-colors"
