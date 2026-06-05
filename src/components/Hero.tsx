@@ -34,6 +34,8 @@ export default function Hero({ image, creditUrl, title, subtitle, dagBereik, rei
             <Link to={reisRoute} className="text-xs text-white/55 hover:text-white/90 transition-colors">
               {reisNaam}
             </Link>
+            <span className="text-white/30 text-xs">/</span>
+            <span className="text-xs text-white/80">{title}</span>
           </div>
         )}
 
