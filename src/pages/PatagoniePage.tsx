@@ -74,7 +74,7 @@ export default function PatagoniePage() {
 
           <div className="flex items-center gap-3 mb-5">
             <span className="text-xs font-medium text-white/80 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-1.5 uppercase tracking-widest">
-              Huwelijksreis 2025
+              Huwelijksreis
             </span>
             <span className="text-xs font-medium bg-groen/70 text-white backdrop-blur-sm border border-groen/40 rounded-full px-4 py-1.5">
               25 Dagen
