@@ -138,7 +138,7 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Puyuhuapi',
         _unsplashQuery:'patagonia fjord',
         badges: ['Fjord', 'Warmwaterbronnen'],
-        foto: 'https://images.unsplash.com/photo-1775010172497-4ca1d978040d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        foto: 'https://images.unsplash.com/photo-1603748849529-bca520039ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/vayZXH63Y0s' },
         beschrijving: 'Het verregende, mysterieuze Puyuhuapi ligt aan een smal fjord. De absolute highlight: Termas de Puyuhuapi — warmwaterbronnen direct aan het water, omgeven door bos en mist.',
         activiteiten: [
