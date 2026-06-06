@@ -48,13 +48,13 @@ export default function BlokCard({
           <h3 className="font-serif text-2xl font-bold text-white">{naam}</h3>
         </div>
       </div>
-      <div className="p-5">
+      <div className="p-5 flex flex-col flex-1">
         <p className="font-body text-sm text-muted leading-relaxed mb-4">{beschrijving}</p>
-        <div className="flex flex-wrap gap-1.5 mb-4">
+        <div className="flex flex-wrap gap-1.5 mb-4 flex-1 content-start">
           {stops.map((s) => (
             <span
               key={s}
-              className="text-xs font-medium bg-groen-licht border border-groen/20 text-groen rounded-full px-2.5 py-1"
+              className="text-xs font-medium bg-groen-licht border border-groen/20 text-groen rounded-full px-2.5 py-1 h-fit"
             >
               {s}
             </span>
