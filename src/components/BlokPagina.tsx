@@ -30,7 +30,7 @@ export default function BlokPagina({ blok }: BlokPaginaProps) {
           </div>
 
           {/* Sidebar */}
-          <aside className="lg:sticky lg:top-6">
+          <aside>
             <div className="rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
               <div className="bg-groen p-5">
                 <p className="text-xs font-semibold text-white/70 uppercase tracking-widest mb-1">Praktisch</p>
