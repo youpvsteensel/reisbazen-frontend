@@ -120,25 +120,33 @@ export default function PatagoniePage() {
 
             {/* Links: reisoverzicht blok */}
             <div className="rounded-2xl overflow-hidden border border-groen/15 bg-white shadow-sm flex flex-col h-full">
-              {/* Cover */}
-              <div className="relative h-48 overflow-hidden flex-shrink-0">
-                <img
-                  src="https://images.unsplash.com/photo-1558517286-8a9cb0b8c793?w=900&h=600&fit=crop&auto=format"
-                  alt="Patagonië & Falklands"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-[10px] font-semibold text-white/70 uppercase tracking-widest mb-1">25 Dagen</p>
-                  <h3 className="font-serif text-2xl font-bold text-white leading-tight">Patagonië & Falklands</h3>
-                </div>
+              {/* Header */}
+              <div className="bg-groen px-5 py-4">
+                <p className="text-[10px] font-semibold text-white/60 uppercase tracking-widest mb-1">25 Dagen · Volledige reis</p>
+                <h3 className="font-serif text-2xl font-bold text-white leading-tight">Patagonië & Falklands</h3>
               </div>
 
-              {/* Tekst + knop */}
-              <div className="p-5 flex flex-col flex-1 justify-end gap-4">
-                <p className="font-body text-sm text-muted leading-relaxed">
-                  Bekijk de uitgebreide dagplanningen van deze avontuurlijke reis — van de Carretera Austral tot de Falkland Islands, dag voor dag uitgewerkt.
-                </p>
+              {/* 2×2 reisdelen grid */}
+              <div className="grid grid-cols-2 divide-x divide-y divide-gray-100 flex-1">
+                {blokken.map((blok, i) => (
+                  <Link
+                    key={blok.route}
+                    to={blok.route}
+                    className="p-4 flex flex-col gap-1.5 hover:bg-groen-licht transition-colors group"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="w-5 h-5 rounded-full bg-groen/10 group-hover:bg-groen/20 flex items-center justify-center text-[10px] font-bold text-groen flex-shrink-0 transition-colors">
+                        {i + 1}
+                      </span>
+                      <span className="text-sm font-semibold text-tekst leading-tight">{blok.naam}</span>
+                    </div>
+                    <p className="text-xs text-muted ml-7">{blok.dagBereik}</p>
+                  </Link>
+                ))}
+              </div>
+
+              {/* Knop */}
+              <div className="px-5 py-4 border-t border-gray-100">
                 <Link
                   to="/patagonie/volledig"
                   className="flex items-center gap-1.5 text-groen text-sm font-semibold group-hover:gap-2.5 transition-all group"
