@@ -50,7 +50,7 @@ export default function Nav() {
                 }`
               }
             >
-              Reizen
+              Alle Reizen
             </NavLink>
             <a
               href="https://www.reisbazen.nl"
