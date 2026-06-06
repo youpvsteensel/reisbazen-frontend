@@ -122,7 +122,7 @@ export default function PatagoniePage() {
             <div className="rounded-2xl overflow-hidden border border-groen/15 bg-white shadow-sm flex flex-col h-full">
               {/* Header */}
               <div className="bg-groen px-5 py-4">
-                <p className="text-[10px] font-semibold text-white/60 uppercase tracking-widest mb-1">25 Dagen · Volledige reis</p>
+                <p className="text-[10px] font-semibold text-white/60 uppercase tracking-widest mb-1">25 Dagen</p>
                 <h3 className="font-serif text-2xl font-bold text-white leading-tight">Patagonië & Falklands</h3>
               </div>
 
