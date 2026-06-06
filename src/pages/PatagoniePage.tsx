@@ -126,13 +126,20 @@ export default function PatagoniePage() {
                 <h3 className="font-serif text-2xl font-bold text-white leading-tight">Patagonië & Falklands</h3>
               </div>
 
+              {/* Beschrijving */}
+              <div className="px-5 pt-4 pb-3">
+                <p className="text-xs text-muted leading-relaxed">
+                  25 dagen dwars door het zuiden van Zuid-Amerika — van de onverharde wegen van de Carretera Austral via de pieken van Fitz Roy en Ushuaia tot de ongerepte wildlife van de Falkland Islands.
+                </p>
+              </div>
+
               {/* 2×2 reisdelen grid */}
-              <div className="grid grid-cols-2 divide-x divide-y divide-gray-100 flex-1">
+              <div className="grid grid-cols-2 divide-x divide-y divide-gray-100 border-t border-gray-100">
                 {blokken.map((blok, i) => (
                   <Link
                     key={blok.route}
                     to={blok.route}
-                    className="p-4 flex flex-col gap-1.5 hover:bg-groen-licht transition-colors group"
+                    className="px-4 py-3 flex flex-col gap-1 hover:bg-groen-licht transition-colors group"
                   >
                     <div className="flex items-center gap-2">
                       <span className="w-5 h-5 rounded-full bg-groen/10 group-hover:bg-groen/20 flex items-center justify-center text-[10px] font-bold text-groen flex-shrink-0 transition-colors">
@@ -146,7 +153,7 @@ export default function PatagoniePage() {
               </div>
 
               {/* Knop */}
-              <div className="px-5 py-4 border-t border-gray-100">
+              <div className="px-5 py-3 border-t border-gray-100">
                 <Link
                   to="/patagonie/volledig"
                   className="flex items-center gap-1.5 text-groen text-sm font-semibold group-hover:gap-2.5 transition-all group"
