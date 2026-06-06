@@ -21,6 +21,7 @@ export default function Hero({ image, creditUrl, title, subtitle, dagBereik, rei
         style={{ objectPosition: 'center 40%' }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent h-24" />
       <div className="absolute inset-0 flex flex-col justify-end px-6 pb-12 max-w-6xl mx-auto w-full left-0 right-0">
 
         {/* Breadcrumb */}
