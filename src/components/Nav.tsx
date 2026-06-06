@@ -41,17 +41,6 @@ export default function Nav() {
 
           {/* Mobile */}
           <div className="flex md:hidden items-center gap-5">
-            <NavLink
-              to="/"
-              end
-              className={({ isActive }) =>
-                `text-[10px] uppercase tracking-widest font-semibold transition-colors ${
-                  isActive ? 'text-white underline underline-offset-4 decoration-white/50' : 'text-white/70'
-                }`
-              }
-            >
-              Alle Reizen
-            </NavLink>
             <a
               href="https://www.reisbazen.nl"
               target="_blank"
