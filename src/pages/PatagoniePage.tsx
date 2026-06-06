@@ -72,7 +72,7 @@ export default function PatagoniePage() {
             <span className="text-xs text-white/80">Patagonië & Falklands</span>
           </div>
 
-          <h1 className="font-serif text-5xl sm:text-6xl font-bold text-white leading-tight mb-4 whitespace-nowrap">
+          <h1 className="font-serif text-4xl sm:text-6xl font-bold text-white leading-tight mb-4">
             Patagonië & Falkland Islands
           </h1>
           <p className="font-body text-xl text-white/75 font-light max-w-2xl leading-relaxed">
