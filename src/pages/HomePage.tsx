@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <div className="relative w-full h-[700px] overflow-hidden">
+      <div className="relative w-full h-[600px] overflow-hidden">
         <img
           src="/cover-routebaas.jpg"
           alt="Routebaas — onze reizen"
