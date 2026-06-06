@@ -25,7 +25,7 @@ export default function BlokCard({
   return (
     <Link
       to={route}
-      className="group rounded-2xl overflow-hidden border border-gray-100 hover:border-groen/30 hover:shadow-lg transition-all duration-300 bg-white"
+      className="group rounded-2xl overflow-hidden border border-gray-100 hover:border-groen/30 hover:shadow-lg transition-all duration-300 bg-white flex flex-col"
     >
       <div className="relative h-56 overflow-hidden bg-gray-200">
         <img
