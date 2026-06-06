@@ -40,23 +40,31 @@ export default function Nav() {
           </div>
 
           {/* Mobile */}
-          <div className="flex md:hidden items-center gap-4">
+          <div className="flex md:hidden items-center gap-5">
             <NavLink
               to="/"
               end
               className={({ isActive }) =>
                 `text-[10px] uppercase tracking-widest font-semibold transition-colors ${
-                  isActive ? 'text-[#c4785a]' : 'text-white/80'
+                  isActive ? 'text-white underline underline-offset-4 decoration-white/50' : 'text-white/70'
                 }`
               }
             >
               Reizen
             </NavLink>
             <a
+              href="https://www.reisbazen.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[10px] uppercase tracking-widest font-semibold text-white/70 hover:text-white transition-colors"
+            >
+              Reisbazen.nl
+            </a>
+            <a
               href="https://www.instagram.com/reisbazen/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/70"
+              className="text-white/70 hover:text-white transition-colors"
             >
               <Instagram className="w-5 h-5" />
             </a>
