@@ -93,7 +93,7 @@ export const blokken: Record<string, Blok> = {
     volgendeBlok: { naam: 'El Chaltén', route: '/patagonie/el-chalten' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'November tot maart' },
-      { icon: '🚐', label: 'Vervoer', waarde: '4x4 camper met daktent' },
+      { icon: '🚐', label: 'Vervoer', waarde: '4x4 camper' },
       { icon: '🛣', label: 'Weg', waarde: 'Deels onverhard (ripio)' },
       { icon: '⛽', label: 'Benzine', waarde: 'Vol tanken bij elke stop' },
       { icon: '🛂', label: 'Grens', waarde: 'Geen grensovergang nodig (volledig Chili)' },
