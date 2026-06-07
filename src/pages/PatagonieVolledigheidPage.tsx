@@ -91,7 +91,7 @@ export default function PatagonieVolledigheidPage() {
         <Link to="/patagonie" className="font-logo text-lg text-groen hover:text-groen-mid transition-colors">
           Routebaas
         </Link>
-        <p className="text-xs text-muted mt-1">Patagonië & Falklands — Volledige route</p>
+        <p className="text-xs text-muted mt-1">Patagonië & Falklands · Volledige route</p>
       </footer>
     </div>
   );
