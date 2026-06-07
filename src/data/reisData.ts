@@ -106,8 +106,8 @@ export const blokken: Record<string, Blok> = {
         titel: 'Aankomst Bariloche',
         locatie: 'San Carlos de Bariloche',
         badges: ['Vlucht aankomst', 'Meren'],
-        foto: 'https://images.unsplash.com/photo-1603748849529-bca520039ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
-        fotoCredit: { url: 'https://unsplash.com/photos/vayZXH63Y0s' },
+        foto: 'https://images.unsplash.com/photo-1575819453111-abb276cd4973?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/s/photos/bariloche' },
         beschrijving: 'Het avontuur begint in Bariloche, de toegangspoort tot het Argentijnse merengebied. Na de internationale vlucht installeren we ons en maken we kennis met de bergmeren en met de bergen die over het Nahuel Huapi-meer uittorenen.',
         activiteiten: [
           'Cerro Campanario met de stoeltjeslift voor een van de mooiste panorama\'s',
