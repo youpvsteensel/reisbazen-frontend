@@ -378,7 +378,7 @@ export const blokken: Record<string, Blok> = {
       {
         id: 'dag23',
         dag: '23–24',
-        titel: 'Sea Lion Island — Wildlife Paradijs',
+        titel: 'Sea Lion Island: Wildlife Paradijs',
         locatie: 'Sea Lion Island',
         _unsplashQuery:'penguin sea lion wildlife',
         badges: ['Sea Lions', '5 pinguïnsoorten'],
