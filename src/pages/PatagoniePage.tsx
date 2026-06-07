@@ -17,7 +17,7 @@ const blokken = [
     route: '/patagonie/carretera-austral',
     naam: 'Carretera Austral',
     dagBereik: 'Dagen 5–18',
-    hero: 'https://images.unsplash.com/photo-1518787289325-94c6917b88ef?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1586214096096-eb48f33f374e?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Chili\'s wilde ruggengraat per camper. Van Puerto Montt tot Balmaceda langs fjorden, gletsjers en onverharde wegen.',
     stops: ['Puerto Montt', 'Parque Pumalín', 'Puyuhuapi', 'Queulat', 'Cerro Castillo'],
     accent: 'Chili',
