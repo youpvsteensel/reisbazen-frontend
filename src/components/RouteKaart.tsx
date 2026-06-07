@@ -25,6 +25,7 @@ const stops = [
 ];
 
 const KLEUREN: Record<string, string> = {
+  'Bariloche':         '#a87332',
   'Carretera Austral': '#1a5c3a',
   'El Chaltén':        '#2d9c6a',
   'Ushuaia':           '#c4785a',
