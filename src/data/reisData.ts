@@ -121,8 +121,8 @@ export const blokken: Record<string, Blok> = {
         titel: 'Circuito Chico & Meren',
         locatie: 'Bariloche',
         badges: ['Roadtrip', 'Meren'],
-        foto: 'https://images.unsplash.com/photo-1570227354456-3de3cba2c5ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
-        fotoCredit: { url: 'https://unsplash.com/photos/H0nwwsbHU20' },
+        foto: 'https://images.unsplash.com/photo-1619710433881-f247da33a071?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/s/photos/bariloche' },
         beschrijving: 'De klassieke Circuito Chico voert langs het Nahuel Huapi-meer en het schiereiland Llao Llao. Een dag van uitzichtpunten, bossen en azuurblauwe baaien aan de voet van de Andes.',
         activiteiten: [
           'Circuito Chico rijden langs de meren en uitzichtpunten',
