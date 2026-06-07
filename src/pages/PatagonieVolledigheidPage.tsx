@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import DagKaart from '../components/DagKaart';
 import { blokken as alleBlokken } from '../data/reisData';
 
