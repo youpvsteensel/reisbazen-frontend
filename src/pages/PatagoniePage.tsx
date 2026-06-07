@@ -8,7 +8,7 @@ const blokken = [
     route: '/patagonie/bariloche',
     naam: 'Bariloche',
     dagBereik: 'Dagen 1–4',
-    hero: 'https://images.unsplash.com/photo-1603748849529-bca520039ef8?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1575393476573-6cdacd2e8c88?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Het Argentijnse merengebied aan de voet van de Andes. Bergmeren, granieten toppen en de start van het avontuur, voordat we via de Cruce Andino naar Chili oversteken.',
     stops: ['Cerro Campanario', 'Circuito Chico', 'Refugio Frey', 'Cruce Andino'],
     accent: 'Argentinië',
