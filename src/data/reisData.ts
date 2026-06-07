@@ -230,7 +230,7 @@ export const blokken: Record<string, Blok> = {
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'November tot maart' },
       { icon: '🎫', label: 'Nationaal Park', waarde: 'Gratis toegang' },
-      { icon: '🌦', label: 'Weer', waarde: 'Extreem wisselvallig, check Windy.com' },
+      { icon: '🌦', label: 'Weer', waarde: 'Extreem wisselvallig, plan flexibel' },
       { icon: '⏰', label: 'Tip', waarde: 'Laguna de los Tres bij zonsopgang (start 05:00)' },
     ],
     dagen: [
