@@ -26,7 +26,7 @@ export default function HomePage() {
             Routebaas
           </h1>
           <p className="font-body text-lg text-white/75 font-light max-w-xl leading-relaxed">
-            Onze bucketlist reisroutes — uitgewerkt tot op de dag. Van Patagonië tot Japan.
+            Onze bucketlistroutes, tot op de dag uitgewerkt. Van Patagonië tot Japan.
           </p>
         </div>
       </div>
