@@ -44,7 +44,7 @@ const blokken = [
 
 const tripStats = [
   { icon: Calendar, label: '25 Dagen',       sub: 'Reisduur' },
-  { icon: Sun,      label: 'Nov – Mrt',      sub: 'Beste reistijd' },
+  { icon: Sun,      label: 'Nov tot mrt',    sub: 'Beste reistijd' },
   { icon: Truck,    label: 'Camper · Jeep',  sub: 'Vervoer' },
   { icon: Heart,    label: 'Huwelijksreis',  sub: 'Type reis' },
 ];
