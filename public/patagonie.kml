@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Reisroute Patagonië &amp; Falklands</name>
+    <description>29 dagen huwelijksreis van Bariloche via de Carretera Austral, El Chaltén, Ushuaia naar de Falkland Islands.</description>
+    <Style id="lijn_Overig">
+      <LineStyle>
+        <color>ff00aa00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Overig">
+      <IconStyle>
+        <color>ff00aa00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Stops</name>
+      <Placemark>
+        <name>Dag 1 — Aankomst Bariloche</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Bariloche&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-71.310,-41.133,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 2 — Circuito Chico &amp; Meren</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Bariloche&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-71.310,-41.133,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 3 — Refugio Frey Trek</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Bariloche&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-71.440,-41.170,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 4 — Cruce Andino naar Chili</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Bariloche&lt;br/&gt;&lt;b&gt;Grensovergang:&lt;/b&gt; Argentinië → Chili&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.9395915,-41.471798,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 5 — Camper Ophalen in Puerto Montt</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.9395915,-41.471798,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 6 — Ferry &amp; Eerste Hikes</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Wildkamperen&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.580,-42.650,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 8 — Fjorden &amp; Warmwaterbronnen</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.567,-44.333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 10 — De Hangende Gletsjer</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.700,-44.817,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 11 — Doorrijden naar Cerro Castillo</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;&lt;b&gt;Reisdag&lt;/b&gt;&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.217,-46.117,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 12 — Cerro Castillo Circuit</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Wildkamperen&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.217,-46.117,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 16 — Doorrijden naar het Zuiden</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.066,-45.575,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 18 — Camper Inleveren &amp; Vlucht</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Carretera Austral&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-71.700,-45.917,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 19 — Aankomst &amp; Acclimatiseren</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; El Chaltén&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.885,-49.331,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 20 — Fitz Roy Hikes</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; El Chaltén&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-72.885,-49.331,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 22 — Reisdag naar Ushuaia</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; El Chaltén&lt;br/&gt;&lt;b&gt;Reisdag&lt;/b&gt;&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-68.303,-54.802,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 23 — Beagle Channel</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Ushuaia&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-68.303,-54.802,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 24 — Tierra del Fuego &amp; Reisdag</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Ushuaia&lt;br/&gt;&lt;b&gt;Doorreis:&lt;/b&gt; Punta Arenas&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-70.917,-53.163,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 25 — Stanley Verkennen</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Falkland Islands&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-57.860,-51.694,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 27 — Sea Lion Island</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Falkland Islands&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Sea Lion Island Lodge&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-59.083,-52.433,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 29 — Terugreis</name>
+        <styleUrl>#punt_Overig</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Falkland Islands&lt;br/&gt;</description>
+        <Point>
+          <coordinates>-57.860,-51.694,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Routes</name>
+      <Placemark>
+        <name>Patagonië &amp; Falklands</name>
+        <styleUrl>#lijn_Overig</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-71.310,-41.133,0 -71.440,-41.170,0 -72.9395915,-41.471798,0 -72.580,-42.650,0 -72.567,-44.333,0 -72.700,-44.817,0 -72.217,-46.117,0 -72.066,-45.575,0 -71.700,-45.917,0 -72.885,-49.331,0 -68.303,-54.802,0 -70.917,-53.163,0 -57.860,-51.694,0 -59.083,-52.433,0 -57.860,-51.694,0</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
