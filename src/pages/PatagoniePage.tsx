@@ -130,7 +130,7 @@ export default function PatagoniePage() {
               {/* Beschrijving */}
               <div className="px-5 pt-4 pb-3">
                 <p className="text-xs text-muted leading-relaxed">
-                  25 dagen dwars door het zuiden van Zuid-Amerika — van de onverharde wegen van de Carretera Austral via de pieken van Fitz Roy en Ushuaia tot de ongerepte wildlife van de Falkland Islands.
+                  25 dagen dwars door het zuiden van Zuid-Amerika, van de onverharde wegen van de Carretera Austral via de pieken van Fitz Roy en Ushuaia tot de ongerepte natuur van de Falkland Islands.
                 </p>
               </div>
 
