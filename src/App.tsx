@@ -9,6 +9,7 @@ function ScrollToTop() {
 }
 import HomePage from './pages/HomePage';
 import PatagoniePage from './pages/PatagoniePage';
+import BarilochePage from './pages/BarilochePage';
 import CarreteraAustralPage from './pages/CarreteraAustralPage';
 import ElChaltenPage from './pages/ElChaltenPage';
 import UshuaiaPage from './pages/UshuaiaPage';
