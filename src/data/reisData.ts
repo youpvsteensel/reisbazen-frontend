@@ -243,12 +243,11 @@ export const blokken: Record<string, Blok> = {
         badges: ['Fitz Roy', 'Weercheck'],
         foto: 'https://images.unsplash.com/photo-1615337138008-899c20f72404?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/8CAFCS1BWME' },
-        beschrijving: 'El Chaltén is het kleine wandeldorp aan de voet van Fitz Roy. De eerste dag draait om acclimatiseren, het dorp verkennen en de cruciale weersinformatie ophalen voor de komende dagen.',
+        beschrijving: 'El Chaltén is het kleine wandeldorp aan de voet van Fitz Roy. De eerste dag draait om acclimatiseren, het dorp verkennen en je voorbereiden op de wandelingen van de komende dagen.',
         activiteiten: [
           'Mirador de los Cóndores, een korte acclimatisatiewandeling van een tot twee uur',
           'Het dorp El Chaltén verkennen voor een restaurant en proviand',
-          'Weersvoorspelling checken via Windy.com en de lokale bergschool',
-          'De dagwandelingen plannen op basis van het weer',
+          'De dagwandelingen voor de komende dagen indelen',
         ],
       },
       {
