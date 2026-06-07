@@ -25,7 +25,7 @@ export default function PatagonieVolledigheidPage() {
               Patagonië & Falklands
             </Link>
           </div>
-          <p className="text-[11px] font-semibold text-white/70 uppercase tracking-widest mb-2">Dagen 1–25 · Volledige route</p>
+          <p className="text-[11px] font-semibold text-white/70 uppercase tracking-widest mb-2">Dagen 1–29 · Volledige route</p>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white leading-tight mb-3">
             Patagonië & Falklands
           </h1>
