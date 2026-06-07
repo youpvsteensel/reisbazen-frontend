@@ -25,6 +25,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/patagonie" element={<PatagoniePage />} />
+          <Route path="/patagonie/bariloche" element={<BarilochePage />} />
           <Route path="/patagonie/volledig" element={<PatagonieVolledigheidPage />} />
           <Route path="/patagonie/carretera-austral" element={<CarreteraAustralPage />} />
           <Route path="/patagonie/el-chalten" element={<ElChaltenPage />} />
