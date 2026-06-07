@@ -64,18 +64,9 @@ export default function PatagonieVolledigheidPage() {
                 <h2 className="font-serif text-3xl font-bold text-tekst">{blok.naam}</h2>
                 <p className="text-muted mt-1 leading-relaxed text-sm">{blok.subtitel}</p>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-medium text-white bg-groen/80 rounded-full px-3 py-1">
-                  {String(blokIndex + 1).padStart(2, '0')}
-                </span>
-                <Link
-                  to={blok.route}
-                  className="flex items-center gap-1.5 text-xs font-semibold text-groen hover:text-groen-mid transition-colors whitespace-nowrap"
-                >
-                  Onderdeel bekijken
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
-              </div>
+              <span className="text-xs font-medium text-white bg-groen/80 rounded-full px-3 py-1">
+                {String(blokIndex + 1).padStart(2, '0')}
+              </span>
             </div>
 
             {/* Dagen van dit blok */}
