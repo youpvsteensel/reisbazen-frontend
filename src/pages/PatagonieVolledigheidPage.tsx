@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import DagKaart from '../components/DagKaart';
 import { blokken as alleBlokken } from '../data/reisData';
 
-const blokVolgorde = ['carretera', 'chalten', 'ushuaia', 'falklands'];
+const blokVolgorde = ['bariloche', 'carretera', 'chalten', 'ushuaia', 'falklands'];
 const blokken = blokVolgorde.map((key) => alleBlokken[key]);
 
 export default function PatagonieVolledigheidPage() {
