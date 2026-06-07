@@ -18,7 +18,7 @@ const blokken = [
     naam: 'El Chaltén',
     dagBereik: 'Dagen 15–18',
     hero: 'https://images.unsplash.com/photo-1626368185783-7c928d6f0133?w=900&h=600&fit=crop&auto=format',
-    beschrijving: 'Fitz Roy — de meest iconische berg van Patagonië. Dagwandelingen naar Laguna de los Tres en Laguna Torre.',
+    beschrijving: 'Fitz Roy, de meest iconische berg van Patagonië. Dagwandelingen naar Laguna de los Tres en Laguna Torre.',
     stops: ['Fitz Roy', 'Laguna de los Tres', 'Laguna Torre', 'Cerro Torre'],
     accent: 'Argentinië',
   },
