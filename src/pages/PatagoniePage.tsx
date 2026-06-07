@@ -180,7 +180,7 @@ export default function PatagoniePage() {
                 <RouteKaart />
               </div>
               <a
-                href="https://www.google.com/maps/dir/Puerto+Montt,Chile/Parque+Pumalin,Chile/Puyuhuapi,Chile/Queulat,Chile/Villa+Cerro+Castillo,Chile/El+Chalten,Argentina/Ushuaia,Argentina/Stanley,Falkland+Islands"
+                href="https://www.google.com/maps/dir/San+Carlos+de+Bariloche,Argentina/Puerto+Montt,Chile/Parque+Pumalin,Chile/Puyuhuapi,Chile/Queulat,Chile/Villa+Cerro+Castillo,Chile/El+Chalten,Argentina/Ushuaia,Argentina/Stanley,Falkland+Islands"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl border border-groen/30 bg-white text-groen text-sm font-semibold hover:bg-groen hover:text-white transition-all duration-200"
