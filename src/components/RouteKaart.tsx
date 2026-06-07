@@ -92,7 +92,7 @@ export default function RouteKaart() {
   return (
     <div
       ref={containerRef}
-      style={{ height: '288px', width: '100%', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(26,92,58,0.15)', boxShadow: '0 1px 4px rgba(0,0,0,0.08)', zIndex: 0, position: 'relative' }}
+      style={{ height: '100%', minHeight: '288px', width: '100%', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(26,92,58,0.15)', boxShadow: '0 1px 4px rgba(0,0,0,0.08)', zIndex: 0, position: 'relative' }}
     />
   );
 }
