@@ -10,6 +10,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const stops = [
+  { naam: 'Bariloche',        lat: -41.133, lng: -71.310, onderdeel: 'Bariloche' },
   { naam: 'Puerto Montt',     lat: -41.469, lng: -72.942, onderdeel: 'Carretera Austral' },
   { naam: 'Parque Pumalín',   lat: -42.650, lng: -72.580, onderdeel: 'Carretera Austral' },
   { naam: 'Puyuhuapi',        lat: -44.333, lng: -72.567, onderdeel: 'Carretera Austral' },
