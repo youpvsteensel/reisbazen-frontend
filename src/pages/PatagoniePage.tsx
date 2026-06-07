@@ -5,9 +5,18 @@ import RouteKaart from '../components/RouteKaart';
 
 const blokken = [
   {
+    route: '/patagonie/bariloche',
+    naam: 'Bariloche',
+    dagBereik: 'Dagen 1–4',
+    hero: 'https://images.unsplash.com/photo-1603748849529-bca520039ef8?w=900&h=600&fit=crop&auto=format',
+    beschrijving: 'Het Argentijnse merengebied aan de voet van de Andes. Bergmeren, granieten toppen en de start van het avontuur, voordat we via de Cruce Andino naar Chili oversteken.',
+    stops: ['Cerro Campanario', 'Circuito Chico', 'Refugio Frey', 'Cruce Andino'],
+    accent: 'Argentinië',
+  },
+  {
     route: '/patagonie/carretera-austral',
     naam: 'Carretera Austral',
-    dagBereik: 'Dagen 1–14',
+    dagBereik: 'Dagen 5–18',
     hero: 'https://images.unsplash.com/photo-1518787289325-94c6917b88ef?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Chili\'s wilde ruggengraat per camper. Van Puerto Montt tot Balmaceda langs fjorden, gletsjers en onverharde wegen.',
     stops: ['Puerto Montt', 'Parque Pumalín', 'Puyuhuapi', 'Queulat', 'Cerro Castillo'],
@@ -16,7 +25,7 @@ const blokken = [
   {
     route: '/patagonie/el-chalten',
     naam: 'El Chaltén',
-    dagBereik: 'Dagen 15–18',
+    dagBereik: 'Dagen 19–22',
     hero: 'https://images.unsplash.com/photo-1626368185783-7c928d6f0133?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Fitz Roy, de meest iconische berg van Patagonië. Dagwandelingen naar Laguna de los Tres en Laguna Torre.',
     stops: ['Fitz Roy', 'Laguna de los Tres', 'Laguna Torre', 'Cerro Torre'],
@@ -25,7 +34,7 @@ const blokken = [
   {
     route: '/patagonie/ushuaia',
     naam: 'Ushuaia',
-    dagBereik: 'Dagen 19–20',
+    dagBereik: 'Dagen 23–24',
     hero: 'https://images.unsplash.com/photo-1727876242321-adfd8fc68669?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'De zuidelijkste stad ter wereld. Beagle Channel, Tierra del Fuego Nationaal Park en de sprong naar de Falklands.',
     stops: ['Beagle Channel', 'Tierra del Fuego NP', 'Stanley vlucht'],
@@ -34,16 +43,16 @@ const blokken = [
   {
     route: '/patagonie/falklands',
     naam: 'Falkland Islands',
-    dagBereik: 'Dagen 21–25',
+    dagBereik: 'Dagen 25–29',
     hero: 'https://images.unsplash.com/photo-1493825402953-2eb41bfdbba2?w=900&h=600&fit=crop&auto=format',
-    beschrijving: 'Ongerepte wildlife op de rand van Antarctica. Vijf pinguïnsoorten, olifantzeehonden en de sfeervolle hoofdstad Stanley.',
+    beschrijving: 'Ongerepte natuur op de rand van Antarctica. Vijf pinguïnsoorten, olifantzeehonden en de sfeervolle hoofdstad Stanley.',
     stops: ['Stanley', 'Sea Lion Island', 'King Penguins', 'FIGAS charter'],
     accent: 'Falkland Islands',
   },
 ];
 
 const tripStats = [
-  { icon: Calendar, label: '25 Dagen',       sub: 'Reisduur' },
+  { icon: Calendar, label: '29 Dagen',       sub: 'Reisduur' },
   { icon: Sun,      label: 'Nov tot mrt',    sub: 'Beste reistijd' },
   { icon: Truck,    label: 'Camper · Vlucht', sub: 'Vervoer' },
   { icon: Heart,    label: 'Huwelijksreis',  sub: 'Type reis' },
