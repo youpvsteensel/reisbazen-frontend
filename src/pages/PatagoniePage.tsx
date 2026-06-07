@@ -86,7 +86,7 @@ export default function PatagoniePage() {
             Patagonië & Falkland Islands
           </h1>
           <p className="font-body text-xl text-white/75 font-light max-w-2xl leading-relaxed">
-            Van de wilde Carretera Austral tot de ongerepte natuur van de Falklands. 25 dagen aan het einde van de wereld.
+            Van het merengebied rond Bariloche en de wilde Carretera Austral tot de ongerepte natuur van de Falklands. 29 dagen aan het einde van de wereld.
           </p>
 
           {/* Quick blok links */}
@@ -201,7 +201,7 @@ export default function PatagoniePage() {
             De route in {blokken.length} delen
           </p>
           <p className="font-body text-xl font-light max-w-2xl mx-auto leading-relaxed text-tekst/60">
-            Van de wilde Carretera Austral tot de ongerepte natuur van de Falklands. 25 dagen aan het einde van de wereld.
+            Van het merengebied rond Bariloche en de wilde Carretera Austral tot de ongerepte natuur van de Falklands. 29 dagen aan het einde van de wereld.
           </p>
         </div>
 
