@@ -57,7 +57,7 @@ export default function HomePage() {
         >
           Reisbazen
         </a>
-        <p className="text-xs text-muted mt-1">Bucketlist reisroutes — uitgewerkt tot op de dag</p>
+        <p className="text-xs text-muted mt-1">Bucketlistroutes, tot op de dag uitgewerkt</p>
       </footer>
     </div>
   );
