@@ -30,7 +30,7 @@ export default function PatagonieVolledigheidPage() {
             Patagonië & Falklands
           </h1>
           <p className="font-body text-lg text-white/75 font-light max-w-2xl">
-            Alle 25 dagen achter elkaar — van Puerto Montt tot de Falkland Islands.
+            Alle 25 dagen achter elkaar, van Puerto Montt tot de Falkland Islands.
           </p>
         </div>
       </div>
