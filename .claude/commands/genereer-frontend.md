@@ -93,6 +93,22 @@ Sla per foto op: CDN-URL + Unsplash credit-URL voor `fotoCredit`.
 
 Haal ook hero-foto's (per onderdeel) en een cover-foto (voor de reis) op via dezelfde verificatiestap.
 
+#### 3e — Geen dubbele foto's (verplicht)
+
+> **Kritisch:** elke dagplanning moet een eigen, unieke foto hebben. Hergebruik van dezelfde foto bij meerdere dagen ziet er slordig uit.
+
+Houd tijdens het ophalen een lijst bij van alle al gebruikte CDN-ID's (`photo-{numeriek-id}`). Regels:
+
+- **Elke dag-foto is uniek** — komt nergens anders in de reis voor (niet bij een andere dag, niet als hero of cover). Kom je een ID tegen dat al gebruikt is? Verwerp het en zoek een andere foto.
+- **De hero van de volledige-route pagina verschilt van de hero/cover van de trip-overzichtspagina.** Gebruik dus niet dezelfde foto voor beide.
+- Een blok-hero mag wél gelijk zijn aan de cover-kaart van datzelfde blok op de overzichtspagina (consistente branding), maar nooit aan een dag-foto.
+
+Controleer dit als laatste met:
+```bash
+grep -rhoE "photo-[0-9]+-[a-z0-9]+" src | sort | uniq -d
+```
+Eventuele dubbele dag-foto's die hieruit komen moet je vervangen door een nieuwe, geverifieerde foto.
+
 ---
 
 ### Stap 4 — reisData.ts uitbreiden
