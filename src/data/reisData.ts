@@ -137,8 +137,8 @@ export const blokken: Record<string, Blok> = {
         titel: 'Refugio Frey Trek',
         locatie: 'Cerro Catedral',
         badges: ['Dagtrek', 'Bergen'],
-        foto: 'https://images.unsplash.com/photo-1615337138008-899c20f72404?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
-        fotoCredit: { url: 'https://unsplash.com/photos/8CAFCS1BWME' },
+        foto: 'https://images.unsplash.com/photo-1596266519587-d6958ac51f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/s/photos/cerro-catedral' },
         beschrijving: 'Een stevige dagtocht vanaf Cerro Catedral naar Refugio Frey, een berghut aan een alpenmeer omringd door granieten torens. De mooiste hike van het merengebied en een perfecte opwarmer voor wat komt.',
         activiteiten: [
           'Refugio Frey trek, zo\'n 20 kilometer heen en terug',
