@@ -4,6 +4,18 @@
 
 Begeleidt de gebruiker bij het toevoegen van een nieuwe geplande of bucket-list reis zonder CSV. Aan het einde staat de reis in de database en is het reizigersprofiel bijgewerkt.
 
+## Bestandsnaamgeving (belangrijk)
+
+Elke reis krijgt **eigen, unieke bestanden** op basis van een slug. Bepaal aan het begin van stap 4 een `<reis-slug>`: kleine letters, koppeltekens, gebaseerd op bestemming + eventueel jaar (bijv. `filipijnen-taiwan-japan`, `schotland-2027`). Gebruik die slug consequent voor alle drie de bestanden:
+
+- JSON: `scripts/reis_<reis-slug>.json`
+- KML: `scripts/reis_<reis-slug>.kml` (volgt automatisch de JSON-naam)
+- Markdown: `reisplannen/<reis-slug>.md`
+
+**Overschrijf nooit een bestaand bestand tenzij de gebruiker daar expliciet om vraagt.** Controleer vóór elke schrijfactie of het bestand al bestaat:
+- Bestaat het al? Kies een andere slug (voeg jaar of variant toe, bijv. `-v2`) of vraag de gebruiker of overschrijven gewenst is.
+- Dit geldt ook voor de generieke namen `scripts/reis_data.json` en `scripts/reis_kml.kml` — gebruik die **niet** meer; ze kunnen bestaande reizen bevatten.
+
 ## Workflow
 
 ### Stap 1 — Input verzamelen
