@@ -12,8 +12,7 @@ const bestaand = JSON.parse(readFileSync('scripts/photos_ftj.json', 'utf-8'));
 const gebruikteIds = new Set(Object.values(bestaand).map(p => p.unsplashId));
 
 const fallback = [
-  { id: 'hero_coron',       query: 'Coron Palawan Philippines island aerial' },
-  { id: 'dag4',  query: 'sandbar island Philippines turquoise sea' },
+  { id: 'dag4',  query: 'Philippines beach island turquoise' },
 ];
 
 async function fetchPhoto(query) {
