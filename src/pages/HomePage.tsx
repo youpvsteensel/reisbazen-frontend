@@ -107,11 +107,11 @@ function ReisKaart({ reis }: { reis: Reis }) {
             <span className="text-xs font-medium text-tekst/70">{reis.duur} Dagen</span>
           </div>
           <div className="flex items-center gap-2 px-4 py-3 border-b border-gray-100">
-            <Heart className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
+            <TypeIcon className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
             <span className="text-xs font-medium text-tekst/70">{reis.typeReis ?? '—'}</span>
           </div>
           <div className="flex items-center gap-2 px-4 py-3 border-r border-gray-100">
-            <Truck className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
+            <VervoerIcon className="w-3.5 h-3.5 text-groen/50 flex-shrink-0" />
             <span className="text-xs font-medium text-tekst/70">{reis.vervoer ?? '—'}</span>
           </div>
           <div className="flex items-center gap-2 px-4 py-3">
