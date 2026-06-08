@@ -160,7 +160,7 @@ Bevestig aan de gebruiker dat het bestand is opgeslagen en vraag daarna explicie
 
 ```bash
 cd C:/Users/youpv/Documents/Claude/Routebaas
-python scripts/sla_nieuwe_reis_op.py scripts/reis_data.json
+python scripts/sla_nieuwe_reis_op.py scripts/reis_<reis-slug>.json
 ```
 
 ### Stap 7 — Reizigersprofiel bijwerken
