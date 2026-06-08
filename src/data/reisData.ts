@@ -84,7 +84,7 @@ export const blokken: Record<string, Blok> = {
   bariloche: {
     id: 'bariloche',
     naam: 'Bariloche',
-    subtitel: 'Het Argentijnse merengebied aan de voet van de Andes',
+    subtitel: 'Glasheldere meren en donkere bossen aan de voet van de Andes',
     dagBereik: 'Dagen 1–4',
     hero: 'https://images.unsplash.com/photo-1575393476573-6cdacd2e8c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/s/photos/bariloche' },
