@@ -108,7 +108,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Vlucht aankomst', 'Meren'],
         foto: 'https://images.unsplash.com/photo-1575819453111-abb276cd4973?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/s/photos/bariloche' },
-        beschrijving: 'Hier begint het. Bariloche is de poort tot het Argentijnse merengebied, en na een lange vlucht laten we de jetlag van ons afglijden langs de oevers van het meer Nahuel Huapi. Die eerste blik op de besneeuwde toppen die boven het water uitrijzen maakt meteen alles goed.',
+        beschrijving: 'Hier begint het. Bariloche is de poort tot het Argentijnse merengebied, en na een lange vlucht laat je de jetlag van je afglijden langs de oevers van het meer Nahuel Huapi. Die eerste blik op de besneeuwde toppen die boven het water uitrijzen maakt meteen alles goed.',
         activiteiten: [
           'Cerro Campanario met de stoeltjeslift voor een van de mooiste panorama\'s',
           'Het Centro Cívico en de chocoladewinkels van Bariloche verkennen',
