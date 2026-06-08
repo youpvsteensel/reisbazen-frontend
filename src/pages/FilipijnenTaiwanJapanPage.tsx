@@ -8,7 +8,7 @@ const blokken = [
     route: '/filipijnen-taiwan-japan/port-barton',
     naam: 'Port Barton',
     dagBereik: 'Dagen 1–5',
-    hero: 'https://images.unsplash.com/photo-1709710496658-b96d070f38bd?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1764099593757-fe54a233c03d?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Slow start op het rustige, ongepolijste West-Palawan. Snorkelen met schildpadden, sandbanks vol zeesterren en een jungle-waterval, ver van de massa.',
     stops: ['Manila', 'Port Barton', 'Twin Reef', 'Pamuayan Falls'],
     accent: 'Filipijnen',
@@ -26,7 +26,7 @@ const blokken = [
     route: '/filipijnen-taiwan-japan/tao-expeditie',
     naam: 'Tao Expeditie',
     dagBereik: 'Dagen 9–12',
-    hero: 'https://images.unsplash.com/photo-1602587921225-3cca658d31bb?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1760806966989-3dc14b8c4ade?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Een meerdaagse boottocht van El Nido naar Coron door de Linapacan-archipel. Slapen in bamboehutten op verlaten eilanden, volledig offline.',
     stops: ['Verborgen lagunes', 'Linapacan', 'Strandcamping'],
     accent: 'Filipijnen',
@@ -35,7 +35,7 @@ const blokken = [
     route: '/filipijnen-taiwan-japan/coron',
     naam: 'Coron',
     dagBereik: 'Dagen 13–17',
-    hero: 'https://images.unsplash.com/photo-1728042743634-9e7189add952?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1758782551916-1723a9cd00eb?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Kristalheldere meren, Japanse WOII-wrakken en een afgelegen luxe-eiland als tegenwicht voor de expeditie.',
     stops: ['Barracuda Lake', 'Mt. Tapyas', 'Wrakduiken', 'Eilandresort'],
     accent: 'Filipijnen',
@@ -44,7 +44,7 @@ const blokken = [
     route: '/filipijnen-taiwan-japan/smangus',
     naam: 'Smangus',
     dagBereik: 'Dagen 18–21',
-    hero: 'https://images.unsplash.com/photo-1690502833165-50b37b194cf0?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1610616677799-56d88bd29358?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Een afgelegen Atayal-bergdorp aan het einde van de weg, met reuzencipressen van meer dan duizend jaar oud en een ongerepte sterrenhemel.',
     stops: ['Taipei', 'Giant Trees Trail', 'Atayal-dorp'],
     accent: 'Taiwan',
@@ -62,7 +62,7 @@ const blokken = [
     route: '/filipijnen-taiwan-japan/kumano-kodo',
     naam: 'Kumano Kodo',
     dagBereik: 'Dagen 27–32',
-    hero: 'https://images.unsplash.com/photo-1699444118063-d4457ecace26?w=900&h=600&fit=crop&auto=format',
+    hero: 'https://images.unsplash.com/photo-1713346643635-f73e5215c818?w=900&h=600&fit=crop&auto=format',
     beschrijving: 'Een meerdaagse pelgrimshike door de Kii-bergen, met Oud & Nieuw in het afgelegen Yunomine Onsen en de Nachi-waterval op nieuwjaarsdag.',
     stops: ['Osaka', 'Nakahechi', 'Yunomine Onsen', 'Nachi'],
     accent: 'Japan',
@@ -98,7 +98,7 @@ export default function FilipijnenTaiwanJapanPage() {
   return (
     <div>
       {/* Hero */}
-      <div className="relative w-full h-[600px] overflow-hidden">
+      <div className="relative w-full h-[520px] sm:h-[600px] overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1753482770920-aab0bc38319c?w=1600&h=900&fit=crop&auto=format"
           alt="Filipijnen, Taiwan & Japan"
@@ -107,9 +107,9 @@ export default function FilipijnenTaiwanJapanPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent h-24" />
-        <div className="absolute inset-0 flex flex-col justify-end px-6 pb-16 max-w-6xl mx-auto left-0 right-0">
+        <div className="absolute inset-0 flex flex-col justify-end px-6 pb-10 sm:pb-16 max-w-6xl mx-auto left-0 right-0">
           {/* Breadcrumb */}
-          <div className="flex items-center gap-2 mb-6">
+          <div className="flex items-center gap-2 mb-4 sm:mb-6">
             <Link to="/" className="text-xs text-white/60 hover:text-white/90 transition-colors flex items-center gap-1">
               <ArrowLeft className="w-3 h-3" />
               Routebaas
@@ -118,15 +118,15 @@ export default function FilipijnenTaiwanJapanPage() {
             <span className="text-xs text-white/80">Filipijnen, Taiwan & Japan</span>
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-6xl font-bold text-white leading-tight mb-4">
+          <h1 className="font-serif text-3xl sm:text-6xl font-bold text-white leading-tight mb-3 sm:mb-4">
             Filipijnen, Taiwan & Japan
           </h1>
-          <p className="font-body text-xl text-white/75 font-light max-w-2xl leading-relaxed">
+          <p className="font-body text-base sm:text-xl text-white/75 font-light max-w-2xl leading-relaxed line-clamp-3 sm:line-clamp-none">
             Zes weken off the beaten track: van een eilandexpeditie op Palawan en afgelegen bergen in Taiwan tot de Kumano Kodo, Oud & Nieuw in een onsendorp en poedersneeuw in Shiga Kogen.
           </p>
 
-          {/* Quick blok links */}
-          <div className="flex flex-wrap gap-3 mt-6">
+          {/* Quick blok links — alleen desktop */}
+          <div className="hidden sm:flex flex-wrap gap-3 mt-6">
             {blokken.map((b) => (
               <Link
                 key={b.route}
