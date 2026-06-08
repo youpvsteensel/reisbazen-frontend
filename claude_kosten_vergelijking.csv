@@ -1,21 +1,21 @@
 Plan,Opmerking,10 pers p/m (€),10 pers p/j (€),20 pers p/m (€),20 pers p/j (€),30 pers p/m (€),30 pers p/j (€),Tarief in USD (referentie)
-Claude Team Standard,,174,2088,348,4176,522,6264,"$20/seat/m (jaarlijks) of $25/m (maandelijks)"
-Claude Team Premium (incl. Claude Code),,870,10440,1740,20880,2610,31320,"$100/seat/m (jaarlijks) of $125/m (maandelijks)"
-Claude Enterprise — seat fee (huidig x),API-gebruik apart gefactureerd,174,2088,348,4176,522,6264,$20/seat/m + API-gebruik op standaardtarieven
-Claude Enterprise — geschat API-gebruik,Schatting bij matig gebruik,174,2088,348,4176,522,6264,~$20/user/m extra (variabel)
+Claude Team,Vaste berichtlimieten — geen API-gebruik,218,2610,435,5220,653,7830,$25/seat/m (maandelijkse facturering)
+Claude Enterprise — seat fee (huidig x),Maandtarief op aanvraag — $20/seat is jaarlijkse referentieprijs,174,2088,348,4176,522,6264,$20/seat/m (jaarlijks) — maandelijks via sales
+Claude Enterprise — API-gebruik,Bovenop seat fee — afhankelijk van model en gebruik,variabel,variabel,variabel,variabel,variabel,variabel,Standaard API-tarieven per token
 ,,,,,,,,
 OP BASIS VAN GEBRUIK,,,,,,,,
 Claude Code via Vertex AI — matig,~10 actieve dagen/user/m,740,8880,1479,17748,2219,26628,~$85/user/m (Anthropic benchmark)
 Claude Code via Vertex AI — gemiddeld intensief,~15 actieve dagen/user/m,1523,18270,3045,36540,4568,54810,~$175/user/m (Anthropic: gem. $13/actieve dag)
-Direct API — Sonnet 4.6 matig,Afhankelijk van tokengebruik,261,3132,522,6264,783,9396,"~$30/user/m (schatting — $3/$15 per MTok)"
-Direct API — Sonnet 4.6 intensief,Afhankelijk van tokengebruik,870,10440,1740,20880,2610,31320,"~$100/user/m (schatting — $3/$15 per MTok)"
+API via Vertex AI — matig,Afhankelijk van tokengebruik,261,3132,522,6264,783,9396,"~$30/user/m (schatting — Sonnet $3/$15 per MTok)"
+API via Vertex AI — intensief,Afhankelijk van tokengebruik,870,10440,1740,20880,2610,31320,"~$100/user/m (schatting — Sonnet $3/$15 per MTok)"
 ,,,,,,,,
 Totaal p/m,Voeg SUM-formule toe in Sheets,,,,,,
 Totaal p/j,Voeg SUM-formule toe in Sheets,,,,,,
 ,,,,,,,,
 NOTITIES,,,,,,,,
-Wisselkoers gebruikt: 1 USD = €0,87 (ECB referentiekoers 8 juni 2026). Alle bedragen excl. btw.,,,,,,,,
-Enterprise vereist doorgaans een jaarcontract — seat fee en API-gebruik zijn aparte kostenposten.,,,,,,,,
-Claude Code Vertex AI-kosten zijn schattingen op basis van Anthropic benchmark-data.,,,,,,,,
+Wisselkoers: 1 USD = €0,87 (ECB 8 juni 2026). Alle bedragen excl. btw.,,,,,,,,
+Team plan = SaaS met berichtlimieten. Geen API-access of token-billing inbegrepen.,,,,,,,,
+Enterprise seat fee + API-gebruik zijn aparte kostenposten. Exact maandtarief via Anthropic sales.,,,,,,,,
+Claude Code en API via Vertex AI zijn schattingen o.b.v. Anthropic benchmark-data.,,,,,,,,
 API Haiku 4.5 is goedkoper alternatief: $1/$5 per MTok input/output.,,,,,,,,
 Bronnen: claude.com/pricing | docs.anthropic.com/en/docs/about-claude/pricing | ecb.europa.eu,,,,,,,,
