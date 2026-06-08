@@ -30,7 +30,7 @@ export default function PatagonieVolledigheidPage() {
             Patagonië & Falklands
           </h1>
           <p className="font-body text-lg text-white/75 font-light max-w-2xl">
-            Alle 29 dagen achter elkaar, van Bariloche tot de Falkland Islands.
+            Alle 29 dagen op een rij, van de meren van Bariloche tot de pinguïns van de Falklands.
           </p>
         </div>
       </div>
