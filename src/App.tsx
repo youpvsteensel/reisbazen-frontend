@@ -15,6 +15,16 @@ import ElChaltenPage from './pages/ElChaltenPage';
 import UshuaiaPage from './pages/UshuaiaPage';
 import FalklandsPage from './pages/FalklandsPage';
 import PatagonieVolledigheidPage from './pages/PatagonieVolledigheidPage';
+import FilipijnenTaiwanJapanPage from './pages/FilipijnenTaiwanJapanPage';
+import PortBartonPage from './pages/PortBartonPage';
+import ElNidoPage from './pages/ElNidoPage';
+import TaoPage from './pages/TaoPage';
+import CoronPage from './pages/CoronPage';
+import SmangusPage from './pages/SmangusPage';
+import TarokoPage from './pages/TarokoPage';
+import KumanoKodoPage from './pages/KumanoKodoPage';
+import KisoKyotoPage from './pages/KisoKyotoPage';
+import ShigaTokyoPage from './pages/ShigaTokyoPage';
 
 export default function App() {
   return (
