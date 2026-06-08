@@ -274,7 +274,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Meerdaagse hike', 'Wildkamperen'],
         foto: 'https://images.unsplash.com/photo-1570227354456-3de3cba2c5ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/H0nwwsbHU20' },
-        beschrijving: 'Vier dagen te voet door een van de meest spectaculaire maar minder bekende parken van Patagonië. Het Cerro Castillo Circuit van zeventig kilometer voert langs dramatische basaltzuilen, turquoise meren en zwarte rotswanden, terwijl condors boven je hoofd cirkelen.',
+        beschrijving: 'Vier dagen lang ruilen we de camper in voor de rugzak en lopen we het Cerro Castillo Circuit, zeventig kilometer door een van de spectaculairste maar verrassend stille parken van Patagonië. Langs torenhoge basaltzuilen, turquoise gletsjermeren en pikzwarte rotswanden, met condors die hoog boven ons hun rondjes draaien.',
         activiteiten: [
           'Cerro Castillo Circuit: vier dagen wildkamperen over zo\'n zeventig kilometer',
           'Landschap van basaltzuilen en gletsjerdalen',
