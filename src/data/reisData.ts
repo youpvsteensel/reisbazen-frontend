@@ -433,7 +433,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Nationaal Park', 'Reisdag'],
         foto: 'https://images.unsplash.com/photo-1655282413025-c6b64d36e4e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/g2zRbguvHpE' },
-        beschrijving: 'In de ochtend bezoeken we het meest zuidelijke nationale park ter wereld, langs het Beaglekanaal. Daarna reizen we door naar Punta Arenas, de vertrekplaats van de wekelijkse vlucht naar de Falklandeilanden.',
+        beschrijving: 'De ochtend brengen we door in Tierra del Fuego, het meest zuidelijke nationale park ter wereld, waar bossen, veenmoerassen en kustpaden elkaar afwisselen langs het kanaal. Daarna reizen we door naar Punta Arenas, waar de wekelijkse vlucht naar de Falklandeilanden op ons wacht.',
         activiteiten: [
           'Senda Costera in Tierra del Fuego langs het kanaal, zo\'n 8 kilometer',
           'Tren del Fin del Mundo, een optionele historische treintocht',
