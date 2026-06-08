@@ -379,7 +379,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Vlucht'],
         foto: 'https://images.unsplash.com/photo-1692889577629-2c2048419f8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/5RwAkpugU98' },
-        beschrijving: 'Een volledige reisdag naar het zuiden. We rijden van El Chaltén terug naar El Calafate en vliegen vandaar naar Ushuaia. Wie \'s ochtends nog tijd heeft, maakt eerst de korte wandeling naar de waterval Chorrillo del Salto.',
+        beschrijving: 'Weer een dag van verplaatsen, steeds verder naar het zuiden. We rijden terug naar El Calafate en vliegen door naar Ushuaia. Is er \'s ochtends nog een uurtje over, dan rekken we de benen op de korte wandeling naar de waterval Chorrillo del Salto voor we vertrekken.',
         activiteiten: [
           'Optioneel in de ochtend: korte wandeling naar Chorrillo del Salto',
           'Transfer El Chaltén naar El Calafate (zo\'n 3 uur)',
