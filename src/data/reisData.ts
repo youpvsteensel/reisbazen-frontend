@@ -417,7 +417,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Zuidelijkste stad', 'Boottocht'],
         foto: 'https://images.unsplash.com/photo-1727791174121-835760e60cd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/IUs9fCzgwls' },
-        beschrijving: 'Ushuaia, de zuidelijkste stad ter wereld, klampt zich vast aan de oever van het Beaglekanaal. We verkennen het kleurrijke havenstadje en varen het kanaal op, langs rotseilandjes vol pinguïns, luie zeehonden en brullende zeeleeuwen.',
+        beschrijving: 'Ushuaia, de zuidelijkste stad ter wereld, klampt zich vast aan de oever van het Beaglekanaal. Je verkent het kleurrijke havenstadje en vaart het kanaal op, langs rotseilandjes vol pinguïns, luie zeehonden en brullende zeeleeuwen.',
         activiteiten: [
           'Boottocht over het Beaglekanaal van zo\'n drie uur langs pinguïns, zeehonden en zeeleeuwen',
           'Wandeling door Ushuaia langs de kleurrijke havenhuizen',
