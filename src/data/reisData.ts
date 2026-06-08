@@ -362,7 +362,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Dagwandelingen', 'Iconisch uitzicht'],
         foto: 'https://images.unsplash.com/photo-1653850591098-ade25e7a8387?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/xShzsFjowPs' },
-        beschrijving: 'Twee dagen, twee toppers die op elk Patagonië-verlanglijstje staan. We zwoegen omhoog naar Laguna de los Tres, waar Fitz Roy zich in volle glorie weerspiegelt in het meer, en lopen naar Laguna Torre met de rafelige Cerro Torre op de achtergrond. Wie vroeg uit de veren is, pakt ze allebei.',
+        beschrijving: 'Twee dagen, twee toppers die op elk verlanglijstje voor Patagonië staan. Je zwoegt omhoog naar Laguna de los Tres, waar Fitz Roy zich in volle glorie weerspiegelt in het meer, en loopt naar Laguna Torre met de rafelige Cerro Torre op de achtergrond. Wie vroeg uit de veren is, pakt ze allebei.',
         activiteiten: [
           'Laguna de los Tres: dagwandeling van 23 kilometer naar het beroemdste uitzicht op Fitz Roy',
           'Laguna Torre: 18 kilometer met uitzicht op Cerro Torre',
