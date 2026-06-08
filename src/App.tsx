@@ -41,6 +41,16 @@ export default function App() {
           <Route path="/patagonie/el-chalten" element={<ElChaltenPage />} />
           <Route path="/patagonie/ushuaia" element={<UshuaiaPage />} />
           <Route path="/patagonie/falklands" element={<FalklandsPage />} />
+          <Route path="/filipijnen-taiwan-japan" element={<FilipijnenTaiwanJapanPage />} />
+          <Route path="/filipijnen-taiwan-japan/port-barton" element={<PortBartonPage />} />
+          <Route path="/filipijnen-taiwan-japan/el-nido" element={<ElNidoPage />} />
+          <Route path="/filipijnen-taiwan-japan/tao-expeditie" element={<TaoPage />} />
+          <Route path="/filipijnen-taiwan-japan/coron" element={<CoronPage />} />
+          <Route path="/filipijnen-taiwan-japan/smangus" element={<SmangusPage />} />
+          <Route path="/filipijnen-taiwan-japan/taroko" element={<TarokoPage />} />
+          <Route path="/filipijnen-taiwan-japan/kumano-kodo" element={<KumanoKodoPage />} />
+          <Route path="/filipijnen-taiwan-japan/kiso-kyoto" element={<KisoKyotoPage />} />
+          <Route path="/filipijnen-taiwan-japan/shiga-tokyo" element={<ShigaTokyoPage />} />
         </Routes>
       </main>
     </BrowserRouter>
