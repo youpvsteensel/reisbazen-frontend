@@ -33,8 +33,17 @@ VASTE_KLEUREN = [
 
 
 def geocode(plek: str, bestemming: str, land: str) -> tuple[float, float] | tuple[None, None]:
-    """Geocodeer een plaatsnaam via Nominatim."""
-    for query in [f"{plek}, {bestemming}", f"{plek}, {land}", plek]:
+    """Geocodeer een plaatsnaam via Nominatim.
+
+    Probeert eerst de meest specifieke combinatie (plek + land). Het `land`
+    moet de werkelijke locatie zijn — bij een reis door meerdere landen geef je
+    daarom per routestap een eigen `land` mee, niet de algemene bestemming.
+    """
+    queries = [f"{plek}, {land}", plek]
+    # Alleen op bestemming terugvallen als die uit één land bestaat
+    if bestemming and "," not in bestemming and bestemming != land:
+        queries.insert(1, f"{plek}, {bestemming}")
+    for query in queries:
         url = "https://nominatim.openstreetmap.org/search"
         params = {"q": query, "format": "json", "limit": 1}
         headers = {"User-Agent": "Routebaas-Travel-Planner/1.0 (contact@reisbazen.nl)"}
