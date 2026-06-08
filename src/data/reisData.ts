@@ -257,7 +257,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Lange rit'],
         foto: 'https://images.unsplash.com/photo-1697816227475-bb402505ba5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/Yg5hhpstoFY' },
-        beschrijving: 'Een volledige reisdag zuidwaarts: zo\'n 350 kilometer over deels onverharde weg van Queulat naar Villa Cerro Castillo, met onderweg de bossen en bergpassen van de Carretera. We slaan proviand in voor de meerdaagse trek die de volgende ochtend begint.',
+        beschrijving: 'Een volle dag achter het stuur, en wat voor één. Zo\'n 350 kilometer ripio en asfalt voeren ons van Queulat naar Villa Cerro Castillo, langs eindeloze bossen en bergpassen waar de Carretera zich op zijn allermooist laat zien. \'s Avonds slaan we proviand in voor de meerdaagse trek die ons de volgende ochtend opwacht.',
         activiteiten: [
           'Rijden van Queulat naar Villa Cerro Castillo (zo\'n 6 tot 7 uur, deels ripio)',
           'Onderweg stoppen bij uitzichtpunten en bergpassen',
