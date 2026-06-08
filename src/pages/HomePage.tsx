@@ -66,6 +66,16 @@ export default function HomePage() {
 function ReisKaart({ reis }: { reis: Reis }) {
   const status = statusLabel[reis.status];
 
+  // Type-icoon: hartje alleen bij huwelijksreis, anders kompas
+  const TypeIcon = reis.typeReis?.toLowerCase().includes('huwelijk') ? Heart : Compass;
+  // Vervoer-icoon: jeep bij camper-reis, vliegtuig bij vlucht/boot-reis
+  const v = (reis.vervoer ?? '').toLowerCase();
+  const VervoerIcon = v.includes('camper')
+    ? Car
+    : v.includes('vlucht') || v.includes('boot')
+      ? Plane
+      : Car;
+
   return (
     <Link
       to={reis.route}
