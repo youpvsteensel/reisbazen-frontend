@@ -226,7 +226,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Fjord', 'Warmwaterbronnen'],
         foto: 'https://images.unsplash.com/photo-1603748849529-bca520039ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/vayZXH63Y0s' },
-        beschrijving: 'Het mistige, mysterieuze Puyuhuapi nestelt zich aan een smalle fjord. Het hoogtepunt laat zich raden: bij Termas de Puyuhuapi laten we ons zakken in dampende warmwaterbronnen, pal aan het water en omringd door druipend regenwoud. Pure ontspanning na de eerste dagen op de weg.',
+        beschrijving: 'Het mistige, mysterieuze Puyuhuapi nestelt zich aan een smalle fjord. Het hoogtepunt laat zich raden: bij Termas de Puyuhuapi laat je je zakken in dampende warmwaterbronnen, pal aan het water en omringd door druipend regenwoud. Pure ontspanning na de eerste dagen op de weg.',
         activiteiten: [
           'Termas de Puyuhuapi, warmwaterbronnen aan de fjord (dagbezoek of overnachting)',
           'Kajakken over de fjord (optioneel)',
