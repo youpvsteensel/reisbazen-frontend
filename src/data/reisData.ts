@@ -307,7 +307,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Vlucht', 'Halve dag'],
         foto: 'https://images.unsplash.com/photo-1518787289325-94c6917b88ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/G3OV4RbmSc4' },
-        beschrijving: 'Het camperhoofdstuk sluit af in Balmaceda. We leveren de camper in na veertien dagen Carretera Austral en vliegen naar El Calafate, op weg naar Argentinië.',
+        beschrijving: 'In Balmaceda nemen we afscheid van onze trouwe camper. Veertien dagen Carretera Austral zitten erop, en met een hoofd vol fjorden en gletsjers stappen we op het vliegtuig naar El Calafate, terug op Argentijnse bodem.',
         praktisch: [
           { icon: '🚐', label: 'Camper', waarde: 'Inleveren bij het huurdepot in Balmaceda' },
           { icon: '✈️', label: 'Vlucht', waarde: 'Balmaceda → El Calafate' },
