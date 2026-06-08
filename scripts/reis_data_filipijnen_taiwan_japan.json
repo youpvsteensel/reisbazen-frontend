@@ -1,0 +1,428 @@
+{
+  "naam": "Filipijnen, Taiwan & Japan - 6 weken off the beaten track",
+  "bestemming": "Filipijnen, Taiwan, Japan",
+  "land": "Filipijnen",
+  "beschrijving": "Avontuurlijke 42-daagse winterreis voor twee: slow travel en eilandexpeditie op Palawan, afgelegen bergen in Taiwan, de Kumano Kodo pelgrimshike met Oud & Nieuw in Yunomine Onsen, de Nakasendo en skien in Shiga Kogen.",
+  "routestappen": [
+    {
+      "dag_nr": 1,
+      "blok": "Aankomst",
+      "naam": "Aankomst Manila",
+      "plek": "Manila",
+      "land": "Filipijnen",
+      "accomodatie": "Hotel Makati",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 2,
+      "blok": "Palawan - Port Barton",
+      "naam": "Reis naar Port Barton",
+      "plek": "Port Barton",
+      "land": "Filipijnen",
+      "accomodatie": "Strandlodge Port Barton",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 3,
+      "blok": "Palawan - Port Barton",
+      "naam": "Snorkelen rond Port Barton",
+      "plek": "Port Barton",
+      "land": "Filipijnen",
+      "accomodatie": "Strandlodge Port Barton",
+      "activiteiten_ja": ["Twin Reef & Maxima Island snorkelen"],
+      "activiteiten_misschien": ["German Island sandbank"]
+    },
+    {
+      "dag_nr": 4,
+      "blok": "Palawan - Port Barton",
+      "naam": "Eilandhoppen & schildpadden",
+      "plek": "Port Barton",
+      "land": "Filipijnen",
+      "accomodatie": "Strandlodge Port Barton",
+      "activiteiten_ja": ["Starfish Island zandbank", "Turtle Spot snorkelen met schildpadden"],
+      "activiteiten_misschien": ["Mangrove kayaktocht"]
+    },
+    {
+      "dag_nr": 5,
+      "blok": "Palawan - Port Barton",
+      "naam": "Jungle-waterval",
+      "plek": "Port Barton",
+      "land": "Filipijnen",
+      "accomodatie": "Strandlodge Port Barton",
+      "activiteiten_ja": ["Pamuayan Falls hike"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 6,
+      "blok": "Palawan - El Nido",
+      "naam": "Reis naar El Nido",
+      "plek": "El Nido",
+      "land": "Filipijnen",
+      "accomodatie": "Afgelegen lodge Nacpan/Cadlao",
+      "activiteiten_ja": ["Las Cabanas Beach sunset"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 7,
+      "blok": "Palawan - El Nido",
+      "naam": "Nacpan Beach",
+      "plek": "El Nido",
+      "land": "Filipijnen",
+      "accomodatie": "Afgelegen lodge Nacpan/Cadlao",
+      "activiteiten_ja": ["Nacpan Beach"],
+      "activiteiten_misschien": ["Tour D eilandhoppen"]
+    },
+    {
+      "dag_nr": 8,
+      "blok": "Palawan - El Nido",
+      "naam": "Kajakken naar Cadlao",
+      "plek": "El Nido",
+      "land": "Filipijnen",
+      "accomodatie": "Afgelegen lodge Nacpan/Cadlao",
+      "activiteiten_ja": ["Kajakken naar Cadlao Island"],
+      "activiteiten_misschien": ["Taraw Cliff klim"]
+    },
+    {
+      "dag_nr": 9,
+      "blok": "Palawan - Tao Expedition",
+      "naam": "Tao Expedition dag 1",
+      "plek": "Linapacan",
+      "land": "Filipijnen",
+      "accomodatie": "Tao basecamp (bamboehut)",
+      "activiteiten_ja": ["Snorkelen bij afgelegen riffen"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 10,
+      "blok": "Palawan - Tao Expedition",
+      "naam": "Tao Expedition dag 2",
+      "plek": "Linapacan",
+      "land": "Filipijnen",
+      "accomodatie": "Tao basecamp (bamboehut)",
+      "activiteiten_ja": ["Verborgen lagunes & onbereikbare eilanden"],
+      "activiteiten_misschien": ["Linapacan-eilanden (helderste water)"]
+    },
+    {
+      "dag_nr": 11,
+      "blok": "Palawan - Tao Expedition",
+      "naam": "Tao Expedition dag 3",
+      "plek": "Culion",
+      "land": "Filipijnen",
+      "accomodatie": "Tao basecamp (bamboehut)",
+      "activiteiten_ja": ["Strandcamping in bamboehutjes", "Vissen & vers koken met de crew"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 12,
+      "blok": "Palawan - Coron",
+      "naam": "Aankomst Coron",
+      "plek": "Coron",
+      "land": "Filipijnen",
+      "accomodatie": "Boutique hotel Coron town",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 13,
+      "blok": "Palawan - Coron",
+      "naam": "Lagunes & meren",
+      "plek": "Coron",
+      "land": "Filipijnen",
+      "accomodatie": "Boutique hotel Coron town",
+      "activiteiten_ja": ["Barracuda Lake duiken/snorkelen"],
+      "activiteiten_misschien": ["Kayangan Lake", "Twin Lagoon"]
+    },
+    {
+      "dag_nr": 14,
+      "blok": "Palawan - Coron",
+      "naam": "Wrakken & uitzicht",
+      "plek": "Coron",
+      "land": "Filipijnen",
+      "accomodatie": "Boutique hotel Coron town",
+      "activiteiten_ja": ["Mt. Tapyas zonsondergang"],
+      "activiteiten_misschien": ["Japanse WOII-scheepswrakken duiken", "Siete Pecados Marine Park snorkelen"]
+    },
+    {
+      "dag_nr": 15,
+      "blok": "Palawan - Coron",
+      "naam": "Luxe eilandresort",
+      "plek": "Coron",
+      "land": "Filipijnen",
+      "accomodatie": "Sangat Island / Club Paradise",
+      "activiteiten_ja": ["Luxe eilandresort relax (spa + huisrif)"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 16,
+      "blok": "Palawan - Coron",
+      "naam": "Relaxdag eilandresort",
+      "plek": "Coron",
+      "land": "Filipijnen",
+      "accomodatie": "Sangat Island / Club Paradise",
+      "activiteiten_ja": ["Slow ochtend, snorkelen huisrif"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 17,
+      "blok": "Palawan - Coron",
+      "naam": "Coron naar Manila",
+      "plek": "Manila",
+      "land": "Filipijnen",
+      "accomodatie": "Luchthavenhotel Manila",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 18,
+      "blok": "Taiwan - Taipei",
+      "naam": "Vlucht naar Taipei",
+      "plek": "Taipei",
+      "land": "Taiwan",
+      "accomodatie": "Hotel Taipei",
+      "activiteiten_ja": ["Yongkang Street eten"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 19,
+      "blok": "Taiwan - Taipei",
+      "naam": "Taipei & huurauto",
+      "plek": "Taipei",
+      "land": "Taiwan",
+      "accomodatie": "Hotel Taipei",
+      "activiteiten_ja": ["Raohe Night Market"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 20,
+      "blok": "Taiwan - Smangus",
+      "naam": "Reis naar Smangus",
+      "plek": "Smangus",
+      "land": "Taiwan",
+      "accomodatie": "Dorpsverblijf Smangus",
+      "activiteiten_ja": ["Sterrenhemel zonder lichtvervuiling"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 21,
+      "blok": "Taiwan - Smangus",
+      "naam": "Reuzencipressen & Atayal-dorp",
+      "plek": "Smangus",
+      "land": "Taiwan",
+      "accomodatie": "Dorpsverblijf Smangus",
+      "activiteiten_ja": ["Giant Trees Trail (reuzencipressen)", "Atayal-dorp & cultuur", "Wolkenzee bij zonsopgang"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 22,
+      "blok": "Taiwan - Taroko & Oostkust",
+      "naam": "Smangus naar Hualien",
+      "plek": "Hualien",
+      "land": "Taiwan",
+      "accomodatie": "Hotel Hualien",
+      "activiteiten_ja": ["Dongdamen Night Market"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 23,
+      "blok": "Taiwan - Taroko & Oostkust",
+      "naam": "Taroko Gorge",
+      "plek": "Taroko Gorge",
+      "land": "Taiwan",
+      "accomodatie": "Hotel Hualien",
+      "activiteiten_ja": ["Tunnel of Nine Turns", "Eternal Spring Shrine (Changchun)"],
+      "activiteiten_misschien": ["Shakadang Trail", "Swallow Grotto (Yanzikou)"]
+    },
+    {
+      "dag_nr": 24,
+      "blok": "Taiwan - Taroko & Oostkust",
+      "naam": "Kust & hot spring",
+      "plek": "Qingshui Cliffs",
+      "land": "Taiwan",
+      "accomodatie": "Hotel Hualien",
+      "activiteiten_ja": ["Qingshui Cliffs", "Antong / Ruisui hot spring"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 25,
+      "blok": "Taiwan - Taroko & Oostkust",
+      "naam": "East Rift Valley fietsen",
+      "plek": "Chishang",
+      "land": "Taiwan",
+      "accomodatie": "Hotel Hualien",
+      "activiteiten_ja": ["East Rift Valley fietsen (Chishang rijstvelden)"],
+      "activiteiten_misschien": ["Sanxiantai brug"]
+    },
+    {
+      "dag_nr": 26,
+      "blok": "Taiwan - Taipei",
+      "naam": "Terug naar Taipei",
+      "plek": "Taipei",
+      "land": "Taiwan",
+      "accomodatie": "Hotel Taipei",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 27,
+      "blok": "Japan - Kansai",
+      "naam": "Vlucht naar Osaka",
+      "plek": "Osaka",
+      "land": "Japan",
+      "accomodatie": "Hotel Osaka",
+      "activiteiten_ja": ["Kuromon Ichiba Market late hap"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 28,
+      "blok": "Japan - Kumano Kodo",
+      "naam": "Osaka naar Tanabe",
+      "plek": "Tanabe",
+      "land": "Japan",
+      "accomodatie": "Ryokan Tanabe",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 29,
+      "blok": "Japan - Kumano Kodo",
+      "naam": "Start Nakahechi: Takahara",
+      "plek": "Takahara",
+      "land": "Japan",
+      "accomodatie": "Ryokan Takahara (dorp in de mist)",
+      "activiteiten_ja": ["Takahara 'dorp in de mist' met wolkenzee"],
+      "activiteiten_misschien": ["Takijiri-oji startpoort", "Oji-schrijntjes onderweg"]
+    },
+    {
+      "dag_nr": 30,
+      "blok": "Japan - Kumano Kodo",
+      "naam": "Hike naar Chikatsuyu",
+      "plek": "Chikatsuyu",
+      "land": "Japan",
+      "accomodatie": "Lokale ryokan Chikatsuyu",
+      "activiteiten_ja": ["Nakahechi-route hiken door cederbos"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 31,
+      "blok": "Japan - Kumano Kodo",
+      "naam": "Hongu & Oud en Nieuw Yunomine",
+      "plek": "Yunomine Onsen",
+      "land": "Japan",
+      "accomodatie": "Ryokan Yunomine Onsen",
+      "activiteiten_ja": ["Laatste etappe afdalen naar Hongu Taisha", "Kumano Hongu Taisha", "Yunomine Onsen tsuboyu-bad (oudste onsen Japan)"],
+      "activiteiten_misschien": ["Oyunohara torii (grootste van Japan)", "Eieren koken in de hete bron"]
+    },
+    {
+      "dag_nr": 32,
+      "blok": "Japan - Kumano Kodo",
+      "naam": "Nachi-waterval & schrijnen",
+      "plek": "Nachikatsuura",
+      "land": "Japan",
+      "accomodatie": "Hotel Katsuura",
+      "activiteiten_ja": ["Nachi-waterval (hoogste van Japan)", "Daimonzaka cederpad", "Kumano Nachi Taisha", "Seiganto-ji + rode pagode", "Kumano Scenic Route Nachi-Hongu"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 33,
+      "blok": "Japan - Kansai",
+      "naam": "Kii naar Kyoto",
+      "plek": "Kyoto",
+      "land": "Japan",
+      "accomodatie": "Machiya Kyoto",
+      "activiteiten_ja": ["Pontocho steeg diner"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 34,
+      "blok": "Japan - Kansai",
+      "naam": "Kyoto",
+      "plek": "Kyoto",
+      "land": "Japan",
+      "accomodatie": "Machiya Kyoto",
+      "activiteiten_ja": ["Arashiyama bamboe vroeg", "Philosopher's Path & rustige noordtempels"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 35,
+      "blok": "Japan - Kiso Valley",
+      "naam": "Kyoto naar Narai",
+      "plek": "Narai",
+      "land": "Japan",
+      "accomodatie": "Ryokan Kiso",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": ["Narai-juku post-stadje"]
+    },
+    {
+      "dag_nr": 36,
+      "blok": "Japan - Kiso Valley",
+      "naam": "Nakasendo hike",
+      "plek": "Tsumago",
+      "land": "Japan",
+      "accomodatie": "Ryokan Tsumago",
+      "activiteiten_ja": ["Nakasendo hike Magome naar Tsumago (8,5km)", "Tsumago autovrij Edo-dorp", "Kiso ryokan + onsen"],
+      "activiteiten_misschien": ["Magome uitzichtpunt + waterrad", "Tateba teahouse (gratis thee)"]
+    },
+    {
+      "dag_nr": 37,
+      "blok": "Japan - Shiga Kogen",
+      "naam": "Naar Shiga Kogen",
+      "plek": "Shiga Kogen",
+      "land": "Japan",
+      "accomodatie": "Ski-lodge Shiga Kogen",
+      "activiteiten_ja": ["Shiga Kogen skien (eerste runs)"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 38,
+      "blok": "Japan - Shiga Kogen",
+      "naam": "Skien Shiga Kogen",
+      "plek": "Shiga Kogen",
+      "land": "Japan",
+      "accomodatie": "Ski-lodge Shiga Kogen",
+      "activiteiten_ja": ["Shiga Kogen skien (poedersneeuw)"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 39,
+      "blok": "Japan - Shiga Kogen",
+      "naam": "Skien Shiga Kogen",
+      "plek": "Shiga Kogen",
+      "land": "Japan",
+      "accomodatie": "Ski-lodge Shiga Kogen",
+      "activiteiten_ja": ["Shiga Kogen skien (verschillende resorts)"],
+      "activiteiten_misschien": []
+    },
+    {
+      "dag_nr": 40,
+      "blok": "Japan - Tokyo",
+      "naam": "Shiga Kogen naar Tokyo",
+      "plek": "Tokyo",
+      "land": "Japan",
+      "accomodatie": "Hotel Tokyo (Yanaka/Taito)",
+      "activiteiten_ja": ["Shimokitazawa (vintage, platenzaken, koffie)"],
+      "activiteiten_misschien": ["Yanaka oude buurt"]
+    },
+    {
+      "dag_nr": 41,
+      "blok": "Japan - Tokyo",
+      "naam": "Tokyo laatste dag",
+      "plek": "Tokyo",
+      "land": "Japan",
+      "accomodatie": "Hotel Tokyo (Yanaka/Taito)",
+      "activiteiten_ja": ["Nonbei Yokocho (drankjessteeg Shibuya)", "Afscheidsdiner: omakase of ramen"],
+      "activiteiten_misschien": ["Nezu-schrijn (rode torii-tunnel)"]
+    },
+    {
+      "dag_nr": 42,
+      "blok": "Japan - Tokyo",
+      "naam": "Vertrek",
+      "plek": "Tokyo",
+      "land": "Japan",
+      "accomodatie": "",
+      "activiteiten_ja": [],
+      "activiteiten_misschien": []
+    }
+  ]
+}
