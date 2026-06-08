@@ -210,7 +210,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Ferry Hornopirén', 'Oud regenwoud'],
         foto: 'https://images.unsplash.com/photo-1707892558527-6ef07b53d093?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/M-HE0QWE-hY' },
-        beschrijving: 'De veerboot zet ons af in Caleta Gonzalo, het kloppende hart van Parque Pumalín. Hier wachten eeuwenoud regenwoud, ondoordringbare bamboebossen en de sluimerende Volcán Chaitén, die in 2008 nog tot uitbarsting kwam. We ruilen het stuur in voor de wandelschoenen.',
+        beschrijving: 'De veerboot zet je af in Caleta Gonzalo, het kloppende hart van Parque Pumalín. Hier wachten eeuwenoud regenwoud, ondoordringbare bamboebossen en de sluimerende Volcán Chaitén, die in 2008 nog tot uitbarsting kwam. Je ruilt het stuur in voor de wandelschoenen.',
         activiteiten: [
           'Sendero Cascadas door het eeuwenoude regenwoud',
           'Wandeling naar Volcán Chaitén met uitzicht op de lavakoepel',
