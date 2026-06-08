@@ -78,10 +78,13 @@ def genereer_kml(data: dict, output_pad: Path):
     cache: dict[str, tuple] = {}
     for stap in stappen:
         plek = stap.get("plek", stap["naam"])
-        if plek not in cache:
-            print(f"  {plek}...", end=" ", flush=True)
-            lat, lon = geocode(plek, bestemming, land)
-            cache[plek] = (lat, lon)
+        # Per-stap land heeft voorrang (belangrijk bij reizen door meerdere landen)
+        stap_land = stap.get("land", land)
+        sleutel = f"{plek}|{stap_land}"
+        if sleutel not in cache:
+            print(f"  {plek} ({stap_land})...", end=" ", flush=True)
+            lat, lon = geocode(plek, bestemming, stap_land)
+            cache[sleutel] = (lat, lon)
             print(f"{'✓' if lat else '✗'}")
             time.sleep(1.1)
 
