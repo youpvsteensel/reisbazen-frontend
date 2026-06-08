@@ -117,7 +117,7 @@ Dit maakt `scripts/reis_<reis-slug>.kml` aan (de KML-naam volgt automatisch de J
 
 ### Stap 5 — Reisplan opslaan als Markdown
 
-Schrijf het volledige reisplan weg als `reisplannen/<bestemming-slug>.md` (bijv. `reisplannen/schotland.md`). Gebruik deze structuur:
+Schrijf het volledige reisplan weg als `reisplannen/<reis-slug>.md` (bijv. `reisplannen/schotland-2027.md`) — gebruik dezelfde slug als bij de JSON/KML en controleer eerst dat het bestand nog niet bestaat. Gebruik deze structuur:
 
 ```markdown
 # <Reisnaam>
