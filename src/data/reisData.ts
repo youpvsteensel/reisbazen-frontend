@@ -470,7 +470,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Falkland Islands', 'Wildlife'],
         foto: 'https://images.unsplash.com/photo-1590101890757-34e511bf7deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/K6aExp0SvCs' },
-        beschrijving: 'Op dag 25 brengt de wekelijkse LATAM-vlucht vanuit Punta Arenas ons naar Stanley, de meest geïsoleerde hoofdstad ter wereld en meteen een van de charmantste. We hebben twee dagen voor de kleurrijke houten huizen langs de haven, de scheepswrakken in de baai en de hartelijke bewoners.',
+        beschrijving: 'De wekelijkse vlucht uit Punta Arenas zet ons af in Stanley, de meest afgelegen hoofdstad ter wereld en stiekem ook een van de gezelligste. Twee dagen lang dwalen we langs kleurrijke houten huizen, vergeten scheepswrakken in de baai en knusse Britse pubs, waar de hartelijke eilandbewoners zo een verhaal met je delen.',
         activiteiten: [
           'Wandeling langs de haven van Stanley met zijn kleurrijke huizen',
           'Christ Church Cathedral, de meest zuidelijke Anglicaanse kathedraal',
