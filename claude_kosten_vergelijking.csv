@@ -1,0 +1,22 @@
+Plan,Opmerking,10 pers p/m ($),10 pers p/j ($),20 pers p/m ($),20 pers p/j ($),30 pers p/m ($),30 pers p/j ($),Tarief (referentie)
+Claude Team Standard,,200,2400,400,4800,600,7200,"$20/seat/m (jaarlijks) of $25/m (maandelijks)"
+Claude Team Premium (incl. Claude Code),,1000,12000,2000,24000,3000,36000,"$100/seat/m (jaarlijks) of $125/m (maandelijks)"
+Claude Enterprise (huidig x),Seat fee — API-gebruik apart gefactureerd,200,2400,400,4800,600,7200,$20/seat/m + API-gebruik op standaardtarieven
+,,,,,,,,
+Claude Enterprise — geschat API-gebruik,Afhankelijk van model en intensiteit,200,2400,400,4800,600,7200,"~$20/user/m (schatting matig) — variabel"
+,,,,,,,,
+OP BASIS VAN GEBRUIK,,,,,,,,
+Claude Code via Vertex AI — matig,~10 actieve dagen/user/m,850,10200,1700,20400,2550,30600,~$85/user/m (schatting op basis van Anthropic benchmark)
+Claude Code via Vertex AI — gemiddeld intensief,~15 actieve dagen/user/m,1750,21000,3500,42000,5250,63000,~$175/user/m (Anthropic: gemiddeld $13/actieve dag)
+Direct API — Sonnet 4.6 matig,Afhankelijk van tokengebruik,300,3600,600,7200,900,10800,"~$30/user/m (schatting — $3 input / $15 output per MTok)"
+Direct API — Sonnet 4.6 intensief,Afhankelijk van tokengebruik,1000,12000,2000,24000,3000,36000,"~$100/user/m (schatting — $3 input / $15 output per MTok)"
+,,,,,,,,
+Totaal p/m,Voeg hier SUM-formule toe in Sheets,,,,,,
+Totaal p/j,Voeg hier SUM-formule toe in Sheets,,,,,,
+,,,,,,,,
+NOTITIES,,,,,,,,
+Alle bedragen in USD. Voor EUR: vermenigvuldig met wisselkoers.,,,,,,,,
+Enterprise vereist doorgaans een jaarcontract en minimaal 5 seats.,,,,,,,,
+Claude Code Vertex AI-kosten zijn schattingen op basis van Anthropic benchmark-data (juni 2026).,,,,,,,,
+API-tarieven: Sonnet 4.6 $3/MTok input + $15/MTok output. Haiku 4.5 $1/$5 per MTok (goedkoper alternatief).,,,,,,,,
+Bronnen: claude.com/pricing | docs.anthropic.com/en/docs/about-claude/pricing,,,,,,,,
