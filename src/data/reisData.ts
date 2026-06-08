@@ -505,7 +505,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Vertrek', 'Halve dag'],
         foto: 'https://images.unsplash.com/photo-1682188299490-1e6e9c98bac8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/gKS6a_vHg7U' },
-        beschrijving: 'Het avontuur eindigt waar het begon, in de lucht. Met een charter van FIGAS vliegen we terug naar Stanley, gevolgd door de lange reis naar huis via Punta Arenas en Amsterdam.',
+        beschrijving: 'Het avontuur eindigt zoals het begon: hoog in de lucht. Een kleine charter van FIGAS brengt ons terug naar Stanley, waarna de lange reis huiswaarts begint via Punta Arenas en Amsterdam. Met de geheugenkaart vol en het hart nog voller.',
         praktisch: [
           { icon: '🛩', label: 'FIGAS charter', waarde: 'Sea Lion Island → Stanley' },
           { icon: '✈️', label: 'Vlucht', waarde: 'Stanley → Punta Arenas → Amsterdam' },
