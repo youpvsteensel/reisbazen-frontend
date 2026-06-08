@@ -175,5 +175,12 @@ if __name__ == "__main__":
     with open(json_pad, encoding="utf-8") as f:
         data = json.load(f)
 
-    output = json_pad.parent / "reis_kml.kml"
+    # KML-naam volgt de JSON-naam, zodat elke reis een eigen bestand krijgt
+    # (reis_data_japan.json -> reis_data_japan.kml). Niets wordt overschreven
+    # tenzij expliciet --force wordt meegegeven.
+    output = json_pad.with_suffix(".kml")
+    if output.exists() and "--force" not in sys.argv:
+        print(f"FOUT: {output} bestaat al. Kies een andere JSON-naam of geef --force mee om te overschrijven.")
+        sys.exit(1)
+
     genereer_kml(data, output)
