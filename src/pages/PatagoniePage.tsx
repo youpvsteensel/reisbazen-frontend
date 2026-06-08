@@ -9,7 +9,7 @@ const blokken = [
     naam: 'Bariloche',
     dagBereik: 'Dagen 1–4',
     hero: 'https://images.unsplash.com/photo-1575393476573-6cdacd2e8c88?w=900&h=600&fit=crop&auto=format',
-    beschrijving: 'Het Argentijnse merengebied aan de voet van de Andes. Bergmeren, granieten toppen en de start van het avontuur, voordat we via de Cruce Andino naar Chili oversteken.',
+    beschrijving: 'Het Argentijnse merengebied aan de voet van de Andes. Bergmeren, granieten toppen en de start van het avontuur, voordat je via de Cruce Andino naar Chili oversteekt.',
     stops: ['Cerro Campanario', 'Circuito Chico', 'Refugio Frey', 'Cruce Andino'],
     accent: 'Argentinië',
   },
