@@ -487,7 +487,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Sea Lions', '5 pinguïnsoorten'],
         foto: 'https://images.unsplash.com/photo-1673370525167-8b93e8437644?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/Plw5TmGgPqg' },
-        beschrijving: 'Het absolute hoogtepunt van de reis is Sea Lion Island. Dit kleine eiland aan de zuidrand van de Falklands kent een van de hoogste dierdichtheden ter wereld, en de Sea Lion Island Lodge is de perfecte uitvalsbasis voor een huwelijksreis.',
+        beschrijving: 'En dan het hoogtepunt van de hele reis: Sea Lion Island. Op dit speldenknopje aan de zuidrand van de Falklands wemelt het van het leven, met een van de hoogste dierdichtheden ter wereld. Vanuit de afgelegen Sea Lion Island Lodge hebben we de pinguïns, zeehonden en zeevogels letterlijk voor de deur.',
         activiteiten: [
           'Sea Lion Island Lodge, een exclusief verblijf voor de huwelijksreis',
           'Koningspinguïns en rotspinguïns op steenworp afstand',
