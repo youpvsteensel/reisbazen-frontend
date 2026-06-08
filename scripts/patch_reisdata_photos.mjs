@@ -35,14 +35,22 @@ const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 let teller = 0;
 
 // --- reisData.ts ---
-let data = readFileSync('src/data/reisData.ts', 'utf-8');
+// BELANGRIJK: alleen het Filipijnen-Taiwan-Japan-deel patchen. De dag-id's
+// (dag1, dag2, ...) bestaan ook in de Patagonie-reis; door alleen op het
+// gedeelte vanaf `portBarton: {` te werken raken we Patagonie niet aan.
+const file = readFileSync('src/data/reisData.ts', 'utf-8');
+const marker = '\n  portBarton: {';
+const idx = file.indexOf(marker);
+if (idx === -1) { console.error('Marker portBarton niet gevonden'); process.exit(1); }
+const head = file.slice(0, idx);
+let body = file.slice(idx);
 
 // Heroes
 for (const [blok, key] of Object.entries(heroKeyByBlok)) {
   const p = photos[key];
   if (!p) continue;
   const re = new RegExp(`(${esc(blok)}: \\{[\\s\\S]*?hero: ')[^']*(',\\s*heroCredit: \\{ url: ')[^']*(' \\})`);
-  if (re.test(data)) { data = data.replace(re, `$1${p.fotoUrl}$2${p.creditUrl}$3`); teller++; }
+  if (re.test(body)) { body = body.replace(re, `$1${p.fotoUrl}$2${p.creditUrl}$3`); teller++; }
 }
 
 // Dagen (dag1 t/m dag42 die als id bestaan)
@@ -50,10 +58,10 @@ for (const key of Object.keys(photos)) {
   if (!key.startsWith('dag')) continue;
   const p = photos[key];
   const re = new RegExp(`(id: '${esc(key)}',[\\s\\S]*?foto: ')[^']*(',\\s*fotoCredit: \\{ url: ')[^']*(' \\})`);
-  if (re.test(data)) { data = data.replace(re, `$1${p.fotoUrl}$2${p.creditUrl}$3`); teller++; }
+  if (re.test(body)) { body = body.replace(re, `$1${p.fotoUrl}$2${p.creditUrl}$3`); teller++; }
 }
 
-writeFileSync('src/data/reisData.ts', data);
+writeFileSync('src/data/reisData.ts', head + body);
 
 // --- FilipijnenTaiwanJapanPage.tsx (blok-thumbnails) ---
 let page = readFileSync('src/pages/FilipijnenTaiwanJapanPage.tsx', 'utf-8');
