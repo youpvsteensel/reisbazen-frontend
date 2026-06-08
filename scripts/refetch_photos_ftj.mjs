@@ -12,24 +12,8 @@ const bestaand = JSON.parse(readFileSync('scripts/photos_ftj.json', 'utf-8'));
 const gebruikteIds = new Set(Object.values(bestaand).map(p => p.unsplashId));
 
 const fallback = [
-  { id: 'hero_tao',         query: 'Palawan island hopping boat ocean Philippines' },
-  { id: 'hero_smangus',     query: 'Taiwan alpine mountain forest fog' },
-  { id: 'hero_kumano',      query: 'Japan forest shrine torii moss path' },
-  { id: 'hero_port-barton', query: 'Palawan beach palm trees turquoise water' },
-  { id: 'hero_coron',       query: 'Coron Palawan limestone lagoon viewpoint' },
-  { id: 'dag4',  query: 'sandbank tropical island clear water Philippines' },
-  { id: 'dag5',  query: 'tropical rainforest waterfall jungle' },
-  { id: 'dag6',  query: 'El Nido Palawan beach sunset' },
-  { id: 'dag7',  query: 'long white sand beach Palawan Philippines' },
-  { id: 'dag8',  query: 'kayak tropical lagoon limestone cliffs' },
-  { id: 'dag10', query: 'turquoise lagoon limestone cliffs Palawan' },
-  { id: 'dag12', query: 'Coron Palawan town boats harbor' },
-  { id: 'dag23', query: 'Taroko Gorge marble cliff Taiwan' },
-  { id: 'dag25', query: 'rice terrace fields Taiwan countryside' },
-  { id: 'dag28', query: 'Wakayama Japan coast town' },
-  { id: 'dag31', query: 'Japanese onsen town winter steam mountain' },
-  { id: 'dag36', query: 'Japan forest hiking trail mountain village' },
-  { id: 'dag42', query: 'airplane window clouds travel sky' },
+  { id: 'hero_coron',       query: 'Coron Palawan Philippines island aerial' },
+  { id: 'dag4',  query: 'sandbar island Philippines turquoise sea' },
 ];
 
 async function fetchPhoto(query) {
