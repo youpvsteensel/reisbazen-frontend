@@ -291,7 +291,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Roadtrip'],
         foto: 'https://images.unsplash.com/photo-1706983470039-179718ed9e3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/s/photos/carretera-austral' },
-        beschrijving: 'Met vermoeide benen maar een hoofd vol indrukken nemen we twee rustigere dagen op de weg naar het zuiden. Op de markt van Villa Cerro Castillo scoren we zelfgemaakte kaas en wol, en in Coyhaique, de laatste echte stad voor lange tijd, vullen we de voorraden nog één keer goed aan.',
+        beschrijving: 'Met vermoeide benen maar een hoofd vol indrukken neem je twee rustigere dagen op de weg naar het zuiden. Op de markt van Villa Cerro Castillo scoor je zelfgemaakte kaas en wol, en in Coyhaique, de laatste echte stad voor lange tijd, vul je de voorraden nog één keer goed aan.',
         activiteiten: [
           'Lokale ambachtsmarkt in Villa Cerro Castillo',
           'Dagwandeling in Reserva Nacional Coyhaique (optioneel)',
