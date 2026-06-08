@@ -154,7 +154,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Grensovergang'],
         foto: 'https://images.unsplash.com/photo-1579280456137-aa527151d36d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/s/photos/osorno-volcano' },
-        beschrijving: 'Een volledige reisdag via de legendarische Cruce Andino: met boten en bussen steken we over drie Andesmeren de grens met Chili over, richting Puerto Montt. Onderweg passeren we vulkanen, watervallen en oerbos.',
+        beschrijving: 'Vandaag steken we de Andes over op de mooiste manier die er is: de legendarische Cruce Andino. Met een aaneenschakeling van boten en bussen varen en rijden we over drie spiegelende bergmeren naar Chili, voorbij rokende vulkanen, ruisende watervallen en ondoordringbaar oerbos. Tegen de avond rollen we Puerto Montt binnen.',
         activiteiten: [
           'Boottochten over de Andesmeren (Nahuel Huapi en Todos los Santos)',
           'Busritten tussen de meren langs vulkaan Osorno',
