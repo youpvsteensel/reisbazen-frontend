@@ -139,7 +139,7 @@ export default function PatagoniePage() {
               {/* Beschrijving */}
               <div className="px-5 pt-4 pb-3">
                 <p className="text-xs text-muted leading-relaxed">
-                  29 dagen dwars door het zuiden van Zuid-Amerika, van het merengebied rond Bariloche en de onverharde wegen van de Carretera Austral via de pieken van Fitz Roy en Ushuaia tot de ongerepte natuur van de Falkland Islands.
+                  29 dagen dwars door het wilde zuiden van Zuid-Amerika: van de meren rond Bariloche en de onverharde Carretera Austral, via de pieken van Fitz Roy en het einde van de wereld in Ushuaia, tot de pinguïnkolonies van de Falklands.
                 </p>
               </div>
 
