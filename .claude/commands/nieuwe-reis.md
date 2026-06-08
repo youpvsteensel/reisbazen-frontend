@@ -84,7 +84,7 @@ Verwerk de keuzes en ga door naar het volgende onderdeel. Houd alle ja/misschien
 
 ### Stap 4 — KML bestand genereren
 
-Bouw eerst de JSON-structuur op met de bevestigde route en activiteitenkeuzes. Voeg per routestap een `onderdeel` veld toe voor kleurcodering op de kaart. Sla op als `scripts/reis_data.json`:
+Bepaal eerst de `<reis-slug>` (zie "Bestandsnaamgeving"). Bouw daarna de JSON-structuur op met de bevestigde route en activiteitenkeuzes. Voeg per routestap een `blok` veld toe voor kleurcodering op de kaart (het KML-script groepeert en kleurt op `blok`). Sla op als `scripts/reis_<reis-slug>.json` — controleer eerst dat dit bestand nog niet bestaat:
 
 ```json
 {
@@ -95,7 +95,7 @@ Bouw eerst de JSON-structuur op met de bevestigde route en activiteitenkeuzes. V
   "routestappen": [
     {
       "dag_nr": 1,
-      "onderdeel": "<onderdeelnaam, bijv. 'Carretera Austral'>",
+      "blok": "<bloknaam, bijv. 'Carretera Austral'>",
       "naam": "<beschrijvende naam voor de dag>",
       "plek": "<plaatsnaam>",
       "accomodatie": "<accommodatienaam of leeglaten>",
@@ -106,14 +106,14 @@ Bouw eerst de JSON-structuur op met de bevestigde route en activiteitenkeuzes. V
 }
 ```
 
-Genereer daarna het KML-bestand:
+Genereer daarna het KML-bestand (geef het slug-JSON-pad mee):
 
 ```bash
 cd C:/Users/youpv/Documents/Claude/Routebaas
-python scripts/genereer_kml.py scripts/reis_data.json
+python scripts/genereer_kml.py scripts/reis_<reis-slug>.json
 ```
 
-Dit maakt `scripts/reis_kml.kml` aan. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde onderdelen per regiofase.
+Dit maakt `scripts/reis_<reis-slug>.kml` aan (de KML-naam volgt automatisch de JSON-naam). Het script weigert te overschrijven als het KML-bestand al bestaat; alleen met `--force` wordt het vervangen. Importeer via **mymaps.google.com → Nieuw → Importeren** voor een interactieve kaart met gekleurde onderdelen per regiofase.
 
 ### Stap 5 — Reisplan opslaan als Markdown
 
