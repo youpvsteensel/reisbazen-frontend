@@ -192,8 +192,8 @@ export const blokken: Record<string, Blok> = {
         locatie: 'Puerto Montt',
         _unsplashQuery:'puerto montt chile',
         badges: ['Camper ophalen', 'Halve dag'],
-        foto: 'https://images.unsplash.com/photo-1586976477037-0cf4ba43fec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
-        fotoCredit: { url: 'https://unsplash.com/photos/m96anQ8roAA' },
+        foto: 'https://images.unsplash.com/photo-1758409571266-d50c1912c94a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
+        fotoCredit: { url: 'https://unsplash.com/photos/1758409571266-d50c1912c94a' },
         beschrijving: 'In Puerto Montt haal je je 4x4 camper op: je huis op wielen voor de komende twee weken. Je slaat de voorraden in, checkt de routekaart nog één keer en draait de Carretera Austral op, op weg naar veertien dagen ongetemde wildernis.',
         praktisch: [
           { icon: '🚐', label: 'Camper', waarde: 'Ophalen in Puerto Montt, inleveren in Balmaceda op dag 18' },
