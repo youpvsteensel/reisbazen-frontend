@@ -78,6 +78,21 @@ export const alleReizen: Reis[] = [
     vervoer: 'Camper · Vlucht',
     besteTijd: 'Nov tot mrt',
   },
+  {
+    id: 'filipijnen-taiwan-japan',
+    naam: 'Filipijnen, Taiwan & Japan',
+    ondertitel: 'Zes weken off the beaten track door drie landen',
+    beschrijving: 'Slow travel en een eilandexpeditie op Palawan, afgelegen bergen en reuzencipressen in Taiwan, de Kumano Kodo-pelgrimshike met Oud & Nieuw in een afgelegen onsendorp, de historische Nakasendo en poedersneeuw in Shiga Kogen. 42 dagen wildernis, cultuur en gastronomie voor twee.',
+    cover: 'https://images.unsplash.com/photo-1753482770920-aab0bc38319c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MzExNDN8&ixlib=rb-4.1.0&q=80&w=1080',
+    route: '/filipijnen-taiwan-japan',
+    landen: ['Filipijnen', 'Taiwan', 'Japan'],
+    duur: 42,
+    periode: 'Begin december – half januari',
+    status: 'gepland',
+    typeReis: 'Avontuur · Slow travel',
+    vervoer: 'Boot · Vlucht · Trein',
+    besteTijd: 'Dec tot jan',
+  },
 ];
 
 export const blokken: Record<string, Blok> = {
