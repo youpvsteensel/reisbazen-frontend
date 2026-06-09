@@ -189,6 +189,7 @@
 - Narai-juku post-stadje
 - Magome uitzichtpunt + waterrad
 - Tateba teahouse (gratis thee)
+- Sake-brouwerij in de Kiso/Nagano-regio (proeverij)
 
 ### Japan — Shiga Kogen (Dag 37–39)
 
