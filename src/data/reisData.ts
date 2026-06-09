@@ -974,8 +974,8 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Markt'],
         foto: 'https://images.unsplash.com/photo-1749997419550-11c813fbd366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MzEyMTJ8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/nEDc1RMWua8' },
-        beschrijving: 'Je vliegt naar Osaka, je toegangspoort tot Japan. Bij aankomst duik je de Kuromon Ichiba Market in voor verse sashimi, gegrilde wagyu-spiesjes en alles wat de Osakaanse eetcultuur zo geliefd maakt.',
-        activiteiten: ['Kuromon Ichiba Market'],
+        beschrijving: 'Je vliegt naar Osaka, de culinaire hoofdstad van Japan. Bij aankomst ga je voor okonomiyaki in de Chubo-wijk en sluit de avond af bij de Kuromon Ichiba Market voor verse sashimi en gegrilde wagyu-spiesjes.',
+        activiteiten: ['Okonomiyaki bij Chubo', 'Kuromon Ichiba Market'],
       },
       {
         id: 'dag28',
