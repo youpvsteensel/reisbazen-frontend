@@ -1085,7 +1085,7 @@ export const blokken: Record<string, Blok> = {
         foto: 'https://images.unsplash.com/photo-1594655988157-26b1d5b9f03c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MzEyMjZ8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/QpCgGkaZhfU' },
         beschrijving: 'Via Nagoya reis je het Kiso-dal in naar Narai-juku, een van de best bewaarde post-stadjes van de Nakasendo. Tussen de houten gevels uit de Edo-periode lijkt de tijd te hebben stilgestaan. Je overnacht in een traditionele ryokan met onsen.',
-        activiteiten: ['Narai-juku post-stadje'],
+        activiteiten: ['Narai-juku post-stadje', 'Optioneel: sake-proeverij bij een lokale brouwerij in de Kiso/Nagano-regio'],
       },
       {
         id: 'dag36',
