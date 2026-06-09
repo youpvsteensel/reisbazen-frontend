@@ -17,18 +17,22 @@
     "kleine 'must-see' stops zonder echte waarde (Olive Lake, Natural Bridge)",
     "transit-steden voor langer verblijf"
   ],
-  "top_interesses": [
-    "natuur & wildernis",
-    "hiken & meerdaagse tramps",
-    "off-road avontuur",
-    "wildlife (dolfijnen, walvissen)",
-    "bergen & vulkanen",
-    "wildkamperen",
-    "gastronomie & wijn",
-    "roadtrips",
-    "cultuur & geschiedenis",
-    "wellness & hotsprings"
-  ],
+  "top_interesses": {
+    "kern": [
+      "natuur & wildernis",
+      "hiken & meerdaagse tramps (hut-to-hut)",
+      "bergen & vulkanen",
+      "off-road avontuur",
+      "wildlife (dolfijnen, walvissen)"
+    ],
+    "secundair": [
+      "roadtrips",
+      "gastronomie & wijn",
+      "ontspanning & hotsprings (als tegenwicht)",
+      "cultuur & geschiedenis"
+    ],
+    "toelichting": "De kern is altijd leidend; secundaire interesses worden bewust ingezet als afwisseling en tegenwicht. Gastronomie en cultuur wegen zwaarder bij culturele bestemmingen (Japan, Italië), lichter bij natuurbestemmingen (Costa Rica, Montenegro)."
+  },
   "geleerde_lessen": [
     "Geen tijd verspillen aan functionele transit-steden zoals Podgorica, Nanaimo of Ponta Delgada - liever buiten de stad verblijven",
     "Commerciële toeristenattracties met buffetten en cruise-massa's vermijden (Hotpools Baldi, Lake Skadar boottour)",
