@@ -438,6 +438,7 @@ export const blokken: Record<string, Blok> = {
           'Boottocht over het Beaglekanaal van zo\'n drie uur langs pinguïns, zeehonden en zeeleeuwen',
           'Wandeling door Ushuaia langs de kleurrijke havenhuizen',
           'Museo del Fin del Mundo over de geschiedenis van Vuurland',
+          'Optioneel: centolla (koningskrab) proeven — dé culinaire specialiteit van het einde van de wereld',
         ],
       },
       {
