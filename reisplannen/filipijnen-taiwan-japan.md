@@ -200,8 +200,10 @@
 **Ja:**
 - Shimokitazawa (vintage, platenzaken, koffie) — [Reisjunk](https://www.reisjunk.nl/japan/tokyo/)
 - Nonbei Yokocho (drankjessteeg bij Shibuya)
-- Afscheidsdiner: omakase of ramen
+- Toyosu-markt: verse sushi als ontbijt
+- Afscheidsdiner: omakase / luxer sushirestaurant
 
 **Misschien:**
 - Yanaka oude buurt
 - Nezu-schrijn (rode torii-tunnel)
+- Karaoke-avond (Shibuya/Shinjuku)
