@@ -24,8 +24,8 @@ De reis is opgedeeld in **5 delen (blokken)**:
 
 Het Argentijnse merengebied aan de voet van de Andes. Hier begint het avontuur, voordat we via de Cruce Andino naar Chili oversteken.
 
-- **Dag 1 — Aankomst Bariloche.** Internationale vlucht via Buenos Aires of Santiago. Cerro Campanario voor het panorama, Centro Cívico en de eerste avond aan het Nahuel Huapi-meer.
-- **Dag 2 — Circuito Chico & Meren.** De klassieke lus langs het meer en het schiereiland Llao Llao. Bahía López, Punto Panorámico, optioneel kajakken.
+- **Dag 1 — Aankomst Bariloche.** Internationale vlucht via Buenos Aires of Santiago. Cerro Campanario voor het panorama, Centro Cívico en de eerste avond aan het Nahuel Huapi-meer. **Craft beer:** Bariloche is het hart van de Argentijnse craft-beer-scene — proef lokaal bij Manush, Berlina of Patagonia (Cerveza Artesanal).
+- **Dag 2 — Circuito Chico & Meren.** De klassieke lus langs het meer en het schiereiland Llao Llao. Bahía López, Punto Panorámico, optioneel kajakken. **Culinaire highlight:** 's avonds een authentieke asado bij een gaucho/estancia buiten de stad (Patagonisch lam aan het kruis).
 - **Dag 3 — Refugio Frey Trek.** Stevige dagtocht (~20 km) vanaf Cerro Catedral naar een berghut aan een alpenmeer omringd door granieten torens. Alternatief: Cerro Tronador en de Ventisquero Negro.
 - **Dag 4 — Cruce Andino naar Chili.** Volledige reisdag met boten en bussen over drie Andesmeren, grensovergang Argentinië → Chili, aankomst in Puerto Montt.
 
