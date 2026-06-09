@@ -148,6 +148,12 @@
 - Swallow Grotto (Yanzikou)
 - Sanxiantai brug
 
+### Japan — Osaka (Dag 27–28)
+
+**Ja:**
+- Okonomiyaki bij Chubo
+- Kuromon Ichiba markt (streetfood)
+
 ### Japan — Kumano Kodo: Nakahechi (Dag 29–31)
 
 **Ja:**
