@@ -60,7 +60,7 @@ Fitz Roy, de meest iconische berg van Patagonië. Hikes vanuit het dorp; gratis 
 
 Het einde van de wereld, het begin van het avontuur.
 
-- **Dag 23 — Beagle Channel.** Boottocht van ~3 uur langs pinguïns, zeehonden en zeeleeuwen; stad verkennen.
+- **Dag 23 — Beagle Channel.** Boottocht van ~3 uur langs pinguïns, zeehonden en zeeleeuwen; stad verkennen. **Optioneel culinair:** centolla (koningskrab) proeven — dé specialiteit van Ushuaia, het einde van de wereld.
 - **Dag 24 — Tierra del Fuego & Reisdag.** Senda Costera in het nationale park, daarna doorreizen naar Punta Arenas voor de Falklands-vlucht.
 
 ---
