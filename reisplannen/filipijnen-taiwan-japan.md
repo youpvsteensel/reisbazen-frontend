@@ -47,7 +47,7 @@
 | Dag 24 | Qingshui Cliffs | Antong / Ruisui hot spring | Onsen | Hualien |
 | Dag 25 | East Rift Valley fietsen | Chishang rijstvelden (+ misschien Sanxiantai) | Hot spring | Hualien |
 | Dag 26 | Rustige ochtend | Hualien → Taipei (trein, 2u) | Laatste avond Taipei | Taipei |
-| Dag 27 | Auto inleveren, Daan Park | Vlucht → Osaka | Kuromon late hap | Osaka |
+| Dag 27 | Auto inleveren, Daan Park | Vlucht → Osaka | Okonomiyaki bij Chubo + Kuromon | Osaka |
 
 ### Blok 3 — Japan: Kumano Kodo + Oud & Nieuw ruraal (Dag 28–34)
 
