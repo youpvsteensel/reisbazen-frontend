@@ -71,8 +71,8 @@
 | Dag 38 | Skiën Shiga Kogen (poedersneeuw) | Skiën, meerdere resorts | Rotenburo in de sneeuw | Shiga Kogen |
 | Dag 39 | Skiën Shiga Kogen | Skiën | Diner lodge | Shiga Kogen |
 | Dag 40 | Shiga Kogen → Tokyo (~2u) | Aankomst | Shimokitazawa (vintage, koffie) | Tokyo |
-| Dag 41 | Yanaka (misschien) | Nezu-schrijn (misschien) | Nonbei Yokocho + afscheidsdiner | Tokyo |
-| Dag 42 | Vrije ochtend | Transfer luchthaven | Vertrek nacht | — |
+| Dag 41 | Yanaka (misschien) | Nezu-schrijn (misschien) | Nonbei Yokocho + karaoke (optie) | Tokyo |
+| Dag 42 | Toyosu-markt: verse sushi-ontbijt | Transfer luchthaven | Vertrek nacht | — |
 
 ---
 
