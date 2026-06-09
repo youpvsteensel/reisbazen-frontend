@@ -1,0 +1,18 @@
+{
+  "naam": "Argentinië",
+  "bestemming": "Argentinië",
+  "land": "Argentinië",
+  "landen": ["Argentinië"],
+  "duur_dagen": 0,
+  "periode": "",
+  "status": "gedaan",
+  "beschrijving": "",
+  "hoogtepunten": [
+    { "naam": "INVULLEN", "rating": 5, "review": "INVULLEN — waarom was dit zo goed?" }
+  ],
+  "teleurstellingen": [
+    { "naam": "INVULLEN", "rating": 2, "review": "INVULLEN — waarom viel dit tegen?" }
+  ],
+  "activiteiten": [],
+  "accommodaties": []
+}
