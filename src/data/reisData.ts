@@ -1161,8 +1161,8 @@ export const blokken: Record<string, Blok> = {
         badges: ['Steegjes', 'Afscheidsdiner'],
         foto: 'https://images.unsplash.com/photo-1604315523775-74cee3df116c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MzEyMzV8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/DXa7-nmPKSk' },
-        beschrijving: 'De laatste volle dag breng je door in de kleine steegjes van de stad. In Nonbei Yokocho, een wirwar van piepkleine bars bij Shibuya, sluit je de reis af met een afscheidsdiner: omakase-sushi of een dampende kom ramen.',
-        activiteiten: ['Nonbei Yokocho', 'Afscheidsdiner: omakase of ramen'],
+        beschrijving: 'De laatste volle dag breng je door in de kleine steegjes van de stad. In Nonbei Yokocho, een wirwar van piepkleine bars bij Shibuya, sluit je de reis af met een afscheidsdiner in een goed sushirestaurant. Optioneel: afsluiten met karaoke.',
+        activiteiten: ['Nonbei Yokocho', 'Afscheidsdiner: luxer sushirestaurant of omakase', 'Optioneel: karaoke (Shibuya/Shinjuku)'],
       },
       {
         id: 'dag42',
