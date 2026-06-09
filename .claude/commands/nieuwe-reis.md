@@ -70,13 +70,20 @@ Presenteer per onderdeel een genummerde lijst van **6-10 concrete activiteiten**
 
 ```
 **Blok 1 — <regio> (Dag 1-X)**
-1. <activiteit> — korte omschrijving
-2. <activiteit> — korte omschrijving [(Reisjunk)](https://www.reisjunk.nl/artikel-url)
-3. <activiteit> — korte omschrijving [(Salt in Hour)](https://www.saltinhour.com/artikel-url)
+1. <activiteit> — korte omschrijving · ½ dag
+2. <activiteit> — korte omschrijving · 2-3u [(Reisjunk)](https://www.reisjunk.nl/artikel-url)
+3. <activiteit> — korte omschrijving · hele dag [(Salt in Hour)](https://www.saltinhour.com/artikel-url)
 ...
 
 Welke wil je doen? Geef aan: ja (nummers), misschien (nummers), rest = nee
 ```
+
+Gebruik deze tijdsindicatoren (kies altijd één per activiteit):
+- `1-2u` — kort uitstapje of bezoek
+- `2-3u` — halve ochtend of middag
+- `½ dag` — duidelijk een dagdeel
+- `hele dag` — van ochtend tot avond
+- `meerdaagse` — overnight of langer
 
 Verwerk de keuzes en ga door naar het volgende onderdeel. Houd alle ja/misschien-keuzes bij.
 
