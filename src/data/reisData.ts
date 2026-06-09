@@ -144,6 +144,7 @@ export const blokken: Record<string, Blok> = {
           'Wandeling door het bos van het schiereiland Llao Llao',
           'Bahía López en Punto Panorámico',
           'Optioneel kajakken op het meer Nahuel Huapi',
+          'Asado bij een gaucho/estancia buiten de stad — Patagonisch lam aan het kruis',
         ],
       },
       {
