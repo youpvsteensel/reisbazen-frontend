@@ -1470,7 +1470,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Strand', 'Wildlife'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Lucky Bay in Cape Le Grand NP heeft het witste zand van Australië — en bij zonsopgang liggen er kangoeroes te luieren aan de waterlijn. Je overnacht op de camping pal aan het strand.',
+        beschrijving: 'Lucky Bay in Cape Le Grand National Park staat te boek als het strand met het witste zand van heel Australië, gevat tussen granieten koppen en azuurblauwe zee. Het meest bijzondere: bij zonsopgang liggen er kangoeroes loom te luieren aan de waterlijn, een surrealistisch tafereel. Je overnacht met de camper op de befaamde camping pal aan het strand.',
         activiteiten: ['Lucky Bay — kangoeroes op het strand bij zonsopgang (Cape Le Grand NP)'],
       },
       {
