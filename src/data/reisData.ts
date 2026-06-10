@@ -1636,7 +1636,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Rustdag'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Een rustdag om bij te komen, of een tweede optionele hike als de benen het nog aankunnen. Daarna pakt de reis de westkust op.',
+        beschrijving: 'Een flexibele dag in Wanaka: een rustdag om bij te komen aan het meer, of een tweede optionele hike als de benen er nog naar staan. Misschien een duik in het meer, een bezoek aan Puzzling World of gewoon lezen op het terras. Daarna pakt de reis de ruige westkust op, richting de gletsjers.',
         activiteiten: ['Rustdag of tweede optionele hike'],
       },
       {
