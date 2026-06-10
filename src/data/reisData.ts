@@ -1438,7 +1438,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Strand', 'Zwemmen'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Bij Denmark liggen Greens Pool en Elephant Rocks, beschutte baaien waar reusachtige granieten keien als olifanten uit het turquoise water steken. Een van de mooiste zwemplekken van West-Australië.',
+        beschrijving: 'Bij Denmark liggen Greens Pool en Elephant Rocks, twee beschutte baaien in het William Bay National Park waar reusachtige, ronde granieten keien als kudde olifanten uit het turquoise water steken. Het water is er kalm en kristalhelder, perfect om te zwemmen en te snorkelen. Een van de mooiste en meest fotogenieke zwemplekken van heel West-Australië.',
         activiteiten: ['Greens Pool + Elephant Rocks'],
       },
       {
