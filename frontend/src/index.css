@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #1a1a1a;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  .dag-photo {
+    @apply w-full h-[420px] object-cover rounded-xl overflow-hidden;
+    transition: transform 0.5s ease;
+  }
+
+  .dag-photo:hover {
+    transform: scale(1.02);
+  }
+
+  .photo-wrapper {
+    @apply overflow-hidden rounded-xl;
+  }
+
+  .nav-link {
+    @apply text-sm font-medium text-muted transition-colors duration-200 hover:text-groen relative;
+  }
+
+  .nav-link.active {
+    @apply text-groen;
+  }
+
+  .nav-link.active::after {
+    content: '';
+    @apply absolute bottom-[-2px] left-0 right-0 h-[2px] bg-groen rounded-full;
+  }
+}
+
+@layer utilities {
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
