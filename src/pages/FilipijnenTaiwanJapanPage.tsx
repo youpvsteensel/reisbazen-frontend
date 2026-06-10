@@ -96,6 +96,8 @@ const tripStats = [
 ];
 
 export default function FilipijnenTaiwanJapanPage() {
+  useEffect(() => { document.title = 'Filipijnen, Taiwan & Japan — Routebaas'; }, []);
+
   return (
     <div>
       {/* Hero */}
