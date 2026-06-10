@@ -1516,7 +1516,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Vlucht'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'De vlucht over de Tasmanzee eindigt in Queenstown, waar de landing tussen de besneeuwde Remarkables al een belevenis is. Huurauto ophalen en de avontuurlijkste stad van Nieuw-Zeeland in.',
+        beschrijving: 'De vlucht over de Tasmanzee eindigt in Queenstown, waar de landing tussen de besneeuwde toppen van The Remarkables op zich al een belevenis is. Je haalt de huurauto op en rijdt de avontuurlijkste stad van Nieuw-Zeeland in, schilderachtig gelegen aan de oever van Lake Wakatipu. De omslag van Australische stranden naar alpiene bergen is meteen voelbaar.',
         activiteiten: ['Vlucht Perth → Queenstown, huurauto ophalen'],
       },
       {
