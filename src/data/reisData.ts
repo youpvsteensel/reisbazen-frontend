@@ -1216,7 +1216,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Aankomst', 'Stad'],
         foto: 'https://images.unsplash.com/photo-1610221734835-38a23314acbe?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/f3Q6btcFKiQ' },
-        beschrijving: 'De reis begint in Melbourne, Australië\'s meest geliefde stad voor wie van koffie, kunst en sport houdt. Na de lange vlucht laat je de jetlag wegspoelen aan St Kilda beach, met een wandeling langs de cafés en cakewinkels van Acland Street.',
+        beschrijving: 'De reis begint in Melbourne, Australië\'s meest geliefde stad voor wie van koffie, kunst en sport houdt. Na de lange vlucht laat je de jetlag wegspoelen aan St Kilda beach, met een wandeling langs de Edwardiaanse pier en de iconische cakewinkels van Acland Street. \'s Avonds proef je de eerste flat white en de ontspannen zomersfeer waar de stad om bekendstaat.',
         activiteiten: ['St Kilda beach + Acland Street'],
       },
       {
