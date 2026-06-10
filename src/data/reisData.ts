@@ -1620,7 +1620,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike', 'Bergen'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'De Isthmus Peak-hike geeft hetzelfde adembenemende uitzicht over twee meren als het drukke Roy\'s Peak, maar met een fractie van de mensen. De klim is stevig maar de beloning enorm.',
+        beschrijving: 'De Isthmus Peak-hike geeft eenzelfde adembenemend uitzicht over twee meren — Lake Wanaka en Lake Hawea — als het beroemde, drukke Roy\'s Peak, maar dan met een fractie van de wandelaars. De klim van ruim 1100 meter is stevig en grotendeels onbeschut, maar het panorama vanaf de top is enorm. Een bewuste off-the-beaten keuze die zich dubbel en dwars uitbetaalt.',
         activiteiten: ['Isthmus Peak hike (minder druk dan Roy\'s Peak, even mooi)'],
       },
       {
