@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Hero from '../components/Hero';
 import DagKaart from '../components/DagKaart';
 import BlokNavigatie from '../components/BlokNavigatie';
