@@ -1676,7 +1676,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Herstel'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Afdalen langs hetzelfde pad terug naar de auto, met een laatste duik in de hotpools. Een rustige hersteldag voordat de reis noordwaarts trekt.',
+        beschrijving: 'Na een laatste ochtendduik in de hotpools daal je af langs hetzelfde regenwoudpad terug naar de auto. De rest van de dag is herstel: korte stops, een warme maaltijd en uitrusten. Een rustige overgangsdag voordat de reis langs de wilde westkust noordwaarts trekt richting Nelson.',
         activiteiten: ['Afdalen Copland, herstel'],
       },
       {
