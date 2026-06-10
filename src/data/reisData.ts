@@ -1572,7 +1572,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Rustdag'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Een rustige dag aan Lake Te Anau om de meerdaagse hikes voor te bereiden: proviand, kaarten en hutreserveringen op orde. Eventueel een avondbezoek aan de glowworm caves.',
+        beschrijving: 'Een rustige dag aan het uitgestrekte Lake Te Anau om op adem te komen en de meerdaagse hikes voor te bereiden: proviand inslaan, kaarten checken en de hutreserveringen op orde brengen. \'s Avonds kun je per boot naar de Te Anau Glowworm Caves, waar duizenden glimwormen het donker van de grotten als een sterrenhemel laten oplichten. Even bijtanken voor het tramping-avontuur.',
         activiteiten: ['Rustdag Te Anau, voorbereiding Routeburn'],
       },
       {
