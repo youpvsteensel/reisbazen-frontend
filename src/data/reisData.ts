@@ -1366,7 +1366,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Vlucht'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Een lange vlucht over het hele continent brengt je naar Perth, de meest geïsoleerde grote stad ter wereld. Je strijkt neer in het sfeervolle havenstadje Fremantle.',
+        beschrijving: 'Een lange vlucht over het hele continent brengt je naar Perth, de meest geïsoleerde grote stad ter wereld, badend in het zonlicht aan de Indische Oceaan. Je strijkt neer in het sfeervolle havenstadje Fremantle, met zijn victoriaanse straten en zeevaartverleden. Tijd om te wennen aan het tropischer ritme van de westkust.',
         activiteiten: ['Vlucht Hobart → Perth'],
       },
       {
