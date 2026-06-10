@@ -1232,7 +1232,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Tennis', 'Stad'],
         foto: 'https://images.unsplash.com/photo-1610221734835-38a23314acbe?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/f3Q6btcFKiQ' },
-        beschrijving: 'Nog een dag tennis, deze keer met tijd voor de kleinere banen en de avondsessie onder kunstlicht. De zomerse hitte, de menigte en de spanning maken het tot een van de hoogtepunten van de reis.',
+        beschrijving: 'Nog een dag tennis, deze keer met tijd voor de kleinere banen overdag en een avondsessie onder kunstlicht, wanneer de arena oplicht en het publiek loskomt. De zomerse hitte, de drukte en de spanning van een vijfsetter maken dit tot een van de hoogtepunten van de hele reis. Een laatste avond in de stad voordat het zuidwaarts gaat.',
         activiteiten: ['Australian Open'],
       },
       {
