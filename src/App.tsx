@@ -56,6 +56,11 @@ export default function App() {
           <Route path="/filipijnen-taiwan-japan/kumano-kodo" element={<KumanoKodoPage />} />
           <Route path="/filipijnen-taiwan-japan/kiso-kyoto" element={<KisoKyotoPage />} />
           <Route path="/filipijnen-taiwan-japan/shiga-tokyo" element={<ShigaTokyoPage />} />
+          <Route path="/oceanie" element={<OceaniePage />} />
+          <Route path="/oceanie/melbourne" element={<MelbournePage />} />
+          <Route path="/oceanie/tasmanie" element={<TasmaniePage />} />
+          <Route path="/oceanie/west-australie" element={<WestAustraliePage />} />
+          <Route path="/oceanie/nz-zuidereiland" element={<NzZuidereilandPage />} />
         </Routes>
       </main>
     </BrowserRouter>
