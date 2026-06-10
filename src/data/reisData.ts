@@ -1540,7 +1540,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Wijn', 'Historie'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'De Gibbston Valley is het pinot-noir-hart van Centraal-Otago. Daarna het goudzoekersstadje Arrowtown, met zijn bewaarde houten gevels en de oude Chinese mijnwerkershutten.',
+        beschrijving: 'De Gibbston Valley is het pinot-noir-hart van Centraal-Otago, waar je tussen de wijngaarden langs de Kawarau-kloof proeft — eventueel per fiets over de wijnroute. Daarna het charmante goudzoekersstadje Arrowtown, met zijn bewaarde houten gevels uit de 19e eeuw en de ontroerende oude Chinese mijnwerkershutten. Geschiedenis en gastronomie in één relaxte dag.',
         activiteiten: ['Gibbston Valley winery + Arrowtown historisch goudmijnstadje'],
       },
       {
