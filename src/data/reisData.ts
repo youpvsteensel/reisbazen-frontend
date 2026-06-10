@@ -1732,7 +1732,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Wijn'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Marlborough is wereldberoemd om zijn sauvignon blanc. Een dag van proeven bij Cloudy Bay en kleinere familiewijngaarden tussen de eindeloze ranken.',
+        beschrijving: 'Marlborough is met afstand de bekendste wijnstreek van Nieuw-Zeeland, wereldberoemd om zijn frisse, expressieve sauvignon blanc. Een dag van proeven bij het iconische Cloudy Bay en kleinere familiewijngaarden, met de wijngaarden die zich uitstrekken tot aan de omringende bergen. Eventueel per fiets van de ene cellar door naar de andere — een culinair hoogtepunt van de reis.',
         activiteiten: ['Cloudy Bay + kleine wijnproducenten in Marlborough'],
       },
       {
