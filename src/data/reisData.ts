@@ -1692,7 +1692,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Kayak', 'Kust'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Abel Tasman combineert gouden stranden met turquoise zee. Een dag van kayakken langs de kust en lopen over de Coast Track, met kans op pelsrobben in de baaien.',
+        beschrijving: 'Abel Tasman is het kleinste maar misschien wel het liefelijkste nationale park van het land, waar gouden stranden, granieten landtongen en turquoise zee elkaar afwisselen. Je combineert kayakken langs de kust met een stuk lopen over de Coast Track, een van de Great Walks. In de stille baaien liggen geregeld pelsrobben te zonnen op de rotsen.',
         activiteiten: ['Abel Tasman Coast Track — kayak + lopen langs de kust'],
       },
       {
