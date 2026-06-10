@@ -1462,7 +1462,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike', 'Natuur'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Fitzgerald River is een van de meest ongerepte nationale parken van Australië, een UNESCO-biosfeer vol unieke flora. Een hike langs de ruige kust waar bijna niemand komt.',
+        beschrijving: 'Fitzgerald River is een van de meest ongerepte nationale parken van Australië, een UNESCO-biosfeerreservaat met bijna 1800 plantensoorten waarvan vele nergens anders ter wereld voorkomen. Je hikt langs ruige kliffen en eenzame baaien waar je urenlang niemand tegenkomt. Precies het soort afgelegen wildernis waar deze reis om draait.',
         activiteiten: ['Fitzgerald River NP hike — meest ongerepte NP van WA'],
       },
       {
