@@ -1303,7 +1303,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Wijn'],
         foto: 'https://images.unsplash.com/photo-1570169639557-5b4e4428d7d3?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/sosqXdDsdy4' },
-        beschrijving: 'De Tamar Valley bij Launceston is Tasmanië\'s wijnhart, beroemd om koele-klimaat pinot noir en mousserende wijnen. Een middag van proeven bij Pipers Brook en Josef Chromy, tussen de glooiende wijngaarden.',
+        beschrijving: 'De Tamar Valley bij Launceston is Tasmanië\'s wijnhart, wereldwijd geroemd om zijn koele-klimaat pinot noir en mousserende wijnen die kunnen wedijveren met champagne. Je rijdt de wijnroute langs de rivier en proeft bij gerenommeerde huizen als Pipers Brook en Josef Chromy. Tussen de glooiende wijngaarden door is dit een welkome, ontspannen dag na de hikes.',
         activiteiten: ['Tamar Valley wijnproeverij (Pipers Brook, Josef Chromy)'],
       },
       {
