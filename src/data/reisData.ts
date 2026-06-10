@@ -1756,7 +1756,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Rustdag', 'Wandelen'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Een rustigere dag met een lokale wandeling en tijd om te genieten van de uitgestrekte Canterbury-vlaktes onder de bergen.',
+        beschrijving: 'Een rustigere dag met een korte lokale wandeling en tijd om te genieten van de uitgestrekte Canterbury-vlaktes die zich tot aan de voet van de bergen uitstrekken. Misschien een bezoek aan een nabijgelegen riviervallei of gewoon ontspannen met uitzicht op de Alpen. Even op adem komen voordat de laatste, hooggelegen etappes wachten.',
         activiteiten: ['Lokale wandeling + rustige dag'],
       },
       {
