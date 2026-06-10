@@ -51,6 +51,8 @@ const tripStats = [
 ];
 
 export default function OceaniePage() {
+  useEffect(() => { document.title = 'Australië & Nieuw-Zeeland — Routebaas'; }, []);
+
   return (
     <div>
       {/* Hero */}
