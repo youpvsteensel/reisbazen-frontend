@@ -60,6 +60,8 @@ const tripStats = [
 ];
 
 export default function PatagoniePage() {
+  useEffect(() => { document.title = 'Patagonië & Falklands — Routebaas'; }, []);
+
   return (
     <div>
       {/* Hero */}
