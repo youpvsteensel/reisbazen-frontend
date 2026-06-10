@@ -1684,7 +1684,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Een lange maar prachtige rijdag langs de wilde westkust naar het zonnige Nelson, de toegangspoort tot Abel Tasman.',
+        beschrijving: 'Een lange maar prachtige rijdag langs de ruige westkust, met onderweg de mogelijkheid te stoppen bij de gestapelde Pancake Rocks van Punakaiki en eenzame kuststranden. Geleidelijk wordt het landschap groener en milder naarmate je het zonnige Nelson nadert, de toegangspoort tot Abel Tasman. Een dag van kilometers maken met een eindeloos uitzicht op de Tasmanzee.',
         activiteiten: ['Reisdag langs de westkust naar Nelson'],
       },
       {
