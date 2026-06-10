@@ -93,6 +93,21 @@ export const alleReizen: Reis[] = [
     vervoer: 'Boot · Vlucht · Trein',
     besteTijd: 'Dec tot jan',
   },
+  {
+    id: 'oceanie',
+    naam: 'Oceanië — Australië & Nieuw-Zeeland',
+    ondertitel: 'Drie maanden van Australian Open tot poedersneeuw-blauwe gletsjers',
+    beschrijving: 'Australian Open in Melbourne, de wildernis van Tasmanië, de afgelegen zuidwestkust van West-Australië per camper en de hut-to-hut tracks van het Zuidereiland van Nieuw-Zeeland. 63 dagen wildernis, wijn en wandelpaden van het ene uiteinde van Oceanië naar het andere.',
+    cover: 'https://images.unsplash.com/photo-1602306066800-7e953ad61a95?w=1200&h=700&fit=crop&auto=format',
+    route: '/oceanie',
+    landen: ['Australië', 'Nieuw-Zeeland'],
+    duur: 63,
+    periode: 'Januari tot april',
+    status: 'bucket_list',
+    typeReis: 'Avontuur · Roadtrip',
+    vervoer: 'Vlucht · Auto · Camper',
+    besteTijd: 'Jan tot apr',
+  },
 ];
 
 export const blokken: Record<string, Blok> = {
