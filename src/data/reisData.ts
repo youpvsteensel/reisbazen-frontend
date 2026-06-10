@@ -1660,7 +1660,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Gletsjer', 'Wandelen'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Een wandeling de gletsjervallei in naar het front van de Fox of Franz Josef Glacier, waar het ijs tot diep in het regenwoud reikt. \'s Avonds de spiegelreflecties van Lake Matheson.',
+        beschrijving: 'Een wandeling de gletsjervallei in naar het front van de Fox of Franz Josef Glacier, een van de weinige plekken ter wereld waar het ijs tot diep in gematigd regenwoud reikt. De rauwe rotswanden en het blauwige ijs maken indruk. \'s Avonds rijd je naar Lake Matheson, waar de besneeuwde toppen van Aoraki/Mt Cook en Mt Tasman zich bij stil weer perfect spiegelen.',
         activiteiten: ['Fox of Franz Josef gletsjervallei wandeling'],
       },
       {
