@@ -1311,7 +1311,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike', 'Bergen'],
         foto: 'https://images.unsplash.com/photo-1570169639557-5b4e4428d7d3?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/sosqXdDsdy4' },
-        beschrijving: 'De zwaarste hike van Tasmanië: 13 kilometer met 815 meter klimmen, eindigend in een scramble over reusachtige rotsblokken naar de top. Vanaf de kam zie je het hele alpiene hart van het park onder je liggen.',
+        beschrijving: 'De zwaarste hike van Tasmanië: 13 kilometer met 815 meter klimmen, eindigend in een ruige scramble over reusachtige rotsblokken naar de gekartelde top. Het laatste stuk vraagt handen en voeten, maar vanaf de kam zie je het hele alpiene hart van het park onder je liggen, met Dove Lake diep beneden. Een dag die in de benen blijft zitten, maar het helemaal waard is.',
         activiteiten: ['Cradle Mountain Summit (13km, 815m hoogteverschil)'],
       },
       {
