@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Calendar, Sun, Plane, Compass, ArrowRight, ArrowLeft } from 'lucide-react';
 import BlokCard from '../components/BlokCard';
