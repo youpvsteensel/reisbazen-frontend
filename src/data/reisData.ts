@@ -1390,7 +1390,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Eiland', 'Fietsen'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Met de ferry naar Rottnest, een autovrij eiland met 63 baaien en de altijd lachende quokka\'s. Je verkent het per fiets, van het ene verlaten strand naar het andere.',
+        beschrijving: 'Met de ferry vanaf Fremantle naar Rottnest Island, een autovrij paradijs met 63 baaien en helderturquoise water. Je verkent het eiland op de fiets, van het ene verlaten strand naar het andere, met onderweg de altijd lachende quokka\'s die zich graag laten fotograferen. Snorkelen, zwemmen en fietsen wisselen elkaar af op deze zonnige eilanddag.',
         activiteiten: ['Rottnest Island fietsen — quokka\'s, baaien, geen auto\'s'],
       },
       {
