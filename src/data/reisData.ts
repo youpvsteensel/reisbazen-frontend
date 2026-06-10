@@ -1740,7 +1740,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Wandelen', 'Hut'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Een nacht in een afgelegen hut rond Mt Lyford, met wandelingen door het stille bergland eromheen. Ver weg van de toeristische routes.',
+        beschrijving: 'Een nacht in een afgelegen hut rond Mt Lyford, ver weg van de gebaande toeristische paden. Je wandelt door het stille, golvende bergland van het noordelijke Canterbury, waar je vrijwel zeker niemand tegenkomt. Een rustige, authentieke onderbreking tussen de grote bestemmingen door — precies het soort plek dat anderen overslaan.',
         activiteiten: ['Wandelingen in de omgeving van de hut (Mt Lyford)'],
       },
       {
