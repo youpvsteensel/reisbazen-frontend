@@ -1295,7 +1295,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Strand', 'Zonsopgang'],
         foto: 'https://images.unsplash.com/photo-1570169639557-5b4e4428d7d3?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/sosqXdDsdy4' },
-        beschrijving: 'Bij zonsopgang lichten de oranje, met korstmos bedekte rotsen op tegen het spierwitte zand en de heldere zee — vandaar de naam. Een ochtend van fotograferen, zwemmen en niets moeten.',
+        beschrijving: 'Bij zonsopgang lichten de oranje, met korstmos bedekte granietrotsen vurig op tegen het spierwitte zand en de glasheldere zee — vandaar de naam Bay of Fires. Het is een van de fotogeniekste kustlijnen van Australië, vrijwel altijd verlaten. Een ochtend van fotograferen, zwemmen vanaf Binalong Bay en heerlijk niets moeten.',
         activiteiten: ['Bay of Fires bij zonsopgang — oranje rotsen, wit zand', 'Binalong Bay zwemmen'],
       },
       {
