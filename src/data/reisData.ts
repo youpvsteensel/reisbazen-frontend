@@ -1478,7 +1478,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Strand', 'Snorkelen'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Nog een dag in de stranden-paradijs rond Esperance: Blue Haven, Twilight Bay en het verderop gelegen Wharton Beach, waar dolfijnen door de branding spelen.',
+        beschrijving: 'Nog een dag in het strandenparadijs rond Esperance, langs de schitterende Great Ocean Drive: het beschutte Blue Haven, het rotsige Twilight Bay en het verderop gelegen Wharton Beach met zijn perfecte boog wit zand. In de branding spelen geregeld dolfijnen, en het water is zo helder dat zwemmen en snorkelen een must zijn. De mooiste kust van de hele reis.',
         activiteiten: ['Blue Haven + Twilight Bay', 'Wharton Beach (dolfijnen, snorkelen)'],
       },
       {
