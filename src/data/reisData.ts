@@ -1224,7 +1224,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Tennis', 'Stad'],
         foto: 'https://images.unsplash.com/photo-1610221734835-38a23314acbe?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/f3Q6btcFKiQ' },
-        beschrijving: 'Een hele dag in Melbourne Park, waar de eerste Grand Slam van het jaar in volle gang is. Van de baankant op Rod Laver Arena tot de festivalsfeer op de buitenbanen — tennis zoals het bedoeld is.',
+        beschrijving: 'Een hele dag in Melbourne Park, waar de eerste Grand Slam van het jaar in volle gang is. Van de spanning baankant op Rod Laver Arena tot de losse festivalsfeer op de buitenbanen, waar je vlak bij de toppers zit. Tussen de wedstrijden door slenter je langs de foodtrucks en de bruisende fanzones in de zomerzon.',
         activiteiten: ['Australian Open'],
       },
       {
