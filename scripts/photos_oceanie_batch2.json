@@ -234,5 +234,37 @@
     "fotograaf": "Jamie Kettle",
     "locatie": "Queenstown, New Zealand",
     "alt": "A view of the mountains from a high point of view"
+  },
+  "dag55": {
+    "unsplashId": "pxlmNyl56JQ",
+    "fotoUrl": "https://images.unsplash.com/photo-1735567407022-d22a5b57903f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM3NDJ8&ixlib=rb-4.1.0&q=80&w=1080",
+    "creditUrl": "https://unsplash.com/photos/pxlmNyl56JQ",
+    "fotograaf": "JinHui CHEN",
+    "locatie": "Oamaru Blue Penguin Colony Waterfront Road, South Hill, Oamaru, New Zealand",
+    "alt": "A couple of boats floating on top of a body of water"
+  },
+  "dag57": {
+    "unsplashId": "2LCQ3_YoVJQ",
+    "fotoUrl": "https://images.unsplash.com/photo-1539118487414-f3250b4e4e7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM3NDR8&ixlib=rb-4.1.0&q=80&w=1080",
+    "creditUrl": "https://unsplash.com/photos/2LCQ3_YoVJQ",
+    "fotograaf": "Tim Marshall",
+    "locatie": "Milton, New Zealand",
+    "alt": "sunset over the mountain"
+  },
+  "dag60": {
+    "unsplashId": "IqG_wzGr9yg",
+    "fotoUrl": "https://images.unsplash.com/photo-1776362819049-8fe5c5a7b124?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM3NDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+    "creditUrl": "https://unsplash.com/photos/IqG_wzGr9yg",
+    "fotograaf": "Jade Gray",
+    "locatie": "Arthur's Pass Village, New Zealand",
+    "alt": "Rolling hills and mountains under a cloudy sky"
+  },
+  "dag50": {
+    "unsplashId": "1Mw2tbTGZ2A",
+    "fotoUrl": "https://images.unsplash.com/photo-1767953367798-2e28b39fbe4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM4NTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+    "creditUrl": "https://unsplash.com/photos/1Mw2tbTGZ2A",
+    "fotograaf": "Gaurav Kumar",
+    "locatie": "Pinnacles walk Kauaeranga Kauri Trail (Pinnacles Walk), Waikato, New Zealand",
+    "alt": "Lush green forest with a small waterfall and ferns."
   }
 }

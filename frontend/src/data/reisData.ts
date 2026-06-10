@@ -1674,8 +1674,8 @@ export const blokken: Record<string, Blok> = {
       {
         id: 'dag50', dag: 50, titel: 'Terug naar Fox', locatie: 'Fox Glacier',
         badges: ['Herstel'],
-        foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
-        fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
+        foto: 'https://images.unsplash.com/photo-1767953367798-2e28b39fbe4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM4NTZ8&ixlib=rb-4.1.0&q=80&w=1080',
+        fotoCredit: { url: 'https://unsplash.com/photos/1Mw2tbTGZ2A' },
         beschrijving: 'Na een laatste ochtendduik in de hotpools daal je af langs hetzelfde regenwoudpad terug naar de auto. De rest van de dag is herstel: korte stops, een warme maaltijd en uitrusten. Een rustige overgangsdag voordat de reis langs de wilde westkust noordwaarts trekt richting Nelson.',
         activiteiten: ['Afdalen Copland, herstel'],
       },
@@ -1714,8 +1714,8 @@ export const blokken: Record<string, Blok> = {
       {
         id: 'dag55', dag: 55, titel: 'Kenepuru Sound', locatie: 'Marlborough',
         badges: ['Kayak'],
-        foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
-        fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
+        foto: 'https://images.unsplash.com/photo-1735567407022-d22a5b57903f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM3NDJ8&ixlib=rb-4.1.0&q=80&w=1080',
+        fotoCredit: { url: 'https://unsplash.com/photos/pxlmNyl56JQ' },
         beschrijving: 'Een dag kayakken op de spiegelgladde Kenepuru Sound, met de kajak zo het water in vanaf het botenhuis van de lodge. Je peddelt langs stille, beboste hellingen en verlaten baaitjes, met alleen het geklater van je peddel en het gezang van native vogels. Misschien zwem je vanaf een verlaten strandje of speur je naar zeesterren in het heldere water.',
         activiteiten: ['Kenepuru Sound kayak vanuit Hopewell Lodge'],
       },
@@ -1730,8 +1730,8 @@ export const blokken: Record<string, Blok> = {
       {
         id: 'dag57', dag: 57, titel: 'Blenheim', locatie: 'Blenheim',
         badges: ['Wijn'],
-        foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
-        fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
+        foto: 'https://images.unsplash.com/photo-1539118487414-f3250b4e4e7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM3NDR8&ixlib=rb-4.1.0&q=80&w=1080',
+        fotoCredit: { url: 'https://unsplash.com/photos/2LCQ3_YoVJQ' },
         beschrijving: 'Marlborough is met afstand de bekendste wijnstreek van Nieuw-Zeeland, wereldberoemd om zijn frisse, expressieve sauvignon blanc. Een dag van proeven bij het iconische Cloudy Bay en kleinere familiewijngaarden, met de wijngaarden die zich uitstrekken tot aan de omringende bergen. Eventueel per fiets van de ene cellar door naar de andere — een culinair hoogtepunt van de reis.',
         activiteiten: ['Cloudy Bay + kleine wijnproducenten in Marlborough'],
       },
@@ -1754,8 +1754,8 @@ export const blokken: Record<string, Blok> = {
       {
         id: 'dag60', dag: 60, titel: 'Mount Somers', locatie: 'Mount Somers',
         badges: ['Rustdag', 'Wandelen'],
-        foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
-        fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
+        foto: 'https://images.unsplash.com/photo-1776362819049-8fe5c5a7b124?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTM3NDZ8&ixlib=rb-4.1.0&q=80&w=1080',
+        fotoCredit: { url: 'https://unsplash.com/photos/IqG_wzGr9yg' },
         beschrijving: 'Een rustigere dag met een korte lokale wandeling en tijd om te genieten van de uitgestrekte Canterbury-vlaktes die zich tot aan de voet van de bergen uitstrekken. Misschien een bezoek aan een nabijgelegen riviervallei of gewoon ontspannen met uitzicht op de Alpen. Even op adem komen voordat de laatste, hooggelegen etappes wachten.',
         activiteiten: ['Lokale wandeling + rustige dag'],
       },
