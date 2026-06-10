@@ -1708,7 +1708,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Wandelen', 'Lodge'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Aankomst bij de afgelegen Hopewell Lodge, diep in de Marlborough Sounds. Vanaf hier wandel je een stuk van de beroemde Queen Charlotte Track langs de beboste inhammen.',
+        beschrijving: 'Via een lange, kronkelende weg over de heuvels bereik je de afgelegen Hopewell Lodge, idyllisch gelegen aan het water diep in de Marlborough Sounds. Vanaf hier wandel je een stuk van de beroemde Queen Charlotte Track, dat langs beboste inhammen en uitkijkpunten over de fjordachtige sounds slingert. Een plek van rust, ver van alles.',
         activiteiten: ['Queen Charlotte Track wandelen vanuit Hopewell Lodge'],
       },
       {
