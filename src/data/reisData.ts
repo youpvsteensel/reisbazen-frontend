@@ -1700,7 +1700,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Kust', 'Food'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'De kustwandeling bij Cable Bay biedt weidse uitzichten over de baai, gevolgd door de levendige food- en kunstscene van Nelson, een van de zonnigste steden van het land.',
+        beschrijving: 'De kustwandeling over de landtong bij Cable Bay biedt weidse uitzichten over de baai en de bergen aan de overkant. \'s Middags duik je de levendige food-, markt- en kunstscene van Nelson in, een van de zonnigste steden van Nieuw-Zeeland en een broeinest van ambachtelijke makers. Een ontspannen dag van wandelen, eten en lokale ontdekkingen.',
         activiteiten: ['Cable Bay kustwandeling + Nelson food scene'],
       },
       {
