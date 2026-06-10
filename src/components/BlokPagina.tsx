@@ -57,6 +57,11 @@ function Praktisch({ blok }: { blok: Blok }) {
 }
 
 export default function BlokPagina({ blok }: BlokPaginaProps) {
+  useEffect(() => {
+    document.title = `${blok.naam} — Routebaas`;
+    return () => { document.title = 'Routebaas'; };
+  }, [blok.naam]);
+
   return (
     <div>
       <Hero
