@@ -1430,7 +1430,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Slow dag', 'Strand'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Een dag zonder plan: stranden, gourmetwinkels en misschien een surfles of een bezoek aan een grot. De camper geeft de vrijheid om te blijven waar het bevalt.',
+        beschrijving: 'Een dag zonder strak plan: verlaten stranden, gourmetwinkels met lokale kaas en olijfolie, en misschien een surfles op de befaamde breaks of een bezoek aan de druipsteengrotten onder de streek. De camper geeft de vrijheid om te blijven hangen waar het bevalt. Slow travel zoals het bedoeld is.',
         activiteiten: ['Slow dag: stranden, gourmet & relax'],
       },
       {
