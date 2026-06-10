@@ -1287,7 +1287,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike', 'Strand'],
         foto: 'https://images.unsplash.com/photo-1570169639557-5b4e4428d7d3?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/sosqXdDsdy4' },
-        beschrijving: 'De steile klim over Mount Amos beloont je met het iconische uitzicht op Wineglass Bay, een perfecte boog van wit zand tegen turquoise water. De lus daalt af naar het strand zelf voor een verdiende duik.',
+        beschrijving: 'De steile klim over de granieten flanken van Mount Amos beloont je met het iconische uitzicht op Wineglass Bay, een perfecte boog van spierwit zand tegen turquoise water. Het is een pittige scramble over kale rotsplaten, maar het panorama vanaf de top is onvergetelijk. De lus daalt daarna af naar het strand zelf voor een verdiende duik in de baai.',
         activiteiten: ['Mount Amos → Wineglass Bay loop (12km)'],
       },
       {
