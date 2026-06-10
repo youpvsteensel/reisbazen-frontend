@@ -78,12 +78,15 @@ def genereer_kml(data: dict, output_pad: Path):
     cache: dict[str, tuple] = {}
     for stap in stappen:
         plek = stap.get("plek", stap["naam"])
+        # geocode_plek overschrijft alleen de geocoding (handig bij samengestelde
+        # pleknamen met haakjes/slashes die Nominatim niet vindt); plek blijft intact
+        geo_plek = stap.get("geocode_plek", plek)
         # Per-stap land heeft voorrang (belangrijk bij reizen door meerdere landen)
         stap_land = stap.get("land", land)
-        sleutel = f"{plek}|{stap_land}"
+        sleutel = f"{geo_plek}|{stap_land}"
         if sleutel not in cache:
-            print(f"  {plek} ({stap_land})...", end=" ", flush=True)
-            lat, lon = geocode(plek, bestemming, stap_land)
+            print(f"  {geo_plek} ({stap_land})...", end=" ", flush=True)
+            lat, lon = geocode(geo_plek, bestemming, stap_land)
             cache[sleutel] = (lat, lon)
             print(f"{'✓' if lat else '✗'}")
             time.sleep(1.1)
