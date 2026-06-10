@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Hero from '../components/Hero';
 import RouteStrip from '../components/RouteStrip';
 import DagKaart from '../components/DagKaart';
@@ -10,6 +11,11 @@ interface BlokPaginaProps {
 }
 
 export default function BlokPagina({ blok }: BlokPaginaProps) {
+  useEffect(() => {
+    document.title = `${blok.naam} — Routebaas`;
+    return () => { document.title = 'Routebaas'; };
+  }, [blok.naam]);
+
   return (
     <div>
       <Hero
