@@ -1374,7 +1374,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Stad'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Een dag in Perth: het uitgestrekte Kings Park met uitzicht over de skyline en de Swan River, de moderne Elizabeth Quay en de bars en restaurants van Northbridge.',
+        beschrijving: 'Een dag om Perth te verkennen: het uitgestrekte Kings Park, een van de grootste stadsparken ter wereld, met weids uitzicht over de skyline en de kronkelende Swan River. Daarna de moderne waterkant van Elizabeth Quay en de eetstraten en bars van Northbridge. Een relaxte, zonnige stadsdag voordat de camper het avontuur opent.',
         activiteiten: ['Kings Park, Elizabeth Quay, Northbridge'],
       },
       {
