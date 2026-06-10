@@ -1532,7 +1532,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Natuur', 'Roadtrip'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'De schilderachtige rit naar Glenorchy volgt de oever van het meer naar een wereld van moerasvlaktes en spiegelende bergen. Bij Paradise filmde Peter Jackson grote delen van Lord of the Rings.',
+        beschrijving: 'De schilderachtige rit naar Glenorchy volgt de oever van Lake Wakatipu naar een wereld van moerasvlaktes, kronkelende rivieren en spiegelende bergtoppen. Bij het gehucht Paradise filmde Peter Jackson grote delen van Lord of the Rings, en je begrijpt meteen waarom. Korte wandelingen door eeuwenoud beukenbos maken het tot een dromerige dag.',
         activiteiten: ['Glenorchy + Paradise — LOTR-landschappen, ongerepte vallei'],
       },
       {
