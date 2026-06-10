@@ -1248,7 +1248,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Vlucht'],
         foto: 'https://images.unsplash.com/photo-1610221734835-38a23314acbe?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/f3Q6btcFKiQ' },
-        beschrijving: 'Een korte vlucht brengt je naar Hobart, waar de huurauto klaarstaat. Je rijdt meteen door naar het Tasman National Park, het ruige schiereiland ten zuidoosten van de stad.',
+        beschrijving: 'Een korte vlucht over de Bass Strait brengt je naar Hobart, de sfeervolle havenhoofdstad van Tasmanië, waar de huurauto klaarstaat. Je rijdt meteen door naar het Tasman National Park, het ruige schiereiland ten zuidoosten van de stad, met onderweg de eerste blikken op de dramatische dolerietkliffen. De wildernis van het eiland begint hier.',
         activiteiten: ['Vlucht Melbourne → Hobart, huurauto ophalen, doorrijden naar Tasman NP'],
       },
     ],
