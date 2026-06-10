@@ -1556,7 +1556,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Boottocht', 'Fjord'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Doubtful Sound is stiller en wilder dan het bekendere Milford. Via een meer en een bergpas bereik je het fjord, waar je overnacht aan boord tussen steile, met regenwoud bedekte wanden en watervallen.',
+        beschrijving: 'Doubtful Sound is stiller, groter en wilder dan het bekendere Milford Sound, en juist daarom zo bijzonder. Via een boottocht over Lake Manapouri en een busrit over de Wilmot Pass bereik je het fjord, waar je overnacht aan boord tussen steile, met regenwoud bedekte wanden en cascades van watervallen. \'s Avonds valt een diepe stilte over het water, alleen verstoord door het geroep van vogels.',
         activiteiten: ['Doubtful Sound overnight cruise — invaren, overnachten op het water'],
       },
       {
