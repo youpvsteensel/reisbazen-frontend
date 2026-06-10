@@ -1604,7 +1604,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Herstel'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Afdalen en terugreizen, met de benen omhoog na twee dagen tramping. Een rustige avond om de spieren te laten herstellen.',
+        beschrijving: 'De laatste afdaling van de Routeburn voert langs de bruisende Routeburn Falls en door het beboste dal terug naar de trailhead. Daarna reis je terug naar Te Anau, met de benen welverdiend omhoog na twee dagen tramping. Een rustige avond met een goede maaltijd om de spieren te laten herstellen voordat de reis noordwaarts trekt.',
         activiteiten: ['Afdalen en terugreizen, rustige avond'],
       },
       {
