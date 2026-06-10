@@ -1414,7 +1414,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Kust', 'Hike'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Yallingup combineert natuurlijke rotspoelen met een deel van de Cape to Cape Track, die langs de dramatische kliffen tussen twee vuurtorens loopt. Surfcultuur en woeste kust gaan hier hand in hand.',
+        beschrijving: 'Yallingup combineert beschutte natuurlijke rotspoelen met een prachtig deel van de Cape to Cape Track, die over 135 kilometer langs dramatische kliffen tussen twee vuurtorens loopt. Je wandelt een stuk langs de woeste kust, met wijde uitzichten over de Indische Oceaan en kans op walvissen in het seizoen. Surfcultuur en ruige natuur gaan hier hand in hand.',
         activiteiten: ['Yallingup rockpools', 'Cape to Cape Track (deel) — klifwandeling langs de oceaan'],
       },
       {
