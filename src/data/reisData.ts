@@ -1382,7 +1382,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Stad', 'Craft beer'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Fremantle ademt zeevaartgeschiedenis en bohemien sfeer. De overdekte markt, de Little Creatures brewery aan de haven en de victoriaanse straten maken het tot een heerlijke slenterdag.',
+        beschrijving: 'Fremantle ademt zeevaartgeschiedenis en bohemien sfeer, met goed bewaarde havengebouwen uit de goudkoorts-era. Je dwaalt over de levendige overdekte markt, strijkt neer bij de Little Creatures brewery aan de jachthaven en slentert door de straten vol streetart en koffietentjes. Een heerlijke, ongehaaste dag aan de oceaan.',
         activiteiten: ['Fremantle: Little Creatures brewery, markt, havensfeer'],
       },
       {
