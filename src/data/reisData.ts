@@ -1454,7 +1454,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Strand', 'Natuur'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Rond Albany ligt het schitterende Two Peoples Bay Nature Reserve met Little Beach, vaak uitgeroepen tot mooiste strand van Australië. Wit zand, granieten koppen en kristalhelder water.',
+        beschrijving: 'Rond Albany ligt het schitterende Two Peoples Bay Nature Reserve met Little Beach, regelmatig uitgeroepen tot het mooiste strand van Australië. Spierwit, piepend zand, afgerond door massieve granieten koppen en omspoeld door onwerkelijk helder water. Het reservaat is bovendien een toevluchtsoord voor zeldzame dieren — stilte en ongerepte natuur op zijn best.',
         activiteiten: ['Little Beach + Two Peoples Bay Nature Reserve'],
       },
       {
