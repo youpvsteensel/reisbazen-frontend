@@ -1588,7 +1588,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Meerdaagse hike', 'Hut'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'De eerste dag van de Routeburn Track, een van de mooiste meerdaagse tochten ter wereld, voert naar Lake Mackenzie Hut aan een alpenmeer omringd door pieken.',
+        beschrijving: 'De eerste dag van de Routeburn Track, geroemd als een van de mooiste meerdaagse tochten ter wereld, voert door regenwoud en langs watervallen omhoog naar de boomgrens. Je slaapt bij Lake Mackenzie Hut, aan een diepblauw alpenmeer dat omringd wordt door steile pieken. \'s Avonds in de hut deel je verhalen met trampers uit de hele wereld.',
         activiteiten: ['Routeburn Track hut-to-hut dag 1 → Lake Mackenzie Hut'],
       },
       {
