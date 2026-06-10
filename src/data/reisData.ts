@@ -1652,7 +1652,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Hike'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Onderweg over de Haast Pass stop je bij de Blue Pools, waar gletsjerwater in een ongelooflijk helder blauw door de rivier stroomt. Daarna door naar het gletsjerland van de westkust.',
+        beschrijving: 'De rit over de Haast Pass voert door dicht regenwoud en langs talloze watervallen naar de wilde westkust. Onderweg stop je bij de Blue Pools, waar je over een hangbrug uitkijkt op gletsjerwater dat in een ongelooflijk helder blauw door de rivier stroomt. Daarna rijd je verder naar het gletsjerland rond Fox en Franz Josef.',
         activiteiten: ['Blue Pools hike nabij Haast Pass onderweg'],
       },
       {
