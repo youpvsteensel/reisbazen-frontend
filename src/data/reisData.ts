@@ -1422,7 +1422,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Wijn', 'Strand'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Margaret River is wereldberoemd om zijn cabernet en chardonnay. Een dag van kleine cellar doors, gevolgd door Hamelin Bay, waar tamme pijlstaartroggen door het ondiepe water glijden.',
+        beschrijving: 'Margaret River is wereldberoemd om zijn elegante cabernet sauvignon en chardonnay, geproefd bij intieme familie-wijngaarden tussen de karri-bossen. Na een paar cellar doors rijd je naar Hamelin Bay, waar tamme pijlstaartroggen vlak langs je benen door het ondiepe, heldere water glijden. Wijn, bos en oceaan op één dag.',
         activiteiten: ['2-3 kleine cellar doors', 'Hamelin Bay — stingrays op het strand'],
       },
       {
