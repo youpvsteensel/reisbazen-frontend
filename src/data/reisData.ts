@@ -1202,7 +1202,7 @@ export const blokken: Record<string, Blok> = {
     heroCredit: { url: 'https://unsplash.com/photos/f3Q6btcFKiQ' },
     route: '/oceanie/melbourne',
     reisRoute: '/oceanie',
-    reisNaam: 'Oceanië — Australië & Nieuw-Zeeland',
+    reisNaam: 'Australië & Nieuw-Zeeland',
     volgendeBlok: { naam: 'Tasmanië', route: '/oceanie/tasmanie' },
     praktischInfo: [
       { icon: '🗓', label: 'Beste tijd', waarde: 'Eind januari — Australian Open' },
@@ -1263,7 +1263,7 @@ export const blokken: Record<string, Blok> = {
     heroCredit: { url: 'https://unsplash.com/photos/sosqXdDsdy4' },
     route: '/oceanie/tasmanie',
     reisRoute: '/oceanie',
-    reisNaam: 'Oceanië — Australië & Nieuw-Zeeland',
+    reisNaam: 'Australië & Nieuw-Zeeland',
     vorigeBlok: { naam: 'Melbourne', route: '/oceanie/melbourne' },
     volgendeBlok: { naam: 'West-Australië', route: '/oceanie/west-australie' },
     praktischInfo: [
@@ -1350,7 +1350,7 @@ export const blokken: Record<string, Blok> = {
     heroCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
     route: '/oceanie/west-australie',
     reisRoute: '/oceanie',
-    reisNaam: 'Oceanië — Australië & Nieuw-Zeeland',
+    reisNaam: 'Australië & Nieuw-Zeeland',
     vorigeBlok: { naam: 'Tasmanië', route: '/oceanie/tasmanie' },
     volgendeBlok: { naam: 'NZ Zuidereiland', route: '/oceanie/nz-zuidereiland' },
     praktischInfo: [
@@ -1501,7 +1501,7 @@ export const blokken: Record<string, Blok> = {
     heroCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
     route: '/oceanie/nz-zuidereiland',
     reisRoute: '/oceanie',
-    reisNaam: 'Oceanië — Australië & Nieuw-Zeeland',
+    reisNaam: 'Australië & Nieuw-Zeeland',
     vorigeBlok: { naam: 'West-Australië', route: '/oceanie/west-australie' },
     praktischInfo: [
       { icon: '🚗', label: 'Vervoer', waarde: 'Huurauto, ruim vier weken rondreizen' },
