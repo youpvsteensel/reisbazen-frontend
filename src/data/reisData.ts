@@ -1668,7 +1668,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Meerdaagse hike', 'Hotpool'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'De Copland Track voert door regenwoud en rivierdalen naar Welcome Flat Hut, waar natuurlijke hotpools op je wachten met uitzicht op de besneeuwde toppen. De perfecte beloning na een dag lopen.',
+        beschrijving: 'De Copland Track voert door weelderig regenwoud en over wankele swing bridges langs een bruisende gletsjerrivier naar Welcome Flat Hut. Daar wachten natuurlijke, dampende hotpools op je, met uitzicht op de besneeuwde toppen eromheen — de perfecte beloning na een lange dag lopen. Je weekt de vermoeide spieren los onder een hemel vol sterren.',
         activiteiten: ['Copland Track → Welcome Flat Hut (natuurlijke hotpool ná de hike)'],
       },
       {
