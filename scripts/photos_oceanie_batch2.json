@@ -226,5 +226,13 @@
     "fotograaf": "Rich Hay",
     "alt": "aerial photography of mountain beside blue ocean",
     "locatie": "Nelson, New Zealand"
+  },
+  "dag31": {
+    "unsplashId": "ZdVzBpX48M8",
+    "fotoUrl": "https://images.unsplash.com/photo-1739659296020-91f53d4f52b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTMzNTl8&ixlib=rb-4.1.0&q=80&w=1080",
+    "creditUrl": "https://unsplash.com/photos/ZdVzBpX48M8",
+    "fotograaf": "Jamie Kettle",
+    "locatie": "Queenstown, New Zealand",
+    "alt": "A view of the mountains from a high point of view"
   }
 }
