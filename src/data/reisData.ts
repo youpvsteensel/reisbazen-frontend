@@ -1279,7 +1279,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike', 'Kliffen'],
         foto: 'https://images.unsplash.com/photo-1570169639557-5b4e4428d7d3?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/sosqXdDsdy4' },
-        beschrijving: 'De Cape Hauy hike voert over een glooiend pad naar de rand van de wereld, waar de dolerietzuilen van de Totem Pole loodrecht uit zee oprijzen. Een spectaculaire eerste kennismaking met de Tasmaanse kust.',
+        beschrijving: 'De Cape Hauy hike voert over een golvend pad met trappen naar de rand van de wereld, waar de slanke dolerietzuilen van de Totem Pole en de Candlestick loodrecht uit de woeste zee oprijzen. Onderweg kijk je uit over kliffen die honderden meters de diepte in storten. Een spectaculaire eerste kennismaking met de ruige Tasmaanse kust.',
         activiteiten: ['Cape Hauy hike (8km, klif boven de Totem Pole)'],
       },
       {
