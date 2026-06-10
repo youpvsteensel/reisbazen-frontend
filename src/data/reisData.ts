@@ -1580,7 +1580,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike'],
         foto: 'https://images.unsplash.com/photo-1668010882703-fb9fc62c250a?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/qIKY8_2HT6M' },
-        beschrijving: 'Een daghike op de Kepler Track, een van de Great Walks, omhoog naar het uitzichtpunt bij Luxmore Hut. Boven de boomgrens ontvouwt zich het hele fjordenland.',
+        beschrijving: 'Een daghike op de Kepler Track, een van de beroemde Great Walks van Nieuw-Zeeland, die steil omhoog klimt door mosbedekt beukenbos naar het uitzichtpunt bij Luxmore Hut. Boven de boomgrens ontvouwt zich plots het hele fjordenland: Lake Te Anau diep beneden en golvende bergketens tot aan de horizon. Een perfecte opwarmer voor de Routeburn van morgen.',
         activiteiten: ['Kepler Track daghike (Luxmore Hut viewpoint)'],
       },
       {
