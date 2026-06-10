@@ -1486,7 +1486,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Natuur'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'Op de binnenlandroute terug naar Perth stop je bij Wave Rock, een 15 meter hoge granieten golf die uit het landschap oprijst alsof hij elk moment kan breken. De camper gaat hier weer terug.',
+        beschrijving: 'Op de binnenlandroute terug naar Perth stop je bij Wave Rock bij Hyden, een 15 meter hoge en 110 meter lange granieten golf die uit de vlakte oprijst alsof hij elk moment kan breken. De rode en grijze strepen, gevormd door miljoenen jaren erosie en regenwater, maken het tot een verbluffend natuurmonument. Hierna lever je de camper weer in en sluit je het Australische hoofdstuk af.',
         activiteiten: ['Wave Rock (Hyden) op de terugweg naar Perth'],
       },
     ],
