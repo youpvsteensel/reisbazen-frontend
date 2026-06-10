@@ -11,6 +11,8 @@ const statusLabel: Record<Reis['status'], { label: string; kleur: string }> = {
 };
 
 export default function HomePage() {
+  useEffect(() => { document.title = 'Routebaas'; }, []);
+
   return (
     <div>
       {/* Hero */}
