@@ -1398,7 +1398,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Camper'],
         foto: 'https://images.unsplash.com/photo-1565136264276-eea03a72679c?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/V_v2XgG8frE' },
-        beschrijving: 'De camper wordt opgehaald — vanaf nu ben je vrij. Proviand inslaan en zuidwaarts rijden naar Bunbury, de poort tot de zuidwestkust.',
+        beschrijving: 'De camper wordt opgehaald — vanaf nu ben je volledig vrij om te gaan en staan waar je wilt. Je slaat proviand in voor de komende weken en rijdt zuidwaarts langs de kust naar Bunbury, de poort tot de zuidwestelijke hoek van Australië. Het echte roadtrip-gevoel begint hier.',
         activiteiten: ['Camper ophalen, proviand inslaan, rijden naar Bunbury'],
       },
       {
