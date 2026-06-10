@@ -130,9 +130,10 @@ def genereer_kml(data: dict, output_pad: Path):
 
     for stap in stappen:
         plek = stap.get("plek", stap["naam"])
+        geo_plek = stap.get("geocode_plek", plek)
         blok = stap.get("blok", "Overig")
         stap_land = stap.get("land", land)
-        lat, lon = cache.get(f"{plek}|{stap_land}", (None, None))
+        lat, lon = cache.get(f"{geo_plek}|{stap_land}", (None, None))
 
         if lat is None:
             print(f"  Waarschuwing: geen coördinaten voor dag {stap['dag_nr']} ({plek})")
