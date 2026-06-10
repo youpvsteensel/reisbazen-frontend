@@ -1240,7 +1240,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Markt', 'Craft beer'],
         foto: 'https://images.unsplash.com/photo-1610221734835-38a23314acbe?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/f3Q6btcFKiQ' },
-        beschrijving: 'Vroeg op pad naar de Queen Victoria Market voor ontbijt tussen de kraampjes, daarna de straatkunst en koffiebars van Fitzroy en Collingwood in. \'s Middags een craft beer tour langs Moon Dog, Bodriggy en Stomping Ground.',
+        beschrijving: 'Vroeg op pad naar de Queen Victoria Market voor ontbijt tussen de kraampjes met verse producten, kaas en gebak. Daarna duik je de met graffiti bedekte steegjes, vintagewinkels en koffiebars van Fitzroy en Collingwood in, de hipste buurten van de stad. \'s Middags een craft beer tour langs Moon Dog, Bodriggy en Stomping Ground, waar Melbourne\'s bruisende bierscene tot leven komt.',
         activiteiten: ['Queen Victoria Market vroeg in de ochtend', 'Craft beer tour Fitzroy/Collingwood (Moon Dog, Bodriggy, Stomping Ground)'],
       },
       {
