@@ -25,6 +25,11 @@ import TarokoPage from './pages/TarokoPage';
 import KumanoKodoPage from './pages/KumanoKodoPage';
 import KisoKyotoPage from './pages/KisoKyotoPage';
 import ShigaTokyoPage from './pages/ShigaTokyoPage';
+import OceaniePage from './pages/OceaniePage';
+import MelbournePage from './pages/MelbournePage';
+import TasmaniePage from './pages/TasmaniePage';
+import WestAustraliePage from './pages/WestAustraliePage';
+import NzZuidereilandPage from './pages/NzZuidereilandPage';
 
 export default function App() {
   return (
