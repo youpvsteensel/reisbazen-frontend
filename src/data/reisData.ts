@@ -1327,7 +1327,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Rustdag', 'Wildlife'],
         foto: 'https://images.unsplash.com/photo-1570169639557-5b4e4428d7d3?w=1200&h=800&fit=crop&auto=format',
         fotoCredit: { url: 'https://unsplash.com/photos/sosqXdDsdy4' },
-        beschrijving: 'Na twee stevige hikes een lichtere dag: de korte Enchanted Walk door mosbegroeid regenwoud en een bezoek aan het Devils @ Cradle sanctuary, waar je de bedreigde Tasmaanse duivel van dichtbij ziet.',
+        beschrijving: 'Na twee stevige hikes een welverdiende lichtere dag: de korte Enchanted Walk slingert door sprookjesachtig, mosbegroeid regenwoud langs een kabbelend beekje. \'s Middags bezoek je het Devils @ Cradle sanctuary, waar je de bedreigde Tasmaanse duivel en quolls van dichtbij ziet en meer leert over het beschermingswerk. Een dag om de benen te laten herstellen.',
         activiteiten: ['Enchanted Walk + Devils @ Cradle wildlife sanctuary'],
       },
       {
