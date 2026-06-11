@@ -1406,7 +1406,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Kust'],
         foto: 'https://images.unsplash.com/photo-1728479148526-ebee499fd154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwODQ2OTV8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/G0O4UwShmO4' },
-        beschrijving: 'De houten Busselton Jetty strekt zich maar liefst 1,8 kilometer de oceaan in — de langste houten steiger van het zuidelijk halfrond. Je loopt of neemt het treintje tot het eind, waar een onderwaterobservatorium je acht meter diep brengt tussen het koraal, de sponzen en de kleurrijke vissen. Een verrassend onderwaterwereld midden in de baai.',
+        beschrijving: 'De houten Busselton Jetty strekt zich 1,8 kilometer de oceaan in, de langste houten steiger van het zuidelijk halfrond. Je loopt of neemt het treintje tot het eind, waar een onderwaterobservatorium je acht meter diep brengt tussen het koraal, de sponzen en de kleurrijke vissen. Een verrassende wereld midden in de baai.',
         activiteiten: ['Busselton Jetty (langste houten steiger zuidelijk halfrond, 1,8km)'],
       },
       {
