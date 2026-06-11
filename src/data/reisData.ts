@@ -1524,7 +1524,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike', 'Bergen'],
         foto: 'https://images.unsplash.com/photo-1739659296020-91f53d4f52b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExMTMzNTl8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/ZdVzBpX48M8' },
-        beschrijving: 'De Ben Lomond-track klimt door beukenbos en open berghellingen naar een top op 1748 meter, met een 360-graden uitzicht over Lake Wakatipu, de Remarkables en eindeloze bergketens daarachter. Het is een stevige dagtocht van zo\'n zes tot acht uur, maar de beloning bovenop is grandioos. Dé klassieke daghike van Queenstown om de benen op te warmen.',
+        beschrijving: 'De Ben Lomond-track klimt door beukenbos en open berghellingen naar een top op 1748 meter, met een 360-graden uitzicht over Lake Wakatipu, de Remarkables en de bergketens daarachter. Het is een stevige dagtocht van zes tot acht uur. Dé klassieke daghike van Queenstown om de benen op te warmen.',
         activiteiten: ['Ben Lomond hike (1748m, dé daghike van Queenstown)'],
       },
       {
