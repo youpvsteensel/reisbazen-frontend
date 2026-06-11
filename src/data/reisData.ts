@@ -1628,7 +1628,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike', 'Optioneel'],
         foto: 'https://images.unsplash.com/photo-1635983266158-ed62177a4180?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcxNzN8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/5ZHrRjSfevQ' },
-        beschrijving: 'Een extra hikedag voor wie er zin in heeft, met de keuze uit twee toppers. Het iconische Roy\'s Peak voor dat wereldberoemde uitzicht — vroeg vertrekken om de drukte en de zon voor te zijn. Of de Rob Roy Glacier Track, die door een spectaculaire hangende gletsjervallei voert langs watervallen en ijswanden. Houd het op maximaal twee grote hikes in Wanaka, zodat de benen het volhouden.',
+        beschrijving: 'Een extra hikedag voor wie er zin in heeft, met de keuze uit twee opties. Roy\'s Peak voor dat wereldberoemde uitzicht; vroeg vertrekken om de drukte en de zon voor te zijn. Of de Rob Roy Glacier Track, die door een hangende gletsjervallei voert langs watervallen en ijswanden. Houd het op maximaal twee grote hikes in Wanaka, zodat de benen het volhouden.',
         activiteiten: ['Optioneel: Roy\'s Peak (vroeg vertrekken) óf Rob Roy Glacier Track'],
       },
       {
