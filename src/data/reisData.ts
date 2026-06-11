@@ -1644,7 +1644,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Meerdaagse hike', 'Hut'],
         foto: 'https://images.unsplash.com/photo-1712166687417-d764130ecf6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcyNjd8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/ICJP-0bN5Io' },
-        beschrijving: 'Een korte maar bijzonder steile klim van een paar uur — deels recht omhoog langs boomwortels — brengt je naar Brewster Hut, dat als een adelaarsnest boven de Brewster Glacier hangt. Boven aangekomen kijk je recht op de gletsjer en de omringende toppen uit. Slapen op grote hoogte, met kea\'s die rond de hut scharrelen en een sterrenhemel die zijn weerga niet kent.',
+        beschrijving: 'Een korte maar bijzonder steile klim van een paar uur, deels recht omhoog langs boomwortels, brengt je naar Brewster Hut, dat als een adelaarsnest boven de Brewster Glacier hangt. Boven aangekomen kijk je recht op de gletsjer en de omringende toppen. Slapen op grote hoogte, met kea\'s die rond de hut scharrelen en een heldere sterrenhemel.',
         activiteiten: ['Mt Brewster → Brewster Hut DOC overnight (steile klim, gletsjeruitzicht)'],
       },
       {
