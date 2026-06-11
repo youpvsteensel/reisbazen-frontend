@@ -922,7 +922,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Kloof', 'Wandelen'],
         foto: 'https://images.unsplash.com/photo-1722695503110-87a0879862e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MzY4NDN8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/-jeOH08q-S8' },
-        beschrijving: 'Taroko is een marmeren kloof waar de rivier zich diep in het gesteente heeft gesneden. Je loopt de Tunnel of Nine Turns langs de smaragdgroene stroom en bezoekt de Eternal Spring Shrine, die boven een waterval tegen de rotswand is gebouwd.',
+        beschrijving: 'Taroko is een marmeren kloof waar de rivier zich diep in het gesteente heeft gesneden. Je loopt de Tunnel of Nine Turns langs het groene water en bezoekt de Eternal Spring Shrine, die boven een waterval tegen de rotswand is gebouwd.',
         activiteiten: ['Tunnel of Nine Turns', 'Eternal Spring Shrine (Changchun)'],
       },
       {
