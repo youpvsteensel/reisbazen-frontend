@@ -1319,7 +1319,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Wandelen', 'Wildlife'],
         foto: 'https://images.unsplash.com/photo-1570169639520-e75255335589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwODQ2ODF8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/bKN0YovPtbU' },
-        beschrijving: 'Een rustigere dag rond Dove Lake, waar de gekartelde silhouet van Cradle Mountain zich spiegelt in het donkere water bij het beroemde botenhuis. De klim naar Marion\'s Lookout geeft het mooiste panorama over het meer en de bergketen. In de namiddag scharrelen de wombats loom over de begroeide vlaktes — een van de beste plekken om ze in het wild te zien.',
+        beschrijving: 'Een rustigere dag rond Dove Lake, waar de gekartelde silhouet van Cradle Mountain zich spiegelt in het donkere water bij het botenhuis. De klim naar Marion\'s Lookout geeft het beste panorama over het meer en de bergketen. In de namiddag scharrelen de wombats loom over de begroeide vlaktes, een van de betere plekken om ze in het wild te zien.',
         activiteiten: ['Dove Lake Circuit + Marion\'s Lookout (wombats in de namiddag)'],
       },
       {
