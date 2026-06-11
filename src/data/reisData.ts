@@ -1596,7 +1596,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Meerdaagse hike', 'Hut'],
         foto: 'https://images.unsplash.com/photo-1486572775914-2370617517fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcxNjZ8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/rNazg-0I_k8' },
-        beschrijving: 'De tweede etappe is de spectaculairste van de track: je loopt hoog over de Harris Saddle met weidse uitzichten over de Hollyford Valley tot aan de Tasmanzee. Een zijpad naar Conical Hill biedt voor wie wil nog een adembenemend panorama. Je eindigt bij Routeburn Falls Hut, dramatisch hangend boven een vallei vol cascades.',
+        beschrijving: 'De tweede etappe is de zwaarste van de track: je loopt hoog over de Harris Saddle met uitzicht over de Hollyford Valley tot aan de Tasmanzee. Een zijpad naar Conical Hill geeft nog verder uitzicht. Je eindigt bij Routeburn Falls Hut, hangend boven een vallei vol cascades.',
         activiteiten: ['Routeburn Track dag 2 → Routeburn Falls Hut'],
       },
       {
