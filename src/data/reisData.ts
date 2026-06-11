@@ -1446,7 +1446,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Bos', 'Wandelen'],
         foto: 'https://images.unsplash.com/photo-1597053124563-8007960b2892?w=1080&auto=format&fit=crop',
         fotoCredit: { url: 'https://unsplash.com/photos/JGAY3sjAV2s' },
-        beschrijving: 'De Tree Top Walk voert je over een zwevende stalen loopbrug door de kruinen van eeuwenoude red tingle-bomen, tot veertig meter boven de bosbodem. Het is een licht wiebelende, adembenemende wandeling tussen de toppen van bomen die alleen hier groeien. Beneden loop je daarna door de Ancient Empire tussen de holle, reusachtige stammen door.',
+        beschrijving: 'De Tree Top Walk voert je over een zwevende stalen loopbrug door de kruinen van oude red tingle-bomen, tot veertig meter boven de bosbodem. De brug wiebelt licht mee als je loopt, met om je heen bomen die alleen in dit deel van Australië groeien. Beneden loop je daarna door de Ancient Empire tussen de holle, reusachtige stammen door.',
         activiteiten: ['Valley of the Giants Tree Top Walk'],
       },
       {
