@@ -4,6 +4,29 @@
 
 Begeleidt de gebruiker bij het toevoegen van een nieuwe geplande of bucket-list reis zonder CSV. Aan het einde staat de reis in de database en is het reizigersprofiel bijgewerkt.
 
+## Schrijfstijl
+
+Alle teksten die je genereert voor deze reis — beschrijvingen, dagsamenvattingen, activiteitsomschrijvingen — volgen deze stijlregels:
+
+**Vermijd altijd:**
+- Clichéadjectieven: *schilderachtig, adembenemend, spectaculair, iconisch, magisch, sprookjesachtig, grandioze, overweldigend, weelderig, dramatisch* (als stijlfiguur), *bruisend* (voor steden/markten), *verborgen pareltje, liefelijkste, perfecte, onvergetelijk*
+- Vage superlatievendie niets toevoegen: *meest fotogenieke, mooiste, beste* — zeg concreet waarom
+- Kleurbeschrijvingen als cliché: *turquoise, azuurblauw, spiegelglad, kristalhelder, piepend wit* — gebruik ze alleen als ze feitelijk onderscheidend zijn
+- Onnodige em-dashes (—) midden in lopende tekst; gebruik een komma of punt
+
+**Schrijf feitelijk en specifiek:**
+- Benoem wat er werkelijk te zien of te doen is, niet hoe "mooi" het is
+- Gebruik concrete details: namen, afstanden, tijden, aantallen, wetenswaardigheden
+- Laat de lezer zelf oordelen — beschrijf, oordeel niet
+
+**Voorbeelden:**
+- ✗ "het schilderachtige dorpje met zijn spiegelgladde meer"
+- ✓ "het dorpje aan het meer, omgeven door beboste heuvels"
+- ✗ "een iconische hike met adembenemend uitzicht"
+- ✓ "een hike van 1100 m hoogteverschil met uitzicht over twee meren"
+
+---
+
 ## Bestandsnaamgeving (belangrijk)
 
 Elke reis krijgt **eigen, unieke bestanden** op basis van een slug. Bepaal aan het begin van stap 4 een `<reis-slug>`: kleine letters, koppeltekens, gebaseerd op bestemming + eventueel jaar (bijv. `filipijnen-taiwan-japan`, `schotland-2027`). Gebruik die slug consequent voor alle drie de bestanden:
