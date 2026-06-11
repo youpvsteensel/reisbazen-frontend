@@ -1724,7 +1724,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Rustdag'],
         foto: 'https://images.unsplash.com/photo-1778640412933-a003bdc433cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcxOTR8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/rfczTkZzJ1o' },
-        beschrijving: 'Een dag van heerlijk niks bij de lodge: zwemmen vanaf de steiger, een korte boswandeling de heuvel op of gewoon met een boek van het uitzicht over de sound genieten. \'s Avonds, ver van elke lichtvervuiling, ontvouwt zich een spectaculaire sterrenhemel boven het water. Het soort trage dag dat een lange reis nodig heeft.',
+        beschrijving: 'Een dag van heerlijk niks bij de lodge: zwemmen vanaf de steiger, een korte boswandeling de heuvel op of gewoon met een boek van het uitzicht over de sound genieten. \'s Avonds, ver van elke lichtvervuiling, is de sterrenhemel boven het water uitzonderlijk helder. Het soort trage dag dat een lange reis nodig heeft.',
         activiteiten: ['Rustdag bij de lodge — wandelen, zwemmen, uitzicht'],
       },
       {
