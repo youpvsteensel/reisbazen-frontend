@@ -1764,7 +1764,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Sterren', 'Meer'],
         foto: 'https://images.unsplash.com/photo-1501884742805-c94fc1d8985b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcyMDN8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/v2lJbPVMqr8' },
-        beschrijving: 'Het melkachtig turquoise Lake Tekapo met op de oever het stenen kerkje Church of the Good Shepherd is een van de iconische beelden van Nieuw-Zeeland, vooral als in de zomer de lupines bloeien. Overdag geniet je van het uitzicht en eventueel de hotpools. \'s Avonds, midden in de Aoraki Mackenzie Dark Sky Reserve, ontvouwt zich een van de helderste en meest indrukwekkende sterrenhemels ter wereld.',
+        beschrijving: 'Het melkachtig turquoise Lake Tekapo met op de oever het stenen Church of the Good Shepherd is een van de bekendste beelden van Nieuw-Zeeland, vooral als in de zomer de lupines bloeien. Overdag geniet je van het uitzicht en eventueel de hotpools. \'s Avonds, midden in de Aoraki Mackenzie Dark Sky Reserve, is de sterrenhemel een van de helderste ter wereld.',
         activiteiten: ['Church of the Good Shepherd + Dark Sky Reserve sterrenwacht'],
       },
       {
