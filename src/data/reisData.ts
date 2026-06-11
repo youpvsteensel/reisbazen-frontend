@@ -1548,7 +1548,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Vrije dag'],
         foto: 'https://images.unsplash.com/photo-1570939273403-4c9e5bdf175a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcxNTV8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/aEA617ZMibw' },
-        beschrijving: 'Een vrije dag om bij te komen aan het meer, door de levendige stad te slenteren met zijn cafés en uitzichtterrassen, of je over te geven aan de adrenaline — bungeejumpen, jetboten of de luge — waar Queenstown wereldberoemd om is. \'s Avonds een goede maaltijd en de laatste boodschappen. Morgen wachten de afgelegen fjorden van Fiordland.',
+        beschrijving: 'Een vrije dag om bij te komen aan het meer, door de stad te slenteren met zijn cafés en uitzichtterrassen, of actief te zijn: bungeejumpen, jetboten of de luge waarvoor Queenstown bekendstaat. \'s Avonds een goede maaltijd en de laatste boodschappen. Morgen wachten de afgelegen fjorden van Fiordland.',
         activiteiten: ['Vrije dag Queenstown — meer, cafés, voorbereiding'],
       },
       {
