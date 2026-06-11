@@ -22,3 +22,6 @@ dist-ssr
 *.sw?
 .env
 .vercel
+.claude/settings.json
+routebaas_backup_*.sql
+scripts/__pycache__/
