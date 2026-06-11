@@ -1716,7 +1716,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Kayak'],
         foto: 'https://images.unsplash.com/photo-1515098423680-06b8106bb1b6?w=1080&auto=format&fit=crop',
         fotoCredit: { url: 'https://unsplash.com/photos/GmACerouugQ' },
-        beschrijving: 'Een dag kayakken op de spiegelgladde Kenepuru Sound, met de kajak zo het water in vanaf het botenhuis van de lodge. Je peddelt langs stille, beboste hellingen en verlaten baaitjes, met alleen het geklater van je peddel en het gezang van native vogels. Misschien zwem je vanaf een verlaten strandje of speur je naar zeesterren in het heldere water.',
+        beschrijving: 'Een dag kayakken op de stille Kenepuru Sound, met de kajak zo het water in vanaf het botenhuis van de lodge. Je peddelt langs stille, beboste hellingen en verlaten baaitjes, met alleen het geklater van je peddel en het gezang van native vogels. Misschien zwem je vanaf een verlaten strandje of speur je naar zeesterren in het heldere water.',
         activiteiten: ['Kenepuru Sound kayak vanuit Hopewell Lodge'],
       },
       {
