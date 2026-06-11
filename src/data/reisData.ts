@@ -153,7 +153,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Roadtrip', 'Meren'],
         foto: 'https://images.unsplash.com/photo-1709403552725-97e0ba206cb8?w=1080&auto=format&fit=crop',
         fotoCredit: { url: 'https://unsplash.com/photos/lqU8diyO3WU' },
-        beschrijving: 'De Circuito Chico is niet voor niets de klassieker van Bariloche. Je rijdt langs het meer Nahuel Huapi en het schiereiland Llao Llao, van het ene verbluffende uitzichtpunt naar het andere, met azuurblauwe baaien en geurende bossen aan weerszijden van de weg.',
+        beschrijving: 'De Circuito Chico is niet voor niets de klassieker van Bariloche. Je rijdt langs het meer Nahuel Huapi en het schiereiland Llao Llao, langs baaien en naaldbossen aan weerszijden van de weg, met telkens nieuw uitzicht op het water.',
         activiteiten: [
           'Circuito Chico rijden langs de meren en uitzichtpunten',
           'Wandeling door het bos van het schiereiland Llao Llao',
