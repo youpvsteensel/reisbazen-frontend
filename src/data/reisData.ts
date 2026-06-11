@@ -1612,7 +1612,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Vrije dag', 'Meer'],
         foto: 'https://images.unsplash.com/photo-1584212706523-c11356aec11c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcxNjl8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/DEIZurWYvW8' },
-        beschrijving: 'Wanaka is relaxter en minder toeristisch dan Queenstown, maar net zo adembenemend mooi gelegen aan zijn eigen bergmeer. Een dag van rondslenteren langs de waterkant, een foto bij de beroemde, half in het meer groeiende #ThatWanakaTree en koffie of brunch in de gemoedelijke dorpscafés. Precies het soort dag om even niets te moeten tussen de hikes door.',
+        beschrijving: 'Wanaka is rustiger en minder toeristisch dan Queenstown, gelegen aan een eigen bergmeer. Een dag van rondslenteren langs de waterkant, een foto bij de half in het meer groeiende #ThatWanakaTree en koffie of brunch in de dorpscafés. Precies het soort dag om even niets te moeten tussen de hikes door.',
         activiteiten: ['Vrije dag Wanaka — meer, #ThatWanakaTree, cafés'],
       },
       {
