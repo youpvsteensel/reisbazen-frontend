@@ -170,7 +170,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Dagtrek', 'Bergen'],
         foto: 'https://images.unsplash.com/photo-1580688027085-8220709e3d84?w=1080&auto=format&fit=crop',
         fotoCredit: { url: 'https://unsplash.com/photos/GxvSj7KugaU' },
-        beschrijving: 'Tijd om de bergschoenen in te lopen. Vanaf Cerro Catedral klim je naar Refugio Frey, een berghut aan een glashelder bergmeer dat wordt bewaakt door scherpe granieten torens. De mooiste tocht van het merengebied, en de perfecte opwarmer voor het ruige werk dat nog komt.',
+        beschrijving: 'Tijd om de bergschoenen in te lopen. Vanaf Cerro Catedral klim je naar Refugio Frey, een berghut aan een bergmeer omringd door scherpe granieten torens. De beste tocht van het merengebied, en een goede opwarmer voor de zwaardere etappes die nog komen.',
         activiteiten: [
           'Refugio Frey trek, zo\'n 20 kilometer heen en terug',
           'Granieten torens en de berglagune bij de hut',
