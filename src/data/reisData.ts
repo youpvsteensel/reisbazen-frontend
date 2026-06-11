@@ -1780,7 +1780,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Afscheid'],
         foto: 'https://images.unsplash.com/photo-1703166108321-7b6806a3675d?w=1080&auto=format&fit=crop',
         fotoCredit: { url: 'https://unsplash.com/photos/pXR7EX0Do8w' },
-        beschrijving: 'Een laatste ochtend met uitzicht op de gletsjers, daarna de afdaling van Mueller Hut en de schilderachtige terugrit naar Queenstown, waar de reis drie maanden geleden begon. Onderweg zie je het landschap nog één keer overgaan van hoge bergen naar glooiende meren. Van tennisbaan tot gletsjertop: het Oceanië-avontuur komt hier tot een mooi einde.',
+        beschrijving: 'Een laatste ochtend met uitzicht op de gletsjers, daarna de afdaling van Mueller Hut en de terugrit naar Queenstown, waar de reis drie maanden geleden begon. Onderweg zie je het landschap nog één keer overgaan van hoge bergen naar glooiende meren. Van tennisbaan tot gletsjertop: het Oceanië-avontuur komt hier tot een mooi einde.',
         activiteiten: ['Afdalen Mueller Hut, terugrijden naar Queenstown'],
       },
     ],
