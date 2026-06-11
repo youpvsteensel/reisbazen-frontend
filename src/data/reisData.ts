@@ -1772,7 +1772,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Meerdaagse hike', 'Hut'],
         foto: 'https://images.unsplash.com/photo-1685237658052-d5883b0e1162?w=1080&auto=format&fit=crop',
         fotoCredit: { url: 'https://unsplash.com/photos/pPeoRmIe2DI' },
-        beschrijving: 'De steile klim naar Mueller Hut voert over honderden trappen en een rotsachtige kam omhoog naar een rood huttje op 1800 meter, midden tussen de gletsjers en de hoogste pieken van het land. Het is hard werken, maar het uitzicht op Aoraki/Mt Cook is overweldigend. \'s Nachts hoor je de lawines van de omringende gletsjers rommelen en zie je de bergtoppen oplichten in het maanlicht — een grandioze finale van de reis.',
+        beschrijving: 'De steile klim naar Mueller Hut voert over honderden trappen en een rotsachtige kam omhoog naar een rood huttje op 1800 meter, midden tussen de gletsjers en de hoogste pieken van het land. Het is hard werken, maar het uitzicht op Aoraki/Mt Cook is uitgestrekt en indrukwekkend. \'s Nachts hoor je de lawines van de omringende gletsjers rommelen en zie je de bergtoppen oplichten in het maanlicht.',
         activiteiten: ['Mueller Hut DOC overnight via Mt Cook NP (gletsjers rondom)'],
       },
       {
