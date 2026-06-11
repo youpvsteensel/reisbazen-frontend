@@ -798,7 +798,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Luxe', 'Relax'],
         foto: 'https://images.unsplash.com/photo-1760815153677-d7984323db5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MzExOTJ8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/1cnC2y57t-o' },
-        beschrijving: 'Als tegenwicht voor de expeditie trek je je twee nachten terug op een afgelegen eilandresort. Hier is niets te doen behalve snorkelen op het huisrif, een massage in de spa en eindeloos uitzicht op zee — precies de bedoeling.',
+        beschrijving: 'Als tegenwicht voor de expeditie trek je je twee nachten terug op een afgelegen eilandresort. Hier is niets te doen behalve snorkelen op het huisrif, een massage in de spa en eindeloos uitzicht op zee. Precies de bedoeling.',
         activiteiten: ['Luxe eilandresort relax (spa + huisrif)', 'Snorkelen op het huisrif'],
       },
       {
