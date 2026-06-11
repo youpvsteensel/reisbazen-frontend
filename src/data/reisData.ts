@@ -377,7 +377,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Fitz Roy', 'Acclimatiseren'],
         foto: 'https://images.unsplash.com/photo-1615337138008-899c20f72404?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/8CAFCS1BWME' },
-        beschrijving: 'Vanuit El Calafate rijd je naar El Chaltén, het knusse wandeldorp dat helemaal in het teken staat van Fitz Roy. Vandaag draait alles om landen: je slentert door de straatjes, laat de benen wennen op een korte wandeling en bereidt je voor op de iconische tochten die je wachten.',
+        beschrijving: 'Vanuit El Calafate rijd je naar El Chaltén, het wandeldorp dat volledig in het teken staat van Fitz Roy. Vandaag draait alles om landen: je slentert door de straatjes, laat de benen wennen op een korte wandeling en bereidt je voor op de grote tochten die je wachten.',
         activiteiten: [
           'Mirador de los Cóndores, een korte acclimatisatiewandeling van een tot twee uur',
           'Het dorp El Chaltén verkennen voor een restaurant en proviand',
