@@ -1335,7 +1335,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Reisdag', 'Stad'],
         foto: 'https://images.unsplash.com/photo-1647826792065-2f6562610d50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwODQ2ODV8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/yLcHgqNjjgU' },
-        beschrijving: 'De lange rit terug naar Hobart voert door het glooiende binnenland van het eiland. In het weekend slenter je over de bruisende Salamanca Market langs de oude zandstenen pakhuizen, vol streekproducten en kunst. Wie tijd over heeft bezoekt het wereldberoemde, provocerende MONA-museum voordat het vliegtuig naar Perth wacht — een groot continent verderop.',
+        beschrijving: 'De lange rit terug naar Hobart voert door het glooiende binnenland van het eiland. In het weekend slenter je over de Salamanca Market langs de oude zandstenen pakhuizen, vol streekproducten en kunst. Wie tijd over heeft bezoekt het provocerende MONA-museum voordat het vliegtuig naar Perth vertrekt.',
         activiteiten: ['Terugrijden naar Hobart', 'Salamanca Market (indien zaterdag/zondag)'],
       },
     ],
