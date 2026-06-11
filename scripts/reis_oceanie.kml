@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Oceanië — Australië &amp; Nieuw-Zeeland</name>
+    <description>Drie maanden door Oceanië: Australian Open in Melbourne, de wildernis van Tasmanië, de afgelegen zuidwestkust van West-Australië per camper en de hut-to-hut tracks van het Zuidereiland van Nieuw-Zeeland.</description>
+    <Style id="lijn_Melbourne">
+      <LineStyle>
+        <color>ff00aa00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Melbourne">
+      <IconStyle>
+        <color>ff00aa00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Tasmanië">
+      <LineStyle>
+        <color>ff0055ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Tasmanië">
+      <IconStyle>
+        <color>ff0055ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_West-Australië">
+      <LineStyle>
+        <color>ffaa00aa</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_West-Australië">
+      <IconStyle>
+        <color>ffaa00aa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_NZ_Zuidereiland">
+      <LineStyle>
+        <color>ff00aaaa</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_NZ_Zuidereiland">
+      <IconStyle>
+        <color>ff00aaaa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Stops</name>
+      <Placemark>
+        <name>Dag 1 — Aankomst Melbourne</name>
+        <styleUrl>#punt_Melbourne</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Melbourne&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Turnkey Accomodation&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; St Kilda beach + Acland Street&lt;br/&gt;</description>
+        <Point>
+          <coordinates>144.9631732,-37.8142454,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 2 — Australian Open</name>
+        <styleUrl>#punt_Melbourne</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Melbourne&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Turnkey Accomodation&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Australian Open&lt;br/&gt;</description>
+        <Point>
+          <coordinates>144.9631732,-37.8142454,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 3 — Australian Open</name>
+        <styleUrl>#punt_Melbourne</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Melbourne&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Turnkey Accomodation&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Australian Open&lt;br/&gt;</description>
+        <Point>
+          <coordinates>144.9631732,-37.8142454,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 4 — Melbourne buurten</name>
+        <styleUrl>#punt_Melbourne</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Melbourne&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Turnkey Accomodation&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Queen Victoria Market vroeg in de ochtend, Craft beer tour Fitzroy/Collingwood (Moon Dog, Bodriggy, Stomping Ground)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; NGV of ACMI kunstmuseum&lt;br/&gt;</description>
+        <Point>
+          <coordinates>144.9631732,-37.8142454,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 5 — Vlucht naar Tasmanië</name>
+        <styleUrl>#punt_Melbourne</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Melbourne&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Four Seasons&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Vlucht Melbourne → Hobart, huurauto ophalen, doorrijden naar Tasman NP&lt;br/&gt;</description>
+        <Point>
+          <coordinates>147.3281233,-42.8825088,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 6 — Tasman NP</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Four Seasons&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Cape Hauy hike (8km, klif boven de Totem Pole)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Cape Raoul hike (16km, doleritpijlers), Port Arthur Historic Site&lt;br/&gt;</description>
+        <Point>
+          <coordinates>147.7328232,-43.1868649,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 7 — Freycinet NP</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Swansea Motor Inn&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Mount Amos → Wineglass Bay loop (12km)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Scenic flight over Wineglass Bay&lt;br/&gt;</description>
+        <Point>
+          <coordinates>148.2770571,-42.3183893,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 8 — Bay of Fires</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Bay of Fires Bush Retreat&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Bay of Fires bij zonsopgang — oranje rotsen, wit zand, Binalong Bay zwemmen&lt;br/&gt;</description>
+        <Point>
+          <coordinates>148.2846991,-41.1205,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 9 — Tamar Valley</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Rosevears Riverview Hotel&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Tamar Valley wijnproeverij (Pipers Brook, Josef Chromy)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Bridestowe Lavender Estate&lt;br/&gt;</description>
+        <Point>
+          <coordinates>146.9056213,-41.1405872,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 10 — Cradle Mountain</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Roland Spa Cottage, Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Cradle Mountain Summit (13km, 815m hoogteverschil)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>145.9470978,-41.8670412,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 11 — Cradle Mountain</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Roland Spa Cottage, Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Dove Lake Circuit + Marion's Lookout (wombats in de namiddag)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Hansons Peak voor zonsondergang&lt;br/&gt;</description>
+        <Point>
+          <coordinates>145.9470978,-41.8670412,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 12 — Cradle Mountain rustdag</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Roland Spa Cottage, Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Enchanted Walk + Devils @ Cradle wildlife sanctuary&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Montezuma Falls (8km)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>145.9470978,-41.8670412,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 13 — Terug naar Hobart</name>
+        <styleUrl>#punt_Tasmanië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Tasmanië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; YHA hostel&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Terugrijden naar Hobart, Salamanca Market (indien zaterdag/zondag)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; MONA museum&lt;br/&gt;</description>
+        <Point>
+          <coordinates>147.3281233,-42.8825088,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 14 — Vlucht naar Perth</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Fremantle, Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Vlucht Hobart → Perth&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.8605784,-31.9558967,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 15 — Perth downtown</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Fremantle, Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Kings Park, Elizabeth Quay, Northbridge&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.8605784,-31.9558967,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 16 — Fremantle</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Fremantle, Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Fremantle: Little Creatures brewery, markt, havensfeer&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.7586172,-32.0534086,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 17 — Rottnest Island</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Fremantle, Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Rottnest Island fietsen — quokka's, baaien, geen auto's&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.5205271,-32.0070095,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 18 — Camper ophalen, naar Bunbury</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Camper ophalen, proviand inslaan, rijden naar Bunbury&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.636698,-33.3267797,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 19 — Busselton</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Busselton Jetty (langste houten steiger zuidelijk halfrond, 1,8km)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.0737539,-33.9503228,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 20 — Yallingup</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Yallingup rockpools, Cape to Cape Track (deel) — klifwandeling langs de oceaan&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.0259595,-33.6395258,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 21 — Margaret River</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; 2-3 kleine cellar doors, Hamelin Bay — stingrays op het strand&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.0769369,-33.9531776,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 22 — Margaret River</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Slow dag: stranden, gourmet &amp; relax&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Surfles, Ngilgi Cave&lt;br/&gt;</description>
+        <Point>
+          <coordinates>115.0769369,-33.9531776,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 23 — Denmark</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Greens Pool + Elephant Rocks&lt;br/&gt;</description>
+        <Point>
+          <coordinates>117.3551157,-34.9604365,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 24 — Denmark</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Valley of the Giants Tree Top Walk&lt;br/&gt;</description>
+        <Point>
+          <coordinates>117.3551157,-34.9604365,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 25 — Albany</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Little Beach + Two Peoples Bay Nature Reserve&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Frenchman Bay&lt;br/&gt;</description>
+        <Point>
+          <coordinates>117.883608,-35.0247822,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 26 — Fitzgerald River NP</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Fitzgerald River NP hike — meest ongerepte NP van WA&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.1249342,-33.9467298,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 27 — Esperance</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lucky Bay Campground&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Lucky Bay — kangoeroes op het strand bij zonsopgang (Cape Le Grand NP)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Lucky Bay Brewery&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.8931606,-33.858228,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 28 — Esperance</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lucky Bay Campground&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Blue Haven + Twilight Bay, Wharton Beach (dolfijnen, snorkelen)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.8931606,-33.858228,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 29 — Wave Rock, terug naar Perth</name>
+        <styleUrl>#punt_West-Australië</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; West-Australië&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Wave Rock (Hyden) op de terugweg naar Perth&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Lake Magic zoutmeer&lt;br/&gt;</description>
+        <Point>
+          <coordinates>118.864003,-32.4487288,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 30 — Vlucht naar Queenstown</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Vlucht Perth → Queenstown, huurauto ophalen&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.661,-45.0321923,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 31 — Ben Lomond</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Ben Lomond hike (1748m, dé daghike van Queenstown)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.661,-45.0321923,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 32 — Glenorchy &amp; Paradise</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Glenorchy + Paradise — LOTR-landschappen, ongerepte vallei&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.3851983,-44.849749,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 33 — Gibbston &amp; Arrowtown</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Gibbston Valley winery + Arrowtown historisch goudmijnstadje&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.8350761,-44.9405627,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 34 — Queenstown</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Vrije dag Queenstown — meer, cafés, voorbereiding&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Jetboat of luge (optioneel)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.661,-45.0321923,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 35 — Doubtful Sound cruise</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Doubtful Sound Overnight Cruise&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Doubtful Sound overnight cruise — invaren, overnachten op het water&lt;br/&gt;</description>
+        <Point>
+          <coordinates>167.0865205,-45.3738793,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 36 — Doubtful Sound</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lakeview Holiday park&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Ochtend op het water, uitvaren, terug naar Te Anau&lt;br/&gt;</description>
+        <Point>
+          <coordinates>167.0865205,-45.3738793,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 37 — Te Anau</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lakeview Holiday park&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Rustdag Te Anau, voorbereiding Routeburn&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Te Anau Glowworm Caves&lt;br/&gt;</description>
+        <Point>
+          <coordinates>167.717489,-45.41449,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 38 — Kepler Track</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lakeview Holiday park&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Kepler Track daghike (Luxmore Hut viewpoint)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>167.717489,-45.41449,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 39 — Routeburn Track dag 1</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lake Mackenzie Hut&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Routeburn Track hut-to-hut dag 1 → Lake Mackenzie Hut&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.135449,-44.8156963,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 40 — Routeburn Track dag 2</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Routeburn Falls Hut&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Routeburn Track dag 2 → Routeburn Falls Hut&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.135449,-44.8156963,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 41 — Terug naar Te Anau</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lakeview Holiday park&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Afdalen en terugreizen, rustige avond&lt;br/&gt;</description>
+        <Point>
+          <coordinates>167.717489,-45.41449,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 42 — Wanaka chill</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb Youp&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Vrije dag Wanaka — meer, #ThatWanakaTree, cafés&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Puzzling World&lt;br/&gt;</description>
+        <Point>
+          <coordinates>169.1364637,-44.6941691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 43 — Isthmus Peak</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb Youp&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Isthmus Peak hike (minder druk dan Roy's Peak, even mooi)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>169.1364637,-44.6941691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 44 — Wanaka hike</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb Youp&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Roy's Peak (vroeg vertrekken voor de drukte), Rob Roy Glacier Track&lt;br/&gt;</description>
+        <Point>
+          <coordinates>169.1364637,-44.6941691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 45 — Wanaka</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb Youp&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Rustdag of tweede optionele hike&lt;br/&gt;</description>
+        <Point>
+          <coordinates>169.1364637,-44.6941691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 46 — Brewster Hut</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Brewster Hut, DOC&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Mt Brewster → Brewster Hut DOC overnight (steile klim, gletsjeruitzicht)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>169.4505808,-44.0655852,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 47 — Naar Fox/Franz Josef</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Fox glacier lodge&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Blue Pools hike nabij Haast Pass onderweg&lt;br/&gt;</description>
+        <Point>
+          <coordinates>170.1701774,-43.3886715,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 48 — Glaciers</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Fox glacier lodge&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Fox of Franz Josef gletsjervallei wandeling&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Lake Matheson reflectiewandeling&lt;br/&gt;</description>
+        <Point>
+          <coordinates>170.1701774,-43.3886715,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 49 — Copland Track</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Welcome Flat Hut, DOC&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Copland Track → Welcome Flat Hut (natuurlijke hotpool ná de hike)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>169.8682769,-43.6104929,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 50 — Terug naar Fox</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Fox glacier lodge&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Afdalen Copland, herstel&lt;br/&gt;</description>
+        <Point>
+          <coordinates>170.1386966,-43.5170284,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 51 — Naar Nelson</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Reisdag langs de westkust naar Nelson&lt;br/&gt;</description>
+        <Point>
+          <coordinates>173.2836756,-41.2710849,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 52 — Abel Tasman</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Abel Tasman Coast Track — kayak + lopen langs de kust&lt;br/&gt;</description>
+        <Point>
+          <coordinates>172.970428,-40.8898347,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 53 — Nelson &amp; Cable Bay</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Cable Bay kustwandeling + Nelson food scene&lt;br/&gt;</description>
+        <Point>
+          <coordinates>173.411175,-41.1545601,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 54 — Marlborough Sounds</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hopewell Lodge&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Queen Charlotte Track wandelen vanuit Hopewell Lodge&lt;br/&gt;</description>
+        <Point>
+          <coordinates>173.8330263,-41.4744747,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 55 — Kenepuru Sound</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hopewell Lodge&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Kenepuru Sound kayak vanuit Hopewell Lodge&lt;br/&gt;</description>
+        <Point>
+          <coordinates>173.8330263,-41.4744747,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 56 — Hopewell relax</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hopewell Lodge&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Rustdag bij de lodge — wandelen, zwemmen, uitzicht&lt;br/&gt;</description>
+        <Point>
+          <coordinates>173.8330263,-41.4744747,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 57 — Blenheim</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Antares Homestay&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Cloudy Bay + kleine wijnproducenten in Marlborough&lt;br/&gt;</description>
+        <Point>
+          <coordinates>173.9545856,-41.5118691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 58 — Stella Hut / Mt Lyford</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Tinline Hut (Mt Lyford)&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Wandelingen in de omgeving van de hut (Mt Lyford)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>166.2808611,-50.4986607,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 59 — Mount Somers</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb Youp&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Mount Somers Track (alpien, weinig toeristen)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>171.4024346,-43.7055797,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 60 — Mount Somers</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb Youp&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Lokale wandeling + rustige dag&lt;br/&gt;</description>
+        <Point>
+          <coordinates>171.4024346,-43.7055797,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 61 — Lake Tekapo</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Airbnb Youp&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Church of the Good Shepherd + Dark Sky Reserve sterrenwacht&lt;br/&gt;</description>
+        <Point>
+          <coordinates>170.4777273,-44.0045194,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 62 — Mueller Hut</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Mueller Hut, DOC&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Mueller Hut DOC overnight via Mt Cook NP (gletsjers rondom)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>170.2410739,-43.6048727,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 63 — Terug naar Queenstown</name>
+        <styleUrl>#punt_NZ_Zuidereiland</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; NZ Zuidereiland&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Afdalen Mueller Hut, terugrijden naar Queenstown&lt;br/&gt;</description>
+        <Point>
+          <coordinates>168.661,-45.0321923,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Routes</name>
+      <Placemark>
+        <name>Melbourne</name>
+        <styleUrl>#lijn_Melbourne</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>144.9631732,-37.8142454,0 144.9631732,-37.8142454,0 144.9631732,-37.8142454,0 144.9631732,-37.8142454,0 147.3281233,-42.8825088,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tasmanië</name>
+        <styleUrl>#lijn_Tasmanië</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>147.7328232,-43.1868649,0 148.2770571,-42.3183893,0 148.2846991,-41.1205,0 146.9056213,-41.1405872,0 145.9470978,-41.8670412,0 145.9470978,-41.8670412,0 145.9470978,-41.8670412,0 147.3281233,-42.8825088,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>West-Australië</name>
+        <styleUrl>#lijn_West-Australië</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>115.8605784,-31.9558967,0 115.8605784,-31.9558967,0 115.7586172,-32.0534086,0 115.5205271,-32.0070095,0 115.636698,-33.3267797,0 115.0737539,-33.9503228,0 115.0259595,-33.6395258,0 115.0769369,-33.9531776,0 115.0769369,-33.9531776,0 117.3551157,-34.9604365,0 117.3551157,-34.9604365,0 117.883608,-35.0247822,0 120.1249342,-33.9467298,0 121.8931606,-33.858228,0 121.8931606,-33.858228,0 118.864003,-32.4487288,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>NZ Zuidereiland</name>
+        <styleUrl>#lijn_NZ_Zuidereiland</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>168.661,-45.0321923,0 168.661,-45.0321923,0 168.3851983,-44.849749,0 168.8350761,-44.9405627,0 168.661,-45.0321923,0 167.0865205,-45.3738793,0 167.0865205,-45.3738793,0 167.717489,-45.41449,0 167.717489,-45.41449,0 168.135449,-44.8156963,0 168.135449,-44.8156963,0 167.717489,-45.41449,0 169.1364637,-44.6941691,0 169.1364637,-44.6941691,0 169.1364637,-44.6941691,0 169.1364637,-44.6941691,0 169.4505808,-44.0655852,0 170.1701774,-43.3886715,0 170.1701774,-43.3886715,0 169.8682769,-43.6104929,0 170.1386966,-43.5170284,0 173.2836756,-41.2710849,0 172.970428,-40.8898347,0 173.411175,-41.1545601,0 173.8330263,-41.4744747,0 173.8330263,-41.4744747,0 173.8330263,-41.4744747,0 173.9545856,-41.5118691,0 166.2808611,-50.4986607,0 171.4024346,-43.7055797,0 171.4024346,-43.7055797,0 170.4777273,-44.0045194,0 170.2410739,-43.6048727,0 168.661,-45.0321923,0</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

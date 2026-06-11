@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Filipijnen, Taiwan &amp; Japan - 6 weken off the beaten track</name>
+    <description>Avontuurlijke 42-daagse winterreis voor twee: slow travel en eilandexpeditie op Palawan, afgelegen bergen in Taiwan, de Kumano Kodo pelgrimshike met Oud &amp; Nieuw in Yunomine Onsen, de Nakasendo en skien in Shiga Kogen.</description>
+    <Style id="lijn_Aankomst">
+      <LineStyle>
+        <color>ff00aa00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Aankomst">
+      <IconStyle>
+        <color>ff00aa00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Palawan_-_Port_Barton">
+      <LineStyle>
+        <color>ff0055ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Palawan_-_Port_Barton">
+      <IconStyle>
+        <color>ff0055ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Palawan_-_El_Nido">
+      <LineStyle>
+        <color>ffaa00aa</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Palawan_-_El_Nido">
+      <IconStyle>
+        <color>ffaa00aa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Palawan_-_Tao_Expedition">
+      <LineStyle>
+        <color>ff00aaaa</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Palawan_-_Tao_Expedition">
+      <IconStyle>
+        <color>ff00aaaa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Palawan_-_Coron">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Palawan_-_Coron">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Taiwan_-_Taipei">
+      <LineStyle>
+        <color>ff005599</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Taiwan_-_Taipei">
+      <IconStyle>
+        <color>ff005599</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Taiwan_-_Smangus">
+      <LineStyle>
+        <color>ff00aa00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Taiwan_-_Smangus">
+      <IconStyle>
+        <color>ff00aa00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Taiwan_-_Taroko_&amp;_Oostkust">
+      <LineStyle>
+        <color>ff0055ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Taiwan_-_Taroko_&amp;_Oostkust">
+      <IconStyle>
+        <color>ff0055ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Japan_-_Kansai">
+      <LineStyle>
+        <color>ffaa00aa</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Japan_-_Kansai">
+      <IconStyle>
+        <color>ffaa00aa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Japan_-_Kumano_Kodo">
+      <LineStyle>
+        <color>ff00aaaa</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Japan_-_Kumano_Kodo">
+      <IconStyle>
+        <color>ff00aaaa</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Japan_-_Kiso_Valley">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Japan_-_Kiso_Valley">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Japan_-_Shiga_Kogen">
+      <LineStyle>
+        <color>ff005599</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Japan_-_Shiga_Kogen">
+      <IconStyle>
+        <color>ff005599</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="lijn_Japan_-_Tokyo">
+      <LineStyle>
+        <color>ff00aa00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="punt_Japan_-_Tokyo">
+      <IconStyle>
+        <color>ff00aa00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Stops</name>
+      <Placemark>
+        <name>Dag 1 — Aankomst Manila</name>
+        <styleUrl>#punt_Aankomst</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Aankomst&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Makati&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.9803621,14.5904492,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 2 — Reis naar Port Barton</name>
+        <styleUrl>#punt_Palawan_-_Port_Barton</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Port Barton&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Strandlodge Port Barton&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.1779622,10.4114,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 3 — Snorkelen rond Port Barton</name>
+        <styleUrl>#punt_Palawan_-_Port_Barton</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Port Barton&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Strandlodge Port Barton&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Twin Reef &amp; Maxima Island snorkelen&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; German Island sandbank&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.1779622,10.4114,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 4 — Eilandhoppen &amp; schildpadden</name>
+        <styleUrl>#punt_Palawan_-_Port_Barton</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Port Barton&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Strandlodge Port Barton&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Starfish Island zandbank, Turtle Spot snorkelen met schildpadden&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Mangrove kayaktocht&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.1779622,10.4114,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 5 — Jungle-waterval</name>
+        <styleUrl>#punt_Palawan_-_Port_Barton</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Port Barton&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Strandlodge Port Barton&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Pamuayan Falls hike&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.1779622,10.4114,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 6 — Reis naar El Nido</name>
+        <styleUrl>#punt_Palawan_-_El_Nido</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - El Nido&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Afgelegen lodge Nacpan/Cadlao&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Las Cabanas Beach sunset&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.390496,11.1800395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 7 — Nacpan Beach</name>
+        <styleUrl>#punt_Palawan_-_El_Nido</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - El Nido&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Afgelegen lodge Nacpan/Cadlao&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Nacpan Beach&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Tour D eilandhoppen&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.390496,11.1800395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 8 — Kajakken naar Cadlao</name>
+        <styleUrl>#punt_Palawan_-_El_Nido</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - El Nido&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Afgelegen lodge Nacpan/Cadlao&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Kajakken naar Cadlao Island&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Taraw Cliff klim&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.390496,11.1800395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 9 — Tao Expedition dag 1</name>
+        <styleUrl>#punt_Palawan_-_Tao_Expedition</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Tao Expedition&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Tao basecamp (bamboehut)&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Snorkelen bij afgelegen riffen&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.8680499,11.4911664,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 10 — Tao Expedition dag 2</name>
+        <styleUrl>#punt_Palawan_-_Tao_Expedition</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Tao Expedition&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Tao basecamp (bamboehut)&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Verborgen lagunes &amp; onbereikbare eilanden&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Linapacan-eilanden (helderste water)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>119.8680499,11.4911664,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 11 — Tao Expedition dag 3</name>
+        <styleUrl>#punt_Palawan_-_Tao_Expedition</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Tao Expedition&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Tao basecamp (bamboehut)&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Strandcamping in bamboehutjes, Vissen &amp; vers koken met de crew&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.0220973,11.8905322,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 12 — Aankomst Coron</name>
+        <styleUrl>#punt_Palawan_-_Coron</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Coron&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Boutique hotel Coron town&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.2051611,11.9985507,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 13 — Lagunes &amp; meren</name>
+        <styleUrl>#punt_Palawan_-_Coron</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Coron&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Boutique hotel Coron town&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Barracuda Lake duiken/snorkelen&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Kayangan Lake, Twin Lagoon&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.2051611,11.9985507,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 14 — Wrakken &amp; uitzicht</name>
+        <styleUrl>#punt_Palawan_-_Coron</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Coron&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Boutique hotel Coron town&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Mt. Tapyas zonsondergang&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Japanse WOII-scheepswrakken duiken, Siete Pecados Marine Park snorkelen&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.2051611,11.9985507,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 15 — Luxe eilandresort</name>
+        <styleUrl>#punt_Palawan_-_Coron</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Coron&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Sangat Island / Club Paradise&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Luxe eilandresort relax (spa + huisrif)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.2051611,11.9985507,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 16 — Relaxdag eilandresort</name>
+        <styleUrl>#punt_Palawan_-_Coron</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Coron&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Sangat Island / Club Paradise&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Slow ochtend, snorkelen huisrif&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.2051611,11.9985507,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 17 — Coron naar Manila</name>
+        <styleUrl>#punt_Palawan_-_Coron</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Palawan - Coron&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Luchthavenhotel Manila&lt;br/&gt;</description>
+        <Point>
+          <coordinates>120.9803621,14.5904492,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 18 — Vlucht naar Taipei</name>
+        <styleUrl>#punt_Taiwan_-_Taipei</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Taipei&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Taipei&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Yongkang Street eten&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.5636796,25.0375198,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 19 — Taipei &amp; huurauto</name>
+        <styleUrl>#punt_Taiwan_-_Taipei</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Taipei&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Taipei&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Raohe Night Market&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.5636796,25.0375198,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 20 — Reis naar Smangus</name>
+        <styleUrl>#punt_Taiwan_-_Smangus</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Smangus&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Dorpsverblijf Smangus&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Sterrenhemel zonder lichtvervuiling&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.334255,24.5787433,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 21 — Reuzencipressen &amp; Atayal-dorp</name>
+        <styleUrl>#punt_Taiwan_-_Smangus</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Smangus&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Dorpsverblijf Smangus&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Giant Trees Trail (reuzencipressen), Atayal-dorp &amp; cultuur, Wolkenzee bij zonsopgang&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.334255,24.5787433,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 22 — Smangus naar Hualien</name>
+        <styleUrl>#punt_Taiwan_-_Taroko_&amp;_Oostkust</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Taroko &amp; Oostkust&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Hualien&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Dongdamen Night Market&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.6197276,23.9913421,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 23 — Taroko Gorge</name>
+        <styleUrl>#punt_Taiwan_-_Taroko_&amp;_Oostkust</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Taroko &amp; Oostkust&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Hualien&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Tunnel of Nine Turns, Eternal Spring Shrine (Changchun)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Shakadang Trail, Swallow Grotto (Yanzikou)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.4939579,24.1825147,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 24 — Kust &amp; hot spring</name>
+        <styleUrl>#punt_Taiwan_-_Taroko_&amp;_Oostkust</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Taroko &amp; Oostkust&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Hualien&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Qingshui Cliffs, Antong / Ruisui hot spring&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.6929114,24.2185949,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 25 — East Rift Valley fietsen</name>
+        <styleUrl>#punt_Taiwan_-_Taroko_&amp;_Oostkust</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Taroko &amp; Oostkust&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Hualien&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; East Rift Valley fietsen (Chishang rijstvelden)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Sanxiantai brug&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.215139,23.122393,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 26 — Terug naar Taipei</name>
+        <styleUrl>#punt_Taiwan_-_Taipei</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Taiwan - Taipei&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Taipei&lt;br/&gt;</description>
+        <Point>
+          <coordinates>121.5636796,25.0375198,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 27 — Vlucht naar Osaka</name>
+        <styleUrl>#punt_Japan_-_Kansai</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kansai&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Osaka&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Kuromon Ichiba Market late hap&lt;br/&gt;</description>
+        <Point>
+          <coordinates>135.5014539,34.6937569,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 28 — Osaka naar Tanabe</name>
+        <styleUrl>#punt_Japan_-_Kumano_Kodo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kumano Kodo&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ryokan Tanabe&lt;br/&gt;</description>
+        <Point>
+          <coordinates>135.3777917,33.7278991,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 29 — Start Nakahechi: Takahara</name>
+        <styleUrl>#punt_Japan_-_Kumano_Kodo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kumano Kodo&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ryokan Takahara (dorp in de mist)&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Takahara 'dorp in de mist' met wolkenzee&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Takijiri-oji startpoort, Oji-schrijntjes onderweg&lt;br/&gt;</description>
+        <Point>
+          <coordinates>131.468089,33.089084,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 30 — Hike naar Chikatsuyu</name>
+        <styleUrl>#punt_Japan_-_Kumano_Kodo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kumano Kodo&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Lokale ryokan Chikatsuyu&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Nakahechi-route hiken door cederbos&lt;br/&gt;</description>
+        <Point>
+          <coordinates>135.6057234,33.8143643,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 31 — Hongu &amp; Oud en Nieuw Yunomine</name>
+        <styleUrl>#punt_Japan_-_Kumano_Kodo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kumano Kodo&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ryokan Yunomine Onsen&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Laatste etappe afdalen naar Hongu Taisha, Kumano Hongu Taisha, Yunomine Onsen tsuboyu-bad (oudste onsen Japan)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Oyunohara torii (grootste van Japan), Eieren koken in de hete bron&lt;br/&gt;</description>
+        <Point>
+          <coordinates>135.7575842,33.8288351,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 32 — Nachi-waterval &amp; schrijnen</name>
+        <styleUrl>#punt_Japan_-_Kumano_Kodo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kumano Kodo&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Katsuura&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Nachi-waterval (hoogste van Japan), Daimonzaka cederpad, Kumano Nachi Taisha, Seiganto-ji + rode pagode, Kumano Scenic Route Nachi-Hongu&lt;br/&gt;</description>
+        <Point>
+          <coordinates>135.9339638,33.6411327,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 33 — Kii naar Kyoto</name>
+        <styleUrl>#punt_Japan_-_Kansai</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kansai&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Machiya Kyoto&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Pontocho steeg diner&lt;br/&gt;</description>
+        <Point>
+          <coordinates>135.7681441,35.0115754,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 34 — Kyoto</name>
+        <styleUrl>#punt_Japan_-_Kansai</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kansai&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Machiya Kyoto&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Arashiyama bamboe vroeg, Philosopher's Path &amp; rustige noordtempels&lt;br/&gt;</description>
+        <Point>
+          <coordinates>135.7681441,35.0115754,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 35 — Kyoto naar Narai</name>
+        <styleUrl>#punt_Japan_-_Kiso_Valley</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kiso Valley&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ryokan Kiso&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Narai-juku post-stadje&lt;br/&gt;</description>
+        <Point>
+          <coordinates>137.8155168,35.9691167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 36 — Nakasendo hike</name>
+        <styleUrl>#punt_Japan_-_Kiso_Valley</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Kiso Valley&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ryokan Tsumago&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Nakasendo hike Magome naar Tsumago (8,5km), Tsumago autovrij Edo-dorp, Kiso ryokan + onsen&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Magome uitzichtpunt + waterrad, Tateba teahouse (gratis thee)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>137.5963052,35.5773707,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 37 — Naar Shiga Kogen</name>
+        <styleUrl>#punt_Japan_-_Shiga_Kogen</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Shiga Kogen&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ski-lodge Shiga Kogen&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Shiga Kogen skien (eerste runs)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>138.4316714,36.7330511,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 38 — Skien Shiga Kogen</name>
+        <styleUrl>#punt_Japan_-_Shiga_Kogen</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Shiga Kogen&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ski-lodge Shiga Kogen&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Shiga Kogen skien (poedersneeuw)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>138.4316714,36.7330511,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 39 — Skien Shiga Kogen</name>
+        <styleUrl>#punt_Japan_-_Shiga_Kogen</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Shiga Kogen&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Ski-lodge Shiga Kogen&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Shiga Kogen skien (verschillende resorts)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>138.4316714,36.7330511,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 40 — Shiga Kogen naar Tokyo</name>
+        <styleUrl>#punt_Japan_-_Tokyo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Tokyo&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Tokyo (Yanaka/Taito)&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Shimokitazawa (vintage, platenzaken, koffie)&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Yanaka oude buurt&lt;br/&gt;</description>
+        <Point>
+          <coordinates>139.7638947,35.6768601,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 41 — Tokyo laatste dag</name>
+        <styleUrl>#punt_Japan_-_Tokyo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Tokyo&lt;br/&gt;&lt;b&gt;Verblijf:&lt;/b&gt; Hotel Tokyo (Yanaka/Taito)&lt;br/&gt;&lt;b&gt;Activiteiten:&lt;/b&gt; Nonbei Yokocho (drankjessteeg Shibuya), Afscheidsdiner: omakase of ramen&lt;br/&gt;&lt;b&gt;Misschien:&lt;/b&gt; Nezu-schrijn (rode torii-tunnel)&lt;br/&gt;</description>
+        <Point>
+          <coordinates>139.7638947,35.6768601,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dag 42 — Vertrek</name>
+        <styleUrl>#punt_Japan_-_Tokyo</styleUrl>
+        <description>&lt;b&gt;Blok:&lt;/b&gt; Japan - Tokyo&lt;br/&gt;</description>
+        <Point>
+          <coordinates>139.7638947,35.6768601,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Routes</name>
+      <Placemark>
+        <name>Palawan - Port Barton</name>
+        <styleUrl>#lijn_Palawan_-_Port_Barton</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>119.1779622,10.4114,0 119.1779622,10.4114,0 119.1779622,10.4114,0 119.1779622,10.4114,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Palawan - El Nido</name>
+        <styleUrl>#lijn_Palawan_-_El_Nido</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>119.390496,11.1800395,0 119.390496,11.1800395,0 119.390496,11.1800395,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Palawan - Tao Expedition</name>
+        <styleUrl>#lijn_Palawan_-_Tao_Expedition</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>119.8680499,11.4911664,0 119.8680499,11.4911664,0 120.0220973,11.8905322,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Palawan - Coron</name>
+        <styleUrl>#lijn_Palawan_-_Coron</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>120.2051611,11.9985507,0 120.2051611,11.9985507,0 120.2051611,11.9985507,0 120.2051611,11.9985507,0 120.2051611,11.9985507,0 120.9803621,14.5904492,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan - Taipei</name>
+        <styleUrl>#lijn_Taiwan_-_Taipei</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>121.5636796,25.0375198,0 121.5636796,25.0375198,0 121.5636796,25.0375198,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan - Smangus</name>
+        <styleUrl>#lijn_Taiwan_-_Smangus</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>121.334255,24.5787433,0 121.334255,24.5787433,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan - Taroko &amp; Oostkust</name>
+        <styleUrl>#lijn_Taiwan_-_Taroko_&amp;_Oostkust</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>121.6197276,23.9913421,0 121.4939579,24.1825147,0 121.6929114,24.2185949,0 121.215139,23.122393,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Japan - Kansai</name>
+        <styleUrl>#lijn_Japan_-_Kansai</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>135.5014539,34.6937569,0 135.7681441,35.0115754,0 135.7681441,35.0115754,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Japan - Kumano Kodo</name>
+        <styleUrl>#lijn_Japan_-_Kumano_Kodo</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>135.3777917,33.7278991,0 131.468089,33.089084,0 135.6057234,33.8143643,0 135.7575842,33.8288351,0 135.9339638,33.6411327,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Japan - Kiso Valley</name>
+        <styleUrl>#lijn_Japan_-_Kiso_Valley</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>137.8155168,35.9691167,0 137.5963052,35.5773707,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Japan - Shiga Kogen</name>
+        <styleUrl>#lijn_Japan_-_Shiga_Kogen</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>138.4316714,36.7330511,0 138.4316714,36.7330511,0 138.4316714,36.7330511,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Japan - Tokyo</name>
+        <styleUrl>#lijn_Japan_-_Tokyo</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>139.7638947,35.6768601,0 139.7638947,35.6768601,0 139.7638947,35.6768601,0</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
