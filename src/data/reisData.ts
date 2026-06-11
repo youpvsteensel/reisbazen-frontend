@@ -1564,7 +1564,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Fjord', 'Reisdag'],
         foto: 'https://images.unsplash.com/photo-1620987116875-ebbbc08d5426?w=1080&auto=format&fit=crop',
         fotoCredit: { url: 'https://unsplash.com/photos/MCjAFEOwlQE' },
-        beschrijving: 'Een vroege ochtend op het spiegelgladde water, wanneer de mist nog tussen de pieken hangt en de kans op dolfijnen, pinguïns en pelsrobben het grootst is. Na het uitvaren reis je terug over meer en pas naar het vasteland en rijd je door naar het rustige Te Anau aan zijn eigen meer. Een dag waarop de wildernis van Fiordland volledig op je inwerkt.',
+        beschrijving: 'Een vroege ochtend op het stille water, wanneer de mist nog tussen de pieken hangt en de kans op dolfijnen, pinguïns en pelsrobben het grootst is. Na het uitvaren reis je terug over meer en pas naar het vasteland en rijd je door naar Te Anau. Een dag waarop Fiordland volledig op je inwerkt.',
         activiteiten: ['Ochtend op het water, uitvaren, terug naar Te Anau'],
       },
       {
