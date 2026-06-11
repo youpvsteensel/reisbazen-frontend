@@ -243,7 +243,7 @@ export const blokken: Record<string, Blok> = {
         fotoCredit: { url: 'https://unsplash.com/photos/D6o0Wzj_63k' },
         beschrijving: 'De veerboot zet je af in Caleta Gonzalo, het startpunt van Parque Pumalín. Hier wachten oud regenwoud, dichte bamboebossen en de Volcán Chaitén, die in 2008 nog tot uitbarsting kwam. Je ruilt het stuur in voor de wandelschoenen.',
         activiteiten: [
-          'Sendero Cascadas door het eeuwenoude regenwoud',
+          'Sendero Cascadas door het oude regenwoud',
           'Wandeling naar Volcán Chaitén met uitzicht op de lavakoepel',
           'Wildkamperen in het nationaal park',
         ],
