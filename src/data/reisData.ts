@@ -351,7 +351,7 @@ export const blokken: Record<string, Blok> = {
   chalten: {
     id: 'chalten',
     naam: 'El Chaltén',
-    subtitel: 'Fitz Roy, de meest iconische berg van Patagonië',
+    subtitel: 'Fitz Roy, het herkenningspunt van Patagonië',
     dagBereik: 'Dagen 19–22',
     hero: 'https://images.unsplash.com/photo-1626368185783-7c928d6f0133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1600',
     heroCredit: { url: 'https://unsplash.com/photos/NVtdpWi1PQE' },
