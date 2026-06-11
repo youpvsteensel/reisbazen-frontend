@@ -55,7 +55,7 @@ const blokken = [
     naam: 'Taroko & Oostkust',
     dagBereik: 'Dagen 22–26',
     hero: 'https://images.unsplash.com/photo-1635245728738-e47dffdd4763?w=900&h=600&fit=crop&auto=format',
-    beschrijving: 'De marmeren kloof van Taroko, de dramatische Qingshui Cliffs en fietsen door de rijstvelden van de East Rift Valley.',
+    beschrijving: 'De marmeren kloof van Taroko, de steile Qingshui Cliffs en fietsen door de rijstvelden van de East Rift Valley.',
     stops: ['Hualien', 'Taroko Gorge', 'Qingshui Cliffs', 'Chishang'],
     accent: 'Taiwan',
   },
