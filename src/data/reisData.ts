@@ -273,7 +273,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Nationaal Park', 'Gletsjer'],
         foto: 'https://images.unsplash.com/photo-1705455596627-7080d015e426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200',
         fotoCredit: { url: 'https://unsplash.com/photos/XNL8xBSPl2o' },
-        beschrijving: 'Queulat zet misschien wel het meest dramatische decor van de hele Carretera neer. De Ventisquero Colgante hangt letterlijk tussen twee bergtoppen, met smeltwater dat in een dunne sluier de diepte in stort. Geen wonder dat dit een van de meest gefotografeerde plekken van Patagonië is.',
+        beschrijving: 'Queulat is een van de sterkste stopplaatsen van de Carretera. De Ventisquero Colgante hangt letterlijk tussen twee bergtoppen, met smeltwater dat in een dunne sluier de diepte in stort. Het is een van de meest bezochte plekken van Patagonië, maar buiten het hoogseizoen vrijwel altijd rustig.',
         activiteiten: [
           'Wandeling naar het uitzichtpunt op de hangende gletsjer Ventisquero Colgante',
           'Boottocht over Laguna Los Témpanos naar de gletsjer',
