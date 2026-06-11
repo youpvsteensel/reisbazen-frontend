@@ -1748,7 +1748,7 @@ export const blokken: Record<string, Blok> = {
         badges: ['Hike'],
         foto: 'https://images.unsplash.com/photo-1593389203763-e7321372e862?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjkxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwOTcyMDB8&ixlib=rb-4.1.0&q=80&w=1080',
         fotoCredit: { url: 'https://unsplash.com/photos/nUQxKvx4I54' },
-        beschrijving: 'De Mount Somers Track loopt door een gevarieerd alpien landschap van vulkanische rotsformaties, kloven en kleine watervallen, met opvallend weinig andere wandelaars. Onderweg passeer je grillige rotswanden en uitzichtpunten over de Canterbury-vlaktes. Een verborgen pareltje in de uitlopers van de Zuidelijke Alpen, ideaal voor wie de massa wil ontlopen.',
+        beschrijving: 'De Mount Somers Track loopt door een gevarieerd alpien landschap van vulkanische rotsformaties, kloven en kleine watervallen, met opvallend weinig andere wandelaars. Onderweg passeer je grillige rotswanden en uitzichtpunten over de Canterbury-vlaktes. Weinig bezocht en goed toegankelijk vanuit de uitlopers van de Zuidelijke Alpen.',
         activiteiten: ['Mount Somers Track (alpien, weinig toeristen)'],
       },
       {
